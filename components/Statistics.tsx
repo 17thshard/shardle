@@ -57,12 +57,7 @@ function Statistics ({ visible = false, gameResult, close }: StatisticsProps) {
   async function shareNatively () {
     const shareData = { text: generateShare(gameResult!.day, gameResult!.success, getGuesses(date)) }
 
-    try {
-      await navigator.share(shareData)
-    } catch (error) {
-      console.error(error)
-      pushNotification('error', 'Could not share your results. Please report this!')
-    }
+    await navigator.share(shareData)
   }
 
   async function copyToClipboard () {
