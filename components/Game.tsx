@@ -85,7 +85,7 @@ function Game ({ onDone }: GameProps) {
 
     let response
     try {
-      response = await fetch(`${process.env.API_URL}/verify/${formatDate(date)}`, {
+      response = await fetch(`${process.env.API_URL}/verify?date=${formatDate(date)}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
