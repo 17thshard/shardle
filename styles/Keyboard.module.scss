@@ -1,0 +1,70 @@
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vmin;
+  margin-top: auto;
+
+  .row {
+    display: flex;
+    align-items: stretch;
+    gap: 1vmin;
+  }
+
+  @media (orientation: landscape) and (max-height: 560px) {
+    margin-top: 0;
+  }
+
+  .key {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    appearance: none;
+    border: none;
+    border-radius: 3px;
+    color: var(--theme-text-color);
+    font-family: inherit;
+    font-size: 1em;
+    box-sizing: border-box;
+    padding: 16px 12px;
+    min-width: 40px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    font-weight: bold;
+    --background: var(--theme-key-bg);
+    --hover-background: var(--theme-key-bg-hover);
+    background: var(--background);
+
+    @media (orientation: portrait) and (max-width: 500px) {
+      padding: 3.5vmin 2vmin;
+      font-size: 4vmin;
+      min-width: 8vmin;
+    }
+
+    @media (orientation: landscape) and (max-height: 560px) {
+      padding: 10px 8px;
+      font-size: 14px;
+      min-width: 32px;
+    }
+
+    &:hover, &:active, &:focus {
+      background: var(--hover-background);
+      outline: none;
+    }
+
+    &--not-contained {
+      --background: var(--theme-not-contained);
+      --hover-background: var(--theme-not-contained-hover);
+    }
+
+    &--contained {
+      --background: #ce9318;
+      --hover-background: #b37a00;
+    }
+
+    &--correct {
+      --background: #15b644;
+      --hover-background: #00992e;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+$bg: #4698CB;
+
+.button {
+  --button-color: #{$bg};
+  --button-active-color: #{darken($bg, 10%)};
+  background: var(--button-color);
+  font-family: inherit;
+  border-radius: 24px;
+  padding: 8px 16px;
+  font-size: 0.8em;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  transition: all 0.2s ease;
+  font-weight: 700;
+  box-shadow: 0 0 0 var(--button-color);
+  text-decoration: none;
+
+  &:hover, &:active, &:focus {
+    background: var(--button-active-color);
+  }
+
+  &:active, &:focus {
+    box-shadow: 0 0 10px var(--button-color);
+    outline: none;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    background: #787380;
+  }
+}
+
+.large {
+  padding: 16px 32px;
+  font-size: 1em;
+}
+
+.small {
+  padding: 6px 12px;
+  font-size: 0.9em;
+}

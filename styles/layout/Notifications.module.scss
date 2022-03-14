@@ -1,0 +1,24 @@
+.container {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 10000;
+  pointer-events: none;
+  margin: 0;
+  padding: 2rem;
+
+  li {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    pointer-events: auto;
+  }
+}

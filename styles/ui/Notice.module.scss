@@ -1,0 +1,49 @@
+.notice {
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.success {
+  background: #299967;
+}
+
+.warning {
+  background: #995b29;
+}
+
+.error {
+  background: #992958;
+}
+
+.closeButton {
+  position: relative;
+  background: none;
+  border: none;
+  margin-left: auto;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+  transition: color 0.2s ease;
+
+  &:hover, &:active, &:focus {
+    color: white;
+  }
+}
+
+.timer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 28px;
+  height: 28px;
+}

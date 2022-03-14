@@ -1,0 +1,11 @@
+.countdown {
+  display: block;
+  font-size: 2em;
+  font-variant: tabular-nums;
+  font-feature-settings: "tnum";
+  font-weight: 500;
+
+  @media (max-width: 480px) {
+    font-size: 1.25em;
+  }
+}

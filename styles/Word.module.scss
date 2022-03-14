@@ -1,0 +1,64 @@
+.word {
+  display: flex;
+  align-items: center;
+  gap: 1vmin;
+  transform-origin: 50% 50%;
+  width: 60vmin;
+  max-width: 600px;
+  --letter-size: 6vmin;
+
+  --reveal-duration: 0.5s;
+  --reveal-delay: 0.3s;
+
+  @media (max-width: 400px) {
+    --letter-size: 8vmin;
+  }
+
+  @media (orientation: landscape) and (max-height: 800px) {
+    width: 50vmin;
+  }
+
+  @media (orientation: landscape) and (max-height: 560px) {
+    width: 30vmax;
+    --letter-size: 8vmin;
+  }
+
+  @media (orientation: portrait) and (max-width: 600px) {
+    width: 80vmin;
+  }
+
+  &.fast {
+    --reveal-duration: 0.5s;
+    --reveal-delay: 0.1s;
+  }
+
+  &.error {
+    animation: word-error 0.3s ease;
+
+    @keyframes word-error {
+      0% {
+        transform: translateX(0);
+      }
+
+      20% {
+        transform: translateX(-5px);
+      }
+
+      40% {
+        transform: translateX(5px);
+      }
+
+      60% {
+        transform: translateX(-5px);
+      }
+
+      80% {
+        transform: translateX(5px);
+      }
+
+      100% {
+        transform: translateX(0);
+      }
+    }
+  }
+}

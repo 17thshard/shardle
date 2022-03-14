@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--theme-bg-color);
+}
+
+.light-theme {
+  --theme-bg-color: white;
+  --theme-text-color: #252528;
+  --theme-link-hover-color: #3e3f41;
+
+  --theme-not-contained: #788494;
+  --theme-not-contained-hover: #464d5b;
+
+  --theme-key-bg: #a0a7b2;
+  --theme-key-bg-hover: #848e9d;
+
+  --theme-letter-border: rgba(38, 38, 41, 0.5);
+  --theme-letter-filled-border: rgba(38, 38, 41, 0.75);
+
+  --theme-settings-hint-color: rgba(38, 38, 41, 0.8);
+
+  --theme-datepicker-bg-color: white;
+  --theme-datepicker-border: rgba(38, 38, 41, 0.5);
+  --theme-datepicker-hover-bg-color: #848e9d;
+  --theme-datepicker-selected-text-color: var(--theme-text-color);
+  --theme-datepicker-selected-bg-color: var(--theme-key-bg);
+  --theme-datepicker-selected-hover-bg-color: var(--theme-key-bg-hover);
+  --theme-datepicker-disabled-text-color: #b8c0cc;
+}
+
+.dark-theme {
+  --theme-bg-color: #282c34;
+  --theme-text-color: white;
+  --theme-link-hover-color: #d0daee;
+
+  --theme-not-contained: #12161f;
+  --theme-not-contained-hover: #1b2133;
+
+  --theme-key-bg: #3c4557;
+  --theme-key-bg-hover: #353e54;
+
+  --theme-letter-border: rgba(255, 255, 255, 0.5);
+  --theme-letter-filled-border: rgba(255, 255, 255, 0.75);
+
+  --theme-settings-hint-color: rgba(255, 255, 255, 0.8);
+
+  --theme-datepicker-bg-color: #282c34;
+  --theme-datepicker-border: rgba(255, 255, 255, 0.5);
+  --theme-datepicker-hover-bg-color: #353e54;
+  --theme-datepicker-selected-text-color: var(--theme-text-color);
+  --theme-datepicker-selected-bg-color: var(--theme-key-bg);
+  --theme-datepicker-selected-hover-bg-color: var(--theme-key-bg-hover);
+  --theme-datepicker-disabled-text-color: #626b80;
+}
+
+#__next, .app, html, body {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.ReactModal__Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5) !important;
+  z-index: 1000;
+  padding: 4rem;
+  cursor: pointer;
+  overflow-y: auto;
+  display: flex;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  -webkit-tap-highlight-color: transparent;
+
+  @media (max-width: 600px) {
+    padding: 2rem;
+  }
+
+  &--after-open {
+    opacity: 1;
+  }
+
+  &--before-close {
+    opacity: 0;
+  }
+}
+
+.ReactModal__Body--open {
+  overflow: hidden;
+}
+
+.ReactModal__Content {
+  background: var(--theme-bg-color);
+  border-radius: 2rem;
+  cursor: auto;
+  overflow: hidden;
+  margin: auto;
+  outline: none;
+  color: var(--theme-text-color);
+  transform: translateY(30px);
+  transition: transform 0.3s ease-in-out;
+
+  &--after-open {
+    transform: translateY(0);
+  }
+
+  &--before-close {
+    transform: translateY(30px);
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "@next/next/link-passhref": "off",
+    "react-hooks/exhaustive-deps": "off"
+  }
+}

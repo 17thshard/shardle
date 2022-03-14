@@ -1,0 +1,210 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 8px;
+  position: relative;
+
+  .close {
+    display: block;
+    color: var(--theme-text-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+    font-size: 20px;
+    position: absolute;
+    top: 18px;
+    right: 20px;
+
+    svg {
+      display: block;
+    }
+
+    &:hover, &:active, &:focus {
+      color: var(--theme-link-hover-color);
+    }
+  }
+
+  h2 {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+  }
+
+  .overview {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: auto auto;
+    grid-auto-columns: 1fr;
+    justify-items: center;
+    gap: 4px;
+    line-height: 1;
+    max-width: 300px;
+    margin-bottom: 16px;
+
+    &Item {
+      font-size: 2em;
+      grid-row: 1;
+    }
+
+    &Label {
+      align-self: flex-start;
+      font-size: 0.75em;
+      text-align: center;
+      grid-row: 2;
+    }
+  }
+
+  .distribution {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+    width: 100%;
+    text-align: center;
+
+    &Entry {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+
+      &Guesses {
+        width: 20px;
+        text-align: right;
+        line-height: 1;
+        padding-top: 4px;
+      }
+
+      &Count {
+        flex: 1;
+      }
+
+      &Bar {
+        background: #4698CB;
+        border-radius: 16px;
+        box-sizing: border-box;
+        padding: 7px 5px 5px;
+        line-height: 1;
+        text-align: center;
+        min-width: 24px;
+        font-size: 0.9em;
+        transform-origin: left;
+        transform: scaleX(0);
+        font-weight: 500;
+        color: white;
+
+        &Fill {
+          animation: fill-bar 0.2s ease-out;
+          animation-fill-mode: forwards;
+          transform: scaleX(0);
+
+          @keyframes fill-bar {
+            0% {
+              transform: scaleX(0);
+            }
+
+            100% {
+              transform: scaleX(1);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .sharing {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+  }
+
+  .countdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 32px 16px 16px;
+    border-right: 2px solid rgba(255, 255, 255, 0.5);
+    text-align: center;
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+
+  .shareButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 16px 16px 32px;
+    gap: 8px;
+  }
+
+  .result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+
+  .quote {
+    position: relative;
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    font-size: 1.25em;
+    margin: 0 48px;
+    text-align: center;
+
+    &:before {
+      content: "“";
+      position: absolute;
+      top: .75rem;
+      line-height: 1;
+      font-size: 2.5rem;
+      color: #d1d4e8
+    }
+
+    &:before {
+      left: -1.7rem
+    }
+
+    &:after {
+      content: "”";
+      position: absolute;
+      bottom: -1.25rem;
+      line-height: 1;
+      font-size: 2.5rem;
+      color: #d1d4e8
+    }
+
+    &:after {
+      right: -1rem
+    }
+  }
+
+  .correctWordLabel {
+    margin: 0;
+  }
+
+  .correctWord {
+    max-width: 300px;
+    --letter-size: calc(min(6vmin, 30px));
+
+    @media (max-width: 600px) {
+      max-width: 60vmin;
+    }
+
+    @media (max-width: 400px) {
+      --letter-size: 8vmin;
+    }
+
+    @media (orientation: landscape) and (max-height: 560px) {
+      width: 30vmax;
+      --letter-size: 8vmin;
+    }
+  }
+}
