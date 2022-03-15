@@ -9,8 +9,8 @@ import Countdown from 'components/Countdown'
 import Button from 'components/ui/Button'
 import { GameResult } from 'components/Game'
 import Word from 'components/Word'
-import { DateContext } from 'pages/_app'
 import { useNotifications } from 'components/layout/notifications'
+import { DateContext } from 'lib/dates'
 
 interface StatisticsProps {
   visible?: boolean
@@ -55,13 +55,13 @@ function Statistics ({ visible = false, gameResult, close }: StatisticsProps) {
   const pushNotification = useNotifications()
 
   async function shareNatively () {
-    const shareData = { text: generateShare(gameResult!.day, gameResult!.success, getGuesses(date)) }
+    const shareData = { text: generateShare(date.shardleDay, gameResult!.success, getGuesses(date)) }
 
     await navigator.share(shareData)
   }
 
   async function copyToClipboard () {
-    await navigator.clipboard.writeText(generateShare(gameResult!.day, gameResult!.success, getGuesses(date)))
+    await navigator.clipboard.writeText(generateShare(date.shardleDay, gameResult!.success, getGuesses(date)))
     pushNotification('success', 'Successfully copied your result to the clipboard!')
   }
 

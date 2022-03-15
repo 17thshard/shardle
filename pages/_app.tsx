@@ -4,11 +4,11 @@ import type { AppProps } from 'next/app'
 import styles from 'styles/layout.module.scss'
 import Head from 'next/head'
 import Header from 'components/layout/Header'
-import { createContext, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { NotificationContainer } from 'components/layout/notifications'
 import { Context as SettingsContext, Settings } from 'lib/settings'
 import { useRouter } from 'next/router'
-import { getCurrentDate, parseDate } from 'lib/utils'
+import { DateContext, getCurrentDate, getDay, parseDate } from 'lib/dates'
 
 type CustomNextPage = NextPage & {
   noLayout?: boolean
@@ -18,35 +18,30 @@ type CustomAppProps = AppProps & {
   Component: CustomNextPage
 }
 
-export type EnhancedDate = Date & { isToday: boolean }
-
-export const DateContext = createContext<EnhancedDate>(undefined!)
-
 function MyApp ({ Component, pageProps: { session, ...pageProps } }: CustomAppProps) {
   const router = useRouter()
 
   // @ts-ignore
-  const defaultDate: EnhancedDate = getCurrentDate()
+  const defaultDate: ShardleDate = getCurrentDate()
+  defaultDate.shardleDay = getDay(defaultDate)
   defaultDate.isToday = true
   const [date, setDate] = useState(defaultDate)
 
   useEffect(
     () => {
       const rawDate = router.query.date
-      if (typeof rawDate !== 'string') {
-        return
-      }
 
       // @ts-ignore
-      const date: EnhancedDate | null = parseDate(rawDate)
+      const date: ShardleDate | null = rawDate === undefined ? getCurrentDate() : parseDate(rawDate)
       if (date === null) {
         return
       }
 
+      date.shardleDay = getDay(date)
       date.isToday = date.getTime() === getCurrentDate().getTime()
       setDate(date)
     },
-    [router.isReady, router.query.date]
+    [router.isReady, router.query, router.query.date]
   )
 
   const [activeSettings, setActiveSettings] = useState<Partial<Settings>>({})

@@ -1,4 +1,4 @@
-import { formatDate } from 'lib/utils'
+import { formatDate } from 'lib/dates'
 import { GameResult } from 'components/Game'
 
 export interface LetterResult {
@@ -22,19 +22,6 @@ export interface Stats {
   currentStreak: Streak | null
   longestStreak: Streak | null
   distribution: Record<number, number>
-}
-
-export function setNonce (date: Date, nonce: string) {
-  window.localStorage.setItem(`nonce-${formatDate(date)}`, nonce)
-}
-
-export function getNonce (date: Date): string | undefined {
-  const stored = window.localStorage.getItem(`nonce-${formatDate(date)}`)
-  if (stored === null) {
-    return undefined
-  }
-
-  return stored
 }
 
 export function getAllGuesses (): Record<string, Guess[]> {

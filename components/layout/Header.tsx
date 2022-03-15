@@ -3,13 +3,12 @@ import { FiBarChart2, FiCalendar, FiInfo, FiSettings } from 'react-icons/fi'
 import Link from 'next/link'
 import { forwardRef, ReactNode, useContext, useEffect, useState } from 'react'
 import DatePicker from 'react-datepicker'
-import { DateContext } from 'pages/_app'
 import { useRouter } from 'next/router'
-import { formatDate, getCurrentDate, parseDate } from 'lib/utils'
+import { DateContext, formatDate, getCurrentDate, parseDate, REF_DATE } from 'lib/dates'
 import { getAllGuesses, getAllResults } from 'lib/store'
 
 export default function Header () {
-  const minDate = new Date(Date.UTC(2022, 2, 6))
+  const minDate = REF_DATE
   const maxDate = getCurrentDate()
   const date = useContext(DateContext)
 

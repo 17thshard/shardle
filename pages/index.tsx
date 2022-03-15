@@ -6,7 +6,7 @@ import { addResult, getResult } from 'lib/store'
 import { useRouter } from 'next/router'
 import { useContext, useEffect, useState } from 'react'
 import Settings from 'components/Settings'
-import { DateContext } from 'pages/_app'
+import { DateContext } from 'lib/dates'
 
 const Home: NextPage = () => {
   const router = useRouter()

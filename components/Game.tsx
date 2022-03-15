@@ -1,12 +1,13 @@
 import { useContext, useEffect, useState } from 'react'
 import styles from 'styles/Game.module.scss'
-import { addGuess, getGuesses, getNonce, getResult, Guess, LetterResult, setNonce } from 'lib/store'
+import { addGuess, getGuesses, getResult, Guess, LetterResult } from 'lib/store'
 import Word, { LetterData } from './Word'
 import Keyboard from './Keyboard'
 import { useNotifications } from 'components/layout/notifications'
-import { formatDate } from 'lib/utils'
+import { DateContext } from 'lib/dates'
 import { Context as SettingsContext } from 'lib/settings'
-import { DateContext } from 'pages/_app'
+import verify from 'lib/verification'
+import { getWord } from 'lib/words'
 
 function updateLetterStats (existing: Record<string, string>, results: LetterResult[]): Record<string, string> {
   return {
@@ -25,7 +26,6 @@ function updateLetterStats (existing: Record<string, string>, results: LetterRes
 }
 
 export interface GameResult {
-  day: number
   success: boolean
   guesses: number
   word: string[]
@@ -83,58 +83,29 @@ function Game ({ onDone }: GameProps) {
 
     setGuessError(undefined)
 
-    let response
+    let results
     try {
-      response = await fetch(`${process.env.API_URL}/verify?date=${formatDate(date)}`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          guess: currentGuess,
-          attempt: guesses.length + 1,
-          nonce: getNonce(date)
-        })
-      })
-    } catch (error) {
-      pushNotification('error', 'Could not submit your guess. Try again!')
-      setGuessError(Math.random())
-      console.error(error)
-      return
-    }
-
-    if (response.status !== 200) {
-      let error
-      try {
-        error = (await response.json()).message ?? 'An unknown error has occurred while evaluating your guess'
-      } catch (e) {
-        console.error(e)
-        error = 'An unknown error has occurred while evaluating your guess'
-      }
-
-      pushNotification('error', error)
+      results = verify(date, currentGuess)
+    } catch (error: any) {
+      pushNotification('error', error.message)
       setGuessError(Math.random())
       return
     }
 
     setCurrentGuess([])
 
-    const responseData = await response.json()
-    setNonce(date, responseData.nonce)
-
-    const results: LetterResult[] = responseData.results
     setLetterResults(updateLetterStats(letterResults, results))
     const newGuesses = addGuess(date, results)
     setGuesses(newGuesses)
 
     const success = results.every(r => r.result === 'correct')
     if (newGuesses.length === 6 || success) {
+      const correctWord = getWord(date)
       onDone({
-        day: responseData.day,
         success,
         guesses: newGuesses.length,
-        word: responseData.word,
-        coppermindId: responseData.coppermindId,
+        word: correctWord.word,
+        coppermindId: correctWord.coppermindId,
         count: date.isToday
       })
     }

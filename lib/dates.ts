@@ -1,3 +1,11 @@
+import { createContext } from 'react'
+
+export const REF_DATE = new Date(Date.UTC(2022, 2, 6))
+
+export type ShardleDate = Date & { isToday: boolean, shardleDay: number }
+
+export const DateContext = createContext<ShardleDate>(undefined!)
+
 export function formatDate (date: Date): string {
   const year = date.getUTCFullYear()
   const month = date.getUTCMonth() + 1
@@ -20,4 +28,8 @@ export function parseDate (date: string): Date | null {
 export function getCurrentDate (): Date {
   const refDate = new Date()
   return new Date(Date.UTC(refDate.getUTCFullYear(), refDate.getUTCMonth(), refDate.getUTCDate()))
+}
+
+export function getDay(date: Date) {
+  return Math.floor((date.getTime() - REF_DATE.getTime()) / (24 * 60 * 60 * 1000)) + 1
 }
