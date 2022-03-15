@@ -1,4 +1,4 @@
-import styles from 'styles/Settings.module.scss'
+import styles from 'styles/modals/Settings.module.scss'
 import Modal from 'react-modal'
 import Link from 'next/link'
 import { FiXCircle } from 'react-icons/fi'

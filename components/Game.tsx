@@ -7,7 +7,7 @@ import { useNotifications } from 'components/layout/notifications'
 import { DateContext } from 'lib/dates'
 import { Context as SettingsContext } from 'lib/settings'
 import verify from 'lib/verification'
-import { getWord } from 'lib/words'
+import { isNonAnswer } from 'lib/words'
 
 function updateLetterStats (existing: Record<string, string>, results: LetterResult[]): Record<string, string> {
   return results.reduce<Record<string, string>>(
@@ -25,8 +25,6 @@ function updateLetterStats (existing: Record<string, string>, results: LetterRes
 export interface GameResult {
   success: boolean
   guesses: number
-  word: string[]
-  coppermindId: string
   count: boolean
 }
 
@@ -111,12 +109,9 @@ function Game ({ onDone }: GameProps) {
 
     const success = results.every(r => r.result === 'correct')
     if (newGuesses.length === 6 || success) {
-      const correctWord = getWord(date)
       onDone({
         success,
         guesses: newGuesses.length,
-        word: correctWord.word,
-        coppermindId: correctWord.coppermindId,
         count: date.isToday
       })
     }
@@ -179,7 +174,13 @@ function Game ({ onDone }: GameProps) {
         {guesses.map((guess, index) => <Word key={`${date.shardleDay}-${index}`} value={guess.results} fast={guess.old} revealed />)}
         {guesses.length < 6 &&
           <>
-            <Word key={`${date.shardleDay}-${guesses.length}`} value={currentGuess.map(letter => ({ letter }))} revealed={false} error={guessError} />
+            <Word
+              key={`${date.shardleDay}-${guesses.length}`}
+              value={currentGuess.map(letter => ({ letter }))}
+              revealed={false}
+              error={guessError}
+              flash={isNonAnswer(currentGuess)}
+            />
             {
               new Array<LetterData[]>(5 - guesses.length)
                 .fill([])

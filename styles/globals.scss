@@ -69,6 +69,15 @@ body {
   flex-direction: column;
 }
 
+a {
+  color: var(--theme-text-color);
+  transition: color 0.2s ease;
+
+  &:hover, &:active, &:focus {
+    color: var(--theme-link-hover-color);
+  }
+}
+
 .ReactModal__Overlay {
   position: fixed;
   top: 0;

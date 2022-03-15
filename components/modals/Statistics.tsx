@@ -1,4 +1,4 @@
-import styles from 'styles/Statistics.module.scss'
+import styles from 'styles/modals/Statistics.module.scss'
 import { getGuesses, getStats, Guess, Stats } from 'lib/store'
 import Modal from 'react-modal'
 import { useContext, useEffect, useState } from 'react'
@@ -11,6 +11,7 @@ import { GameResult } from 'components/Game'
 import Word from 'components/Word'
 import { useNotifications } from 'components/layout/notifications'
 import { DateContext } from 'lib/dates'
+import { getAnswer } from 'lib/words'
 
 interface StatisticsProps {
   visible?: boolean
@@ -41,6 +42,7 @@ function generateShare (day: number, success: boolean, guesses: Guess[]): string
 
 function Statistics ({ visible = false, gameResult, close }: StatisticsProps) {
   const date = useContext(DateContext)
+  const answer = getAnswer(date)
   const [stats, setStats] = useState<Stats>({
     currentStreak: null,
     longestStreak: null,
@@ -102,10 +104,10 @@ function Statistics ({ visible = false, gameResult, close }: StatisticsProps) {
               !gameResult.success &&
               <>
                 <p className={styles.correctWordLabel}>The word was</p>
-                <Word className={styles.correctWord} value={gameResult.word.map(letter => ({ letter, result: 'correct' }))} revealed fast />
+                <Word className={styles.correctWord} value={answer.word.map(letter => ({ letter, result: 'correct' }))} revealed fast />
               </>
             }
-            <Button tag="a" href={`https://coppermind.net/w/index.php?curid=${gameResult.coppermindId}`} large target="_blank">
+            <Button tag="a" href={`https://coppermind.net/w/index.php?curid=${answer.coppermindId}`} large target="_blank">
               View on the Coppermind
             </Button>
           </section>

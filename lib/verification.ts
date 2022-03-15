@@ -1,5 +1,5 @@
 import { LetterResult } from 'lib/store'
-import { getWord } from 'lib/words'
+import { getAnswer, isValid } from 'lib/words'
 import { ShardleDate, getCurrentDate, getDay } from 'lib/dates'
 
 export default function verify(date: ShardleDate, guess: string[]): LetterResult[] {
@@ -11,14 +11,17 @@ export default function verify(date: ShardleDate, guess: string[]): LetterResult
     throw new Error('Go use that atium for something else!')
   }
 
-  const toGuess = getWord(date)
+  if (!isValid(guess)) {
+    throw new Error('That is not an accepted word!')
+  }
 
-  const stats = toGuess.word.map(letter => ({ letter, guessed: false }))
+  const answer = getAnswer(date)
+  const stats = answer.word.map(letter => ({ letter, guessed: false }))
 
   const alreadyCorrect = guess.map(
     (rawLetter, guessIndex) => {
       const guessedLetter = rawLetter.toUpperCase().charAt(0)
-      if (guessedLetter !== toGuess.word[guessIndex]) {
+      if (guessedLetter !== answer.word[guessIndex]) {
         return { letter: guessedLetter }
       }
 

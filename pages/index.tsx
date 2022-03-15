@@ -1,12 +1,13 @@
 import Game, { GameResult } from 'components/Game'
-import Statistics from 'components/Statistics'
+import Statistics from 'components/modals/Statistics'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import { addResult, getResult } from 'lib/store'
 import { useRouter } from 'next/router'
 import { useContext, useEffect, useState } from 'react'
-import Settings from 'components/Settings'
+import Settings from 'components/modals/Settings'
 import { DateContext } from 'lib/dates'
+import Info from 'components/modals/Info'
 
 const Home: NextPage = () => {
   const router = useRouter()
@@ -56,6 +57,7 @@ const Home: NextPage = () => {
         <title>Shardle</title>
       </Head>
       <Game onDone={onDone} />
+      <Info visible={activeModal === 'info'} close={() => router.push('#', undefined, { scroll: false })} />
       <Statistics
         visible={activeModal === 'statistics'}
         gameResult={result}

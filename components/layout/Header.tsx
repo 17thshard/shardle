@@ -56,7 +56,11 @@ export default function Header () {
     <header className={styles.header}>
       <h1>Shardle</h1>
       <nav className={styles.nav}>
-        <FiInfo />
+        <Link href="#info" scroll={false}>
+          <a className={styles.navEntry} title="Info">
+            <FiInfo />
+          </a>
+        </Link>
         <Link href="#statistics" scroll={false}>
           <a className={styles.navEntry} title="Statistics">
             <FiBarChart2 />

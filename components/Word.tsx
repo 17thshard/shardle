@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react'
 import styles from 'styles/Word.module.scss'
 import Letter from './Letter'
 import classNames from 'classnames'
+import { isNonAnswer } from 'lib/words'
 
 export interface LetterData {
   letter?: string
@@ -14,9 +15,10 @@ interface WordProps {
   revealed: boolean
   error?: number
   fast?: boolean
+  flash?: boolean
 }
 
-function Word ({ className, value, revealed, error, fast }: WordProps) {
+function Word ({ className, value, revealed, error, fast, flash }: WordProps) {
   const fullRow = [...value, ...new Array<LetterData>(5 - value.length).fill({})]
   const ref = useRef<HTMLDivElement>(null)
 
@@ -35,7 +37,18 @@ function Word ({ className, value, revealed, error, fast }: WordProps) {
 
 
   return (
-    <div ref={ref} className={classNames(styles.word, { [styles.fast]: fast, [styles.error]: error !== undefined }, className)}>
+    <div
+      ref={ref}
+      className={classNames(
+        styles.word,
+        {
+          [styles.fast]: fast,
+          [styles.error]: error !== undefined,
+          [styles.flash]: flash
+        },
+        className
+      )}
+    >
       {
         fullRow.map(
           (value, index) =>
