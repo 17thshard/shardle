@@ -10,19 +10,16 @@ import verify from 'lib/verification'
 import { getWord } from 'lib/words'
 
 function updateLetterStats (existing: Record<string, string>, results: LetterResult[]): Record<string, string> {
-  return {
-    ...existing,
-    ...results.reduce<Record<string, string>>(
-      (acc, { letter, result }) => {
-        if (existing[letter] !== 'correct') {
-          acc[letter] = result
-        }
+  return results.reduce<Record<string, string>>(
+    (acc, { letter, result }) => {
+      if (result === 'correct' || (result === 'contained' && acc[letter] !== 'correct') || (result === 'not-contained' && acc[letter] === undefined)) {
+        acc[letter] = result
+      }
 
-        return acc
-      },
-      {}
-    )
-  }
+      return acc
+    },
+    existing
+  )
 }
 
 export interface GameResult {
@@ -60,7 +57,7 @@ function Game ({ onDone }: GameProps) {
 
   const pushNotification = useNotifications()
 
-  async function submitGuess () {
+  function submitGuess () {
     if (guesses.length >= 6) {
       pushNotification('error', 'You can only guess 6 times!')
       setGuessError(Math.random())
