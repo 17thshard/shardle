@@ -1,7 +1,9 @@
 const removeImports = require('next-remove-imports')()
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
-  enabled: process.env.ANALYZE === 'true',
+  enabled: process.env.ANALYZE === 'true'
 })
+const withPWA = require('next-pwa')
+const runtimeCaching = require('next-pwa/cache')
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -23,11 +25,15 @@ const nextConfig = {
     return config
   },
   experimental: {
-    outputStandalone: true,
+    outputStandalone: true
   },
   env: {
     API_URL: process.env.API_URL
+  },
+  pwa: {
+    dest: 'public',
+    runtimeCaching
   }
 }
 
-module.exports = withBundleAnalyzer(removeImports(nextConfig))
+module.exports = withBundleAnalyzer(removeImports(withPWA(nextConfig)))

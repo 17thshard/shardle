@@ -1,7 +1,7 @@
 import styles from 'styles/ui/Notice.module.scss'
 import { ReactNode } from 'react'
 import classNames from 'classnames'
-import { IoClose } from 'react-icons/io5'
+import { FiX } from 'react-icons/fi'
 import { m } from 'framer-motion'
 
 type NoticeProps = {
@@ -36,7 +36,7 @@ export default function Notice ({ type, className, closable, closeTimeout, onClo
               />
             </svg>
           }
-          <IoClose />
+          <FiX />
         </button>
       }
     </div>

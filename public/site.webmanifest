@@ -15,5 +15,9 @@
     ],
     "theme_color": "#0d5b90",
     "background_color": "#ffffff",
-    "display": "standalone"
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/",
+    "splash_pages": null
 }
