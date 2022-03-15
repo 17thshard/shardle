@@ -35,6 +35,12 @@
     --hover-background: var(--theme-key-bg-hover);
     background: var(--background);
 
+    &.confirmation {
+      --background: #4698CB;
+      --hover-background: #{darken(#4698CB, 10%)};
+      color: white;
+    }
+
     @media (orientation: portrait) and (max-width: 500px) {
       padding: 3.5vmin 2vmin;
       font-size: 4vmin;

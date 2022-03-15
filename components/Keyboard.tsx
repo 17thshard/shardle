@@ -25,7 +25,13 @@ function Keyboard ({ usedLetters }: KeyboardProps) {
               row.map(key => (
                 <button
                   key={key}
-                  className={classNames(styles.key, { [styles[`key--${usedLetters[key]}`]]: usedLetters[key] !== undefined })}
+                  className={classNames(
+                    styles.key,
+                    {
+                      [styles[`key--${usedLetters[key]}`]]: usedLetters[key] !== undefined,
+                      [styles.confirmation]: key === 'Enter'
+                    }
+                  )}
                   onClick={() => dispatchKey(key)}
                 >
                   {key === 'Backspace' ? '⌫' : key}
