@@ -26,7 +26,7 @@
     width: 42vmin;
   }
 
-  @media (orientation: portrait) and (max-height: 800px) {
+  @media (orientation: portrait) {
     width: calc(min(85%, 45vmax));
     --letter-size: 4vmax;
   }
