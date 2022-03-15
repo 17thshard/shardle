@@ -14,17 +14,25 @@
     --letter-size: 8vmin;
   }
 
-  @media (orientation: landscape) and (max-height: 800px) {
+  @media (max-height: 900px) {
     width: 50vmin;
   }
 
-  @media (orientation: landscape) and (max-height: 560px) {
-    width: 30vmax;
-    --letter-size: 8vmin;
+  @media (max-height: 800px) {
+    width: 40vmin;
   }
 
-  @media (orientation: portrait) and (max-width: 600px) {
-    width: 80vmin;
+  @media (orientation: landscape) and (max-height: 800px) {
+    width: 45vmin;
+  }
+
+  @media (orientation: portrait) and (max-height: 800px) {
+    width: calc(min(85%, 45vmax));
+  }
+
+  @media (orientation: landscape) and (max-height: 650px) {
+    width: calc(min(40vmax, 60vmin));
+    --letter-size: calc(min(6vmax, 8vmin));
   }
 
   &.fast {

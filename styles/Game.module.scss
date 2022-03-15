@@ -8,7 +8,7 @@
   position: relative;
   flex: 1;
 
-  @media (orientation: landscape) and (max-height: 560px) {
+  @media (orientation: landscape) and (max-height: 650px) {
     flex-direction: row;
   }
 }
