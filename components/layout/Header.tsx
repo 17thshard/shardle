@@ -6,6 +6,7 @@ import DatePicker from 'react-datepicker'
 import { useRouter } from 'next/router'
 import { DateContext, formatDate, getCurrentDate, parseDate, REF_DATE } from 'lib/dates'
 import { getAllGuesses, getAllResults } from 'lib/store'
+import Icon17S from 'assets/17s.icon.svg'
 
 export default function Header () {
   const minDate = REF_DATE
@@ -54,7 +55,7 @@ export default function Header () {
 
   return (
     <header className={styles.header}>
-      <h1>Shardle</h1>
+      <h1><Icon17S /> Shardle</h1>
       <nav className={styles.nav}>
         <Link href="#info" scroll={false}>
           <a className={styles.navEntry} title="Info">

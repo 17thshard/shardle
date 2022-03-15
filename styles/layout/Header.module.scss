@@ -4,11 +4,28 @@
   color: var(--theme-text-color);
   padding: 16px 24px;
 
+  @media (min-width: 1000px) {
+    width: 100%;
+    max-width: 55vmin;
+    margin: 0 auto;
+    box-sizing: content-box;
+  }
+
   h1 {
+    display: flex;
+    align-items: center;
     margin: 0;
     padding: 0;
     font-weight: 500;
     text-transform: uppercase;
+
+    svg {
+      font-size: 1.5em;
+    }
+
+    @media (max-width: 400px) {
+      font-size: 8vmin;
+    }
   }
 }
 
@@ -19,6 +36,10 @@
   font-size: 24px;
   gap: 8px;
 
+  @media (max-width: 400px) {
+    gap: 1vmin;
+  }
+
   &Entry {
     display: block;
     color: var(--theme-text-color);
@@ -28,6 +49,10 @@
 
     svg {
       display: block;
+
+      @media (max-width: 400px) {
+        font-size: 6vmin;
+      }
     }
 
     &:hover, &:active, &:focus {
