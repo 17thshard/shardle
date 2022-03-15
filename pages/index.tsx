@@ -14,6 +14,17 @@ const Home: NextPage = () => {
   const date = useContext(DateContext)
   const [activeModal, setActiveModal] = useState<string>()
   const [result, setResult] = useState<GameResult | null>(null)
+  const [firstVisitOutstanding, setFirstVisitOutstanding] = useState(true)
+
+  useEffect(
+    () => {
+      if (window.localStorage.getItem('has-visited') === 'true') {
+        setFirstVisitOutstanding(false)
+      }
+    },
+    []
+  )
+
 
   useEffect(
     () => {
@@ -51,13 +62,23 @@ const Home: NextPage = () => {
     )
   }
 
+  function closeInfo () {
+    if (firstVisitOutstanding) {
+      setFirstVisitOutstanding(false)
+      window.localStorage.setItem('has-visited', 'true')
+      return
+    }
+
+    router.push('#', undefined, { scroll: false })
+  }
+
   return (
     <>
       <Head>
         <title>Shardle</title>
       </Head>
       <Game onDone={onDone} />
-      <Info visible={activeModal === 'info'} close={() => router.push('#', undefined, { scroll: false })} />
+      <Info visible={activeModal === 'info' || firstVisitOutstanding} close={closeInfo} />
       <Statistics
         visible={activeModal === 'statistics'}
         gameResult={result}

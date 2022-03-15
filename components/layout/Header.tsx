@@ -35,9 +35,9 @@ export default function Header () {
     [date]
   )
 
-  const DatePickerButton = forwardRef<HTMLAnchorElement, { onClick?: () => void }>(
+  const DatePickerButton = forwardRef<HTMLButtonElement, { onClick?: () => void }>(
     function DatePickerButton ({ onClick }, ref) {
-      return <a ref={ref} onClick={onClick} title="Play old Shardles"><FiCalendar /></a>
+      return <button ref={ref} onClick={onClick} title="Play old Shardles"><FiCalendar /></button>
     }
   )
 

@@ -15,6 +15,12 @@
     position: absolute;
     top: 18px;
     right: 20px;
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
 
     svg {
       display: block;

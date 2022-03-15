@@ -1,6 +1,5 @@
 import styles from 'styles/modals/Settings.module.scss'
 import Modal from 'react-modal'
-import Link from 'next/link'
 import { FiXCircle } from 'react-icons/fi'
 import Switch from 'components/ui/Switch'
 import React, { useContext } from 'react'
@@ -23,11 +22,13 @@ function Settings ({ visible = false, close }: SettingsProps) {
       closeTimeoutMS={300}
       appElement={typeof window !== 'undefined' ? document.getElementById('app')! : undefined}
     >
-      <Link href="#" scroll={false}>
-        <a className={styles.close} title="Close">
-          <FiXCircle />
-        </a>
-      </Link>
+      <button
+        className={styles.close}
+        title="Close"
+        onClick={close}
+      >
+        <FiXCircle />
+      </button>
       <h2>Settings</h2>
       <LazyMotion features={domMax}>
         <div className={styles.row}>

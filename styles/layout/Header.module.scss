@@ -46,6 +46,18 @@
     text-decoration: none;
     transition: color 0.2s ease;
     cursor: pointer;
+    appearance: none;
+
+    button {
+      color: inherit;
+      appearance: none;
+      background: none;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 0;
+      font-size: 1em;
+    }
 
     svg {
       display: block;

@@ -1,9 +1,8 @@
 import styles from 'styles/modals/Statistics.module.scss'
 import { getGuesses, getStats, Guess, Stats } from 'lib/store'
 import Modal from 'react-modal'
-import { useContext, useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import classNames from 'classnames'
-import Link from 'next/link'
 import { FiXCircle } from 'react-icons/fi'
 import Countdown from 'components/Countdown'
 import Button from 'components/ui/Button'
@@ -75,11 +74,13 @@ function Statistics ({ visible = false, gameResult, close }: StatisticsProps) {
       closeTimeoutMS={300}
       appElement={typeof window !== 'undefined' ? document.getElementById('app')! : undefined}
     >
-      <Link href="#" scroll={false}>
-        <a className={styles.close} title="Close">
-          <FiXCircle />
-        </a>
-      </Link>
+      <button
+        className={styles.close}
+        title="Close"
+        onClick={close}
+      >
+        <FiXCircle />
+      </button>
       {
         gameResult !== null &&
         <>

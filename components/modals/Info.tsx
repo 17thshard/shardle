@@ -1,6 +1,5 @@
 import styles from 'styles/modals/Info.module.scss'
 import Modal from 'react-modal'
-import Link from 'next/link'
 import { FiXCircle } from 'react-icons/fi'
 import React, { useContext } from 'react'
 import Word from 'components/Word'
@@ -9,12 +8,12 @@ import Light17SLogo from 'assets/17s-light.svg'
 import { Context as SettingsContext } from 'lib/settings'
 import { SiDiscord } from 'react-icons/si'
 
-interface TutorialProps {
+interface InfoProps {
   visible?: boolean
   close: () => void
 }
 
-function Info ({ visible = false, close }: TutorialProps) {
+function Info ({ visible = false, close }: InfoProps) {
   const [{ darkMode }] = useContext(SettingsContext)
   const Logo = darkMode ? Dark17SLogo : Light17SLogo
 
@@ -26,11 +25,13 @@ function Info ({ visible = false, close }: TutorialProps) {
       closeTimeoutMS={300}
       appElement={typeof window !== 'undefined' ? document.getElementById('app')! : undefined}
     >
-      <Link href="#" scroll={false}>
-        <a className={styles.close} title="Close">
-          <FiXCircle />
-        </a>
-      </Link>
+      <button
+        className={styles.close}
+        title="Close"
+        onClick={close}
+      >
+        <FiXCircle />
+      </button>
       <h2>Info</h2>
       <section>
         <p>
