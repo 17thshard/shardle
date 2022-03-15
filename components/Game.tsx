@@ -70,10 +70,24 @@ function Game ({ onDone }: GameProps) {
       return
     }
 
-    const containedLetterNotUsed = Object.entries(letterResults).some(([letter, result]) => result === 'contained' && !currentGuess.includes(letter))
+    const letterResultEntries = Object.entries(letterResults)
+    const containedLetterNotUsed = letterResultEntries.some(([letter, result]) => result === 'contained' && !currentGuess.includes(letter))
     const correctLettersNotUsed = guesses.some(guess => guess.results.some((value, index) => value.result === 'correct' && currentGuess[index] !== value.letter))
-    if (hardMode && (containedLetterNotUsed || correctLettersNotUsed)) {
-      pushNotification('error', 'Your guess must use all previously revealed hints!')
+    const incorrectLetterUsed = letterResultEntries.some(([letter, result]) => result === 'not-contained' && currentGuess.includes(letter))
+
+    const hardModeErrors = []
+    if (containedLetterNotUsed) {
+      hardModeErrors.push('Your guess must use all letters you\'ve already revealed!')
+    }
+    if (correctLettersNotUsed) {
+      hardModeErrors.push('Your guess must use already correct letters in their correct position!')
+    }
+    if (incorrectLetterUsed) {
+      hardModeErrors.push('Your guess mustn\'t use incorrect letters!')
+    }
+
+    if (hardMode && hardModeErrors.length > 0) {
+      hardModeErrors.forEach(error => pushNotification('error', error, 3))
       setGuessError(Math.random())
       return
     }
