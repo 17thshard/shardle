@@ -75,7 +75,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Shardle</title>
+        <title>Shardle{date.isToday ? '' : ` - ${date.toLocaleDateString()}`}</title>
       </Head>
       <Game onDone={onDone} />
       <Info visible={activeModal === 'info' || firstVisitOutstanding} close={closeInfo} />
