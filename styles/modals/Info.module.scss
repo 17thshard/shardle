@@ -81,4 +81,39 @@
       --letter-size: 8vmin;
     }
   }
+
+  .socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    max-width: 300px;
+  }
+
+  .discord {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    background: #5865F2;
+    padding: 8px 16px;
+    border-radius: 24px;
+    font-weight: 500;
+    transition: background 0.2s ease;
+    color: white;
+    font-size: 0.9em;
+    text-align: center;
+
+    &:hover, &:active, &:focus {
+      background: #4957f2;
+    }
+
+    svg {
+      font-size: 1.5em;
+    }
+  }
 }

@@ -89,14 +89,16 @@ function Statistics ({ visible = false, gameResult, close }: StatisticsProps) {
             <blockquote className={styles.quote}>
               <p>
                 {
-                  [
-                    'You did this without access to Fortune, or the Spiritual Realm?',
-                    '2 Guesses Quote',
-                    '3 Guesses Quote',
-                    '4 Guesses Quote',
-                    '5 Guesses Quote',
-                    'A surgeon must be timely and precise.'
-                  ][gameResult.guesses - 1]
+                  gameResult.success
+                    ? [
+                      'You did this without access to Fortune, or the Spiritual Realm?',
+                      '2 Guesses Quote',
+                      '3 Guesses Quote',
+                      '4 Guesses Quote',
+                      '5 Guesses Quote',
+                      'A surgeon must be timely and precise.'
+                    ][gameResult.guesses - 1]
+                    : (<>He was always saying words like those.<br />Trying to confuse her, starvin’ Voidbringer.</>)
                 }
               </p>
             </blockquote>

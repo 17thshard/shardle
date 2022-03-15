@@ -2,8 +2,12 @@ import styles from 'styles/modals/Info.module.scss'
 import Modal from 'react-modal'
 import Link from 'next/link'
 import { FiXCircle } from 'react-icons/fi'
-import React from 'react'
+import React, { useContext } from 'react'
 import Word from 'components/Word'
+import Dark17SLogo from 'assets/17s-dark.svg'
+import Light17SLogo from 'assets/17s-light.svg'
+import { Context as SettingsContext } from 'lib/settings'
+import { SiDiscord } from 'react-icons/si'
 
 interface TutorialProps {
   visible?: boolean
@@ -11,6 +15,9 @@ interface TutorialProps {
 }
 
 function Info ({ visible = false, close }: TutorialProps) {
+  const [{ darkMode }] = useContext(SettingsContext)
+  const Logo = darkMode ? Dark17SLogo : Light17SLogo
+
   return (
     <Modal
       className={styles.info}
@@ -33,7 +40,7 @@ function Info ({ visible = false, close }: TutorialProps) {
         <p>
           Each guess must be a valid five-letter word. Hit the enter button to submit.
           Some common English words that are never correct answers will be accepted as guesses in order to make the game easier.
-          These words will be flash yellow before you submit them.
+          These words will flash yellow before you submit them.
         </p>
         <p>After each guess, the color of the tiles will change to show how close your guess was to the word.</p>
       </section>
@@ -80,6 +87,13 @@ function Info ({ visible = false, close }: TutorialProps) {
         <p>
           The word &apos;totem&apos; is a valid guess but will never be the correct answer.
         </p>
+      </section>
+      <hr />
+      <section className={styles.socials}>
+        <Logo className={styles.logo} />
+        <a href="https://discord.gg/17thshard" target="_blank" rel="noreferrer" className={styles.discord}>
+          <SiDiscord /> Discuss on our Discord
+        </a>
       </section>
     </Modal>
   )

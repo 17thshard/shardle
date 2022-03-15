@@ -1,6 +1,6 @@
 {
-    "name": "MAG Roller",
-    "short_name": "MAG Roller",
+    "name": "Shardle",
+    "short_name": "Shardle",
     "icons": [
         {
             "src": "/icons/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#a63737",
+    "theme_color": "#0d5b90",
     "background_color": "#ffffff",
     "display": "standalone"
 }
