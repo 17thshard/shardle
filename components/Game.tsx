@@ -7,7 +7,7 @@ import { useNotifications } from 'components/layout/notifications'
 import { DateContext } from 'lib/dates'
 import { Context as SettingsContext } from 'lib/settings'
 import verify from 'lib/verification'
-import { isNonAnswer } from 'lib/words'
+import { isNonAnswer, isValid } from 'lib/words'
 
 function updateLetterStats (existing: Record<string, string>, results: LetterResult[]): Record<string, string> {
   return results.reduce<Record<string, string>>(
@@ -40,7 +40,7 @@ function Game ({ onDone }: GameProps) {
   const [guessError, setGuessError] = useState<number>()
   const [letterResults, setLetterResults] = useState<Record<string, string>>({})
 
-  const [{ hardMode }] = useContext(SettingsContext)
+  const [{ hardMode, allowCommonEnglish }] = useContext(SettingsContext)
 
   const takingGuesses = guesses.length < 6 && (guesses.length === 0 || guesses[guesses.length - 1].results.some(d => d.result !== 'correct'))
 
@@ -63,7 +63,7 @@ function Game ({ onDone }: GameProps) {
     }
 
     if (currentGuess.length !== 5) {
-      pushNotification('error', 'Your guess must be exactly 5 characters long!')
+      pushNotification('error', 'Your guess must be exactly 5 letters long!')
       setGuessError(Math.random())
       return
     }
@@ -86,6 +86,12 @@ function Game ({ onDone }: GameProps) {
 
     if (hardMode && hardModeErrors.length > 0) {
       hardModeErrors.forEach(error => pushNotification('error', error, 3))
+      setGuessError(Math.random())
+      return
+    }
+
+    if (!allowCommonEnglish && isNonAnswer(currentGuess)) {
+      pushNotification('error', 'You must allow common English words for this guess to be valid!')
       setGuessError(Math.random())
       return
     }
@@ -159,6 +165,12 @@ function Game ({ onDone }: GameProps) {
   )
 
   const existingResult = typeof window !== 'undefined' ? getResult(date) : null
+  let guessErrorType: any
+  if (!isValid(currentGuess) && currentGuess.length === 5) {
+    guessErrorType = 'error'
+  } else if (isNonAnswer(currentGuess)) {
+    guessErrorType = 'warning'
+  }
 
   return (
     <section className={styles.game}>
@@ -179,7 +191,7 @@ function Game ({ onDone }: GameProps) {
               value={currentGuess.map(letter => ({ letter }))}
               revealed={false}
               error={guessError}
-              flash={isNonAnswer(currentGuess)}
+              flash={guessErrorType}
             />
             {
               new Array<LetterData[]>(5 - guesses.length)

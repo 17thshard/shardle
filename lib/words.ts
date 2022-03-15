@@ -949,6 +949,11 @@ const NON_ANSWERS = new Set([
 ].map(w => w.toUpperCase()))
 
 const VALID_WORDS = new Set(ANSWERS.map(a => a.word.join('')))
+
+VALID_WORDS.forEach((word) => {
+  NON_ANSWERS.delete(word)
+})
+
 NON_ANSWERS.forEach(w => VALID_WORDS.add(w))
 
 export function isValid (guess: string[]) {

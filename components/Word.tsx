@@ -15,7 +15,7 @@ interface WordProps {
   revealed: boolean
   error?: number
   fast?: boolean
-  flash?: boolean
+  flash?: 'success' | 'warning' | 'error'
 }
 
 function Word ({ className, value, revealed, error, fast, flash }: WordProps) {
@@ -44,7 +44,8 @@ function Word ({ className, value, revealed, error, fast, flash }: WordProps) {
         {
           [styles.fast]: fast,
           [styles.error]: error !== undefined,
-          [styles.flash]: flash
+          [styles.flash]: flash !== undefined,
+          [styles[`flash--${flash}`]]: flash !== undefined
         },
         className
       )}

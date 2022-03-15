@@ -61,6 +61,7 @@ function MyApp ({ Component, pageProps: { session, ...pageProps } }: CustomAppPr
 
   const settings = {
     hardMode: false,
+    allowCommonEnglish: true,
     darkMode: browserDarkMode,
     ...activeSettings
   }

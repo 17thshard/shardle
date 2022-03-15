@@ -86,17 +86,29 @@
   &.flash {
     animation: flash 2s ease infinite;
 
+    &--success {
+      --flash-color: #299967;
+    }
+
+    &--warning {
+      --flash-color: #ce9318;
+    }
+
+    &--error {
+      --flash-color: #c44325;
+    }
+
     @keyframes flash {
       0% {
-        filter: drop-shadow(0 0 0 #ce9318);
+        filter: drop-shadow(0 0 0 var(--flash-color));
       }
 
       50% {
-        filter: drop-shadow(0 0 7px #ce9318);
+        filter: drop-shadow(0 0 1vmin var(--flash-color));
       }
 
       100% {
-        filter: drop-shadow(0 0 0 #ce9318);
+        filter: drop-shadow(0 0 0 var(--flash-color));
       }
     }
   }

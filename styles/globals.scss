@@ -117,6 +117,7 @@ a {
   color: var(--theme-text-color);
   transform: translateY(30px);
   transition: transform 0.3s ease-in-out;
+  max-width: 800px;
 
   &--after-open {
     transform: translateY(0);

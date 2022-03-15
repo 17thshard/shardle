@@ -75,7 +75,7 @@ function Info ({ visible = false, close }: TutorialProps) {
           value={[{ letter: 'T' }, { letter: 'O' }, { letter: 'T' }, { letter: 'E' }, { letter: 'M' }]}
           revealed
           fast
-          flash
+          flash="warning"
         />
         <p>
           The word &apos;totem&apos; is a valid guess but will never be the correct answer.

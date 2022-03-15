@@ -44,6 +44,19 @@ function Settings ({ visible = false, close }: SettingsProps) {
           </div>
         </div>
         <div className={styles.row}>
+          <label className={styles.label} htmlFor="allow-common-english">
+            Allow common English words
+          </label>
+          <small className={styles.hint}>Treat some common English words that are never correct answers as valid guesses</small>
+          <div className={styles.switch}>
+            <Switch
+              id="allow-common-english"
+              value={settings.allowCommonEnglish}
+              onChange={(value) => updateSetting('allowCommonEnglish', value)}
+            />
+          </div>
+        </div>
+        <div className={styles.row}>
           <label className={styles.label} htmlFor="dark-mode">
             Dark Mode
           </label>
