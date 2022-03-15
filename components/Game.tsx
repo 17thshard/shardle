@@ -162,15 +162,15 @@ function Game ({ onDone }: GameProps) {
             {existingResult !== null && !existingResult.count && <small>Solution did not contribute to your statistics.</small>}
           </div>
         }
-        {guesses.map((guess, index) => <Word key={index} value={guess.results} fast={guess.old} revealed />)}
+        {guesses.map((guess, index) => <Word key={`${date.shardleDay}-${index}`} value={guess.results} fast={guess.old} revealed />)}
         {guesses.length < 6 &&
           <>
-            <Word key={guesses.length} value={currentGuess.map(letter => ({ letter }))} revealed={false} error={guessError} />
+            <Word key={`${date.shardleDay}-${guesses.length}`} value={currentGuess.map(letter => ({ letter }))} revealed={false} error={guessError} />
             {
               new Array<LetterData[]>(5 - guesses.length)
                 .fill([])
                 .map((guess, index) => <Word
-                  key={index}
+                  key={`${date.shardleDay}-${guesses.length + index}`}
                   value={guess}
                   revealed={false}
                 />)
