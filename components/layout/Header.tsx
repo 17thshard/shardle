@@ -7,8 +7,13 @@ import { useRouter } from 'next/router'
 import { DateContext, formatDate, getCurrentDate, parseDate, REF_DATE } from 'lib/dates'
 import { getAllGuesses, getAllResults } from 'lib/store'
 import Icon17S from 'assets/17s.icon.svg'
+import classNames from 'classnames'
 
-export default function Header () {
+interface HeaderProps {
+  hideNavigation?: boolean
+}
+
+export default function Header ({ hideNavigation }: HeaderProps) {
   const minDate = REF_DATE
   const maxDate = getCurrentDate()
   const date = useContext(DateContext)
@@ -53,38 +58,46 @@ export default function Header () {
     </div>
   )
 
+  const nav = (
+    <nav className={styles.nav}>
+      <Link href="#info" scroll={false}>
+        <a className={styles.navEntry} title="Info">
+          <FiInfo />
+        </a>
+      </Link>
+      <Link href="#statistics" scroll={false}>
+        <a className={styles.navEntry} title="Statistics">
+          <FiBarChart2 />
+        </a>
+      </Link>
+      <div className={styles.navEntry}>
+        <DatePicker
+          selected={date}
+          onChange={onDateSelected}
+          minDate={minDate}
+          maxDate={maxDate}
+          highlightDates={highlightedDates}
+          customInput={<DatePickerButton />}
+          calendarContainer={DatePickerContainer}
+          showPopperArrow={false}
+        />
+      </div>
+      <Link href="#settings" scroll={false}>
+        <a className={styles.navEntry} title="Settings">
+          <FiSettings />
+        </a>
+      </Link>
+    </nav>
+  )
+
   return (
-    <header className={styles.header}>
-      <h1><Icon17S /> Shardle</h1>
-      <nav className={styles.nav}>
-        <Link href="#info" scroll={false}>
-          <a className={styles.navEntry} title="Info">
-            <FiInfo />
-          </a>
-        </Link>
-        <Link href="#statistics" scroll={false}>
-          <a className={styles.navEntry} title="Statistics">
-            <FiBarChart2 />
-          </a>
-        </Link>
-        <div className={styles.navEntry}>
-          <DatePicker
-            selected={date}
-            onChange={onDateSelected}
-            minDate={minDate}
-            maxDate={maxDate}
-            highlightDates={highlightedDates}
-            customInput={<DatePickerButton />}
-            calendarContainer={DatePickerContainer}
-            showPopperArrow={false}
-          />
-        </div>
-        <Link href="#settings" scroll={false}>
-          <a className={styles.navEntry} title="Settings">
-            <FiSettings />
-          </a>
-        </Link>
-      </nav>
+    <header className={classNames(styles.header, { [styles.navigationHidden]: hideNavigation })}>
+      <Link href="/">
+        <a>
+          <h1><Icon17S /> Shardle</h1>
+        </a>
+      </Link>
+      {hideNavigation !== true && nav}
     </header>
   )
 }

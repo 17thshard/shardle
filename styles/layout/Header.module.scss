@@ -4,11 +4,19 @@
   color: var(--theme-text-color);
   padding: 16px 24px;
 
+  &.navigationHidden {
+    justify-content: center;
+  }
+
   @media (min-width: 1000px) {
     width: 100%;
     max-width: 55vmin;
     margin: 0 auto;
     box-sizing: content-box;
+  }
+
+  & > a {
+    text-decoration: none;
   }
 
   h1 {

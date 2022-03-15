@@ -11,14 +11,14 @@ import { useRouter } from 'next/router'
 import { DateContext, getCurrentDate, getDay, parseDate } from 'lib/dates'
 
 type CustomNextPage = NextPage & {
-  noLayout?: boolean
+  hideNavigation?: boolean
 }
 
 type CustomAppProps = AppProps & {
   Component: CustomNextPage
 }
 
-function MyApp ({ Component, pageProps: { session, ...pageProps } }: CustomAppProps) {
+function MyApp ({ Component, pageProps: { ...pageProps } }: CustomAppProps) {
   const router = useRouter()
 
   // @ts-ignore
@@ -85,25 +85,23 @@ function MyApp ({ Component, pageProps: { session, ...pageProps } }: CustomAppPr
     window.localStorage.setItem('settings', JSON.stringify(updated))
   }
 
-  return Component.noLayout === true
-    ? <Component {...pageProps} />
-    : (
-      <div id="app" className="app">
-        <SettingsContext.Provider value={[settings, updateSetting]}>
-          <DateContext.Provider value={date}>
-            <Head>
-              <meta name="viewport" content="width=device-width, initial-scale=1" />
-            </Head>
-            <NotificationContainer>
-              <Header />
-              <main className={styles.main}>
-                <Component {...pageProps} />
-              </main>
-            </NotificationContainer>
-          </DateContext.Provider>
-        </SettingsContext.Provider>
-      </div>
-    )
+  return (
+    <div id="app" className="app">
+      <SettingsContext.Provider value={[settings, updateSetting]}>
+        <DateContext.Provider value={date}>
+          <Head>
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+          </Head>
+          <NotificationContainer>
+            <Header hideNavigation={Component.hideNavigation} />
+            <main className={styles.main}>
+              <Component {...pageProps} />
+            </main>
+          </NotificationContainer>
+        </DateContext.Provider>
+      </SettingsContext.Provider>
+    </div>
+  )
 }
 
 export default MyApp
