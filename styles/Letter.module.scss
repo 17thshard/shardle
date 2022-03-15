@@ -53,10 +53,10 @@
     transform-origin: 50% 50%;
     border-radius: 3px;
     background: var(--theme-bg-color);
+    border: 2px solid var(--theme-letter-border);
   }
 
   .input {
-    border: 2px solid var(--theme-letter-border);
     transition: border-color 0.2s ease;
   }
 
@@ -84,14 +84,17 @@
 
     &--not-contained {
       background: var(--theme-not-contained);
+      border: none;
     }
 
     &--contained {
       background: #ce9318;
+      border: none;
     }
 
     &--correct {
       background: #15b644;
+      border: none;
     }
   }
 }

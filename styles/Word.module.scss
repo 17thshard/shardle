@@ -23,11 +23,24 @@
   }
 
   @media (orientation: landscape) and (max-height: 800px) {
-    width: 45vmin;
+    width: 42vmin;
   }
 
   @media (orientation: portrait) and (max-height: 800px) {
     width: calc(min(85%, 45vmax));
+    --letter-size: 4vmax;
+  }
+
+  @media (orientation: portrait) and (max-height: 700px) {
+    width: calc(min(85%, 40vmax));
+  }
+
+  @media (orientation: portrait) and (max-height: 600px) {
+    width: calc(min(85%, 35vmax));
+  }
+
+  @media (orientation: portrait) and (max-height: 500px) {
+    width: calc(min(85%, 32vmax));
   }
 
   @media (orientation: landscape) and (max-height: 650px) {

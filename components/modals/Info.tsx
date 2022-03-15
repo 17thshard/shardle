@@ -3,6 +3,7 @@ import Modal from 'react-modal'
 import Link from 'next/link'
 import { FiXCircle } from 'react-icons/fi'
 import React from 'react'
+import Word from 'components/Word'
 
 interface TutorialProps {
   visible?: boolean
@@ -37,8 +38,48 @@ function Info ({ visible = false, close }: TutorialProps) {
         <p>After each guess, the color of the tiles will change to show how close your guess was to the word.</p>
       </section>
       <hr />
-      <section>
+      <section className={styles.examples}>
+        <h3>Examples</h3>
+        <Word
+          className={styles.word}
+          value={[{ letter: 'S' }, { letter: 'A', result: 'correct' }, { letter: 'Z' }, { letter: 'E' }, { letter: 'D' }]}
+          revealed
+          fast
+        />
+        <p>
+          The letter &apos;A&apos; is contained in the answer and in the correct position.
+        </p>
 
+        <Word
+          className={styles.word}
+          value={[{ letter: 'J' }, { letter: 'U' }, { letter: 'S' }, { letter: 'H', result: 'contained' }, { letter: 'U' }]}
+          revealed
+          fast
+        />
+        <p>
+          The letter &apos;H&apos; is contained in the answer, but not yet in the correct position.
+        </p>
+
+        <Word
+          className={styles.word}
+          value={[{ letter: 'K' }, { letter: 'R' }, { letter: 'E', result: 'not-contained' }, { letter: 'L' }, { letter: 'L' }]}
+          revealed
+          fast
+        />
+        <p>
+          The letter &apos;E&apos; is not contained in the answer in any position anymore.
+        </p>
+
+        <Word
+          className={styles.word}
+          value={[{ letter: 'T' }, { letter: 'O' }, { letter: 'T' }, { letter: 'E' }, { letter: 'M' }]}
+          revealed
+          fast
+          flash
+        />
+        <p>
+          The word &apos;totem&apos; is a valid guess but will never be the correct answer.
+        </p>
       </section>
     </Modal>
   )

@@ -36,6 +36,12 @@
 
   section {
     text-align: justify;
+    align-self: stretch;
+
+    h3 {
+      margin-top: 0;
+      font-weight: 500;
+    }
 
     p:first-child {
       margin-top: 0;
@@ -49,5 +55,29 @@
   hr {
     align-self: stretch;
     margin: 8px 0;
+  }
+
+  .examples {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .word {
+    max-width: 300px;
+    --letter-size: calc(min(6vmin, 30px));
+
+    @media (max-width: 600px) {
+      max-width: 60vmin;
+    }
+
+    @media (max-width: 400px) {
+      --letter-size: 8vmin;
+    }
+
+    @media (orientation: landscape) and (max-height: 650px) {
+      width: 30vmax;
+      --letter-size: 8vmin;
+    }
   }
 }

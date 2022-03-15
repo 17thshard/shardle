@@ -94,10 +94,6 @@ a {
   transition: opacity 0.3s ease-in-out;
   -webkit-tap-highlight-color: transparent;
 
-  @media (max-width: 600px) {
-    padding: 2rem;
-  }
-
   &--after-open {
     opacity: 1;
   }
