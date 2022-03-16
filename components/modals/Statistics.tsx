@@ -1,7 +1,7 @@
 import styles from 'styles/modals/Statistics.module.scss'
 import { getGuesses, getStats, Guess, Stats } from 'lib/store'
 import Modal from 'react-modal'
-import React, { useContext, useEffect, useState } from 'react'
+import { useContext, useEffect, useState } from 'react'
 import classNames from 'classnames'
 import { FiXCircle } from 'react-icons/fi'
 import Countdown from 'components/Countdown'

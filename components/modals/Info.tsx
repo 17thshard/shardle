@@ -1,7 +1,7 @@
 import styles from 'styles/modals/Info.module.scss'
 import Modal from 'react-modal'
 import { FiXCircle } from 'react-icons/fi'
-import React, { useContext } from 'react'
+import { useContext } from 'react'
 import Word from 'components/Word'
 import Dark17SLogo from 'assets/17s-dark.svg'
 import Light17SLogo from 'assets/17s-light.svg'

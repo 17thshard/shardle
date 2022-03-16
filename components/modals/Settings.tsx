@@ -2,7 +2,7 @@ import styles from 'styles/modals/Settings.module.scss'
 import Modal from 'react-modal'
 import { FiXCircle } from 'react-icons/fi'
 import Switch from 'components/ui/Switch'
-import React, { useContext } from 'react'
+import { useContext } from 'react'
 import { Context } from 'lib/settings'
 import { domMax, LazyMotion } from 'framer-motion'
 

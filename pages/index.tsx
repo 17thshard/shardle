@@ -4,10 +4,11 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import { addResult, getResult } from 'lib/store'
 import { useRouter } from 'next/router'
-import { useContext, useEffect, useState } from 'react'
+import { useContext, useEffect, useRef, useState } from 'react'
 import Settings from 'components/modals/Settings'
-import { DateContext } from 'lib/dates'
+import { DateContext, getCurrentDate } from 'lib/dates'
 import Info from 'components/modals/Info'
+import DateChangeConfirmation from 'components/modals/DateChangeConfirmation'
 
 const Home: NextPage = () => {
   const router = useRouter()
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
   const [activeModal, setActiveModal] = useState<string>()
   const [result, setResult] = useState<GameResult | null>(null)
   const [firstVisitOutstanding, setFirstVisitOutstanding] = useState(true)
+  const dateCheckerTimeout = useRef<NodeJS.Timeout>()
 
   useEffect(
     () => {
@@ -25,10 +27,25 @@ const Home: NextPage = () => {
     []
   )
 
-
   useEffect(
     () => {
       setResult(getResult(date))
+
+      function checkDate() {
+        if (date.isToday && date.getTime() !== getCurrentDate().getTime()) {
+          setActiveModal('date-changed')
+        } else {
+          setTimeout(checkDate, 1000)
+        }
+      }
+
+      checkDate()
+
+      return () => {
+        if (dateCheckerTimeout.current !== undefined) {
+          clearTimeout(dateCheckerTimeout.current)
+        }
+      }
     },
     [date]
   )
@@ -85,6 +102,7 @@ const Home: NextPage = () => {
         close={() => router.push('#', undefined, { scroll: false })}
       />
       <Settings visible={activeModal === 'settings'} close={() => router.push('#', undefined, { scroll: false })} />
+      <DateChangeConfirmation visible={activeModal === 'date-changed'} close={() => setActiveModal(undefined)} />
     </>
   )
 }
