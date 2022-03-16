@@ -94,10 +94,22 @@
     justify-content: center;
     gap: 16px;
     flex-wrap: wrap;
+
+    p {
+      margin: 0;
+      width: 100%;
+      text-align: center;
+      font-size: 0.9em;
+    }
   }
 
-  .logo {
+  .shardLink {
+    display: block;
     max-width: 300px;
+
+    svg {
+      width: 100%;
+    }
   }
 
   .discord {

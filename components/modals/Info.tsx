@@ -91,7 +91,26 @@ function Info ({ visible = false, close }: InfoProps) {
       </section>
       <hr />
       <section className={styles.socials}>
-        <Logo className={styles.logo} />
+        <p>
+          Inspired by <a href="https://www.nytimes.com/games/wordle" target="_blank" rel="noreferrer">Wordle</a>,
+          based on an idea by Tobbzn for their <a
+          href="https://steamcommunity.com/sharedfiles/filedetails/?id=2301341163"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Crusader Kings III mod
+        </a>.
+        </p>
+        <p>
+          Please report any issues on <a
+          href="https://github.com/17thshard/shardle"
+          target="_blank"
+          rel="noreferrer"
+        >GitHub</a> or via one of the following channels.
+        </p>
+        <a href="https://17thshard.com" target="_blank" rel="noreferrer" className={styles.shardLink}>
+          <Logo />
+        </a>
         <a href="https://discord.gg/17thshard" target="_blank" rel="noreferrer" className={styles.discord}>
           <SiDiscord /> Discuss on our Discord
         </a>
