@@ -1,7 +1,7 @@
 .word {
   display: flex;
   align-items: center;
-  gap: 1vmin;
+  gap: calc(max(1vmin, 5px));
   transform-origin: 50% 50%;
   width: 60vmin;
   max-width: 600px;
@@ -28,7 +28,7 @@
 
   @media (orientation: portrait) {
     width: calc(min(85%, 45vmax));
-    --letter-size: 4vmax;
+    --letter-size: 8vmin;
   }
 
   @media (orientation: portrait) and (max-height: 700px) {
@@ -41,6 +41,7 @@
 
   @media (orientation: portrait) and (max-height: 500px) {
     width: calc(min(85%, 32vmax));
+    --letter-size: calc(min(6vmin, 4vmax));
   }
 
   @media (orientation: landscape) and (max-height: 650px) {
@@ -104,7 +105,7 @@
       }
 
       50% {
-        filter: drop-shadow(0 0 1vmin var(--flash-color));
+        filter: drop-shadow(0 0 8px var(--flash-color));
       }
 
       100% {

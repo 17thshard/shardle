@@ -16,7 +16,7 @@
 .guesses {
   display: flex;
   flex-direction: column;
-  gap: 1vmin;
+  gap: calc(max(1vmin, 5px));
   align-items: center;
   width: 100%;
   flex: 1;
