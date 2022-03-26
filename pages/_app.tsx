@@ -62,6 +62,7 @@ function MyApp ({ Component, pageProps: { ...pageProps } }: CustomAppProps) {
   const settings = {
     hardMode: false,
     allowCommonEnglish: true,
+    showBlurb: true,
     darkMode: browserDarkMode,
     ...activeSettings
   }

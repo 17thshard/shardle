@@ -58,6 +58,19 @@ function Settings ({ visible = false, close }: SettingsProps) {
           </div>
         </div>
         <div className={styles.row}>
+          <label className={styles.label} htmlFor="show-blurb">
+            Display short explanation
+          </label>
+          <small className={styles.hint}>Show a short explanation of the word after guessing is finished</small>
+          <div className={styles.switch}>
+            <Switch
+              id="show-blurb"
+              value={settings.showBlurb}
+              onChange={(value) => updateSetting('showBlurb', value)}
+            />
+          </div>
+        </div>
+        <div className={styles.row}>
           <label className={styles.label} htmlFor="dark-mode">
             Dark Mode
           </label>

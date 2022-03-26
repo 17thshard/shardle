@@ -10,6 +10,7 @@ import { GameResult } from 'components/Game'
 import Word from 'components/Word'
 import { useNotifications } from 'components/layout/notifications'
 import { DateContext } from 'lib/dates'
+import { Context as SettingsContext } from 'lib/settings'
 import { getAnswer } from 'lib/words'
 
 interface StatisticsProps {
@@ -41,6 +42,7 @@ function generateShare (day: number, success: boolean, guesses: Guess[]): string
 
 function Statistics ({ visible = false, gameResult, close }: StatisticsProps) {
   const date = useContext(DateContext)
+  const [{ showBlurb }] = useContext(SettingsContext)
   const answer = getAnswer(date)
   const [stats, setStats] = useState<Stats>({
     currentStreak: null,
@@ -109,6 +111,10 @@ function Statistics ({ visible = false, gameResult, close }: StatisticsProps) {
                 <p className={styles.correctWordLabel}>The word was</p>
                 <Word className={styles.correctWord} value={answer.word.map(letter => ({ letter, result: 'correct' }))} revealed fast />
               </>
+            }
+            {
+              showBlurb &&
+              <p>{answer.blurb}</p>
             }
             <Button tag="a" href={`https://coppermind.net/w/index.php?curid=${answer.coppermindId}`} large target="_blank">
               View on the Coppermind

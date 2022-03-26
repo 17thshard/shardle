@@ -1,6 +1,6 @@
 import styles from 'styles/modals/Info.module.scss'
 import Modal from 'react-modal'
-import { FiXCircle } from 'react-icons/fi'
+import { FiAlertTriangle, FiXCircle } from 'react-icons/fi'
 import { useContext } from 'react'
 import Word from 'components/Word'
 import Dark17SLogo from 'assets/17s-dark.svg'
@@ -36,7 +36,14 @@ function Info ({ visible = false, close }: InfoProps) {
       <section>
         <p>
           Guess the <strong>Shardle</strong> in six tries.
-          It can come from the title of any <a href="https://coppermind.net" target="_blank" rel="noreferrer">Coppermind</a> article.
+          It can come from the title of any <a href="https://coppermind.net" target="_blank" rel="noreferrer">Coppermind</a> article that
+          covers a topic from the <em>Cosmere</em>, the <em>Cytoverse</em>, or the <em>Reckoners</em> universe.
+        </p>
+        <p>
+          ⚠️
+          There will be <strong>spoilers</strong> for these works! If you do not wish to be spoiled but still want to guess,
+          disable the <em>Display short description</em> option in the settings!
+          ⚠️
         </p>
         <p>
           Each guess must be a valid five-letter word. Hit the enter button to submit.
