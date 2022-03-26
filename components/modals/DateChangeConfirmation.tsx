@@ -4,6 +4,7 @@ import { DateContext, formatDate } from 'lib/dates'
 import { useContext } from 'react'
 import Button from 'components/ui/Button'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 interface DateChangeConfirmationProps {
   visible?: boolean
@@ -12,6 +13,15 @@ interface DateChangeConfirmationProps {
 
 function DateChangeConfirmation ({ visible = false, close }: DateChangeConfirmationProps) {
   const date = useContext(DateContext)
+  const router = useRouter()
+
+  function refreshIfNecessary () {
+    if (router.query.date === undefined) {
+      window.location.reload()
+    }
+
+    close()
+  }
 
   return (
     <Modal
@@ -29,7 +39,7 @@ function DateChangeConfirmation ({ visible = false, close }: DateChangeConfirmat
           <Button tag="a" onClick={close}>Finish Shardle #{date.shardleDay}</Button>
         </Link>
         <Link href="/" replace>
-          <Button tag="a" onClick={close}>Play new Shardle</Button>
+          <Button tag="a" onClick={refreshIfNecessary}>Play new Shardle</Button>
         </Link>
       </section>
     </Modal>
