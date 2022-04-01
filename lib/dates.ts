@@ -25,6 +25,10 @@ export function parseDate (date: string): Date | null {
   return new Date(Date.UTC(Number.parseInt(match[1]), Number.parseInt(match[2]) - 1, Number.parseInt(match[3])))
 }
 
+export function localizeDate (utcDate: Date): Date {
+  return new Date(utcDate.setFullYear(utcDate.getUTCFullYear(), utcDate.getUTCMonth(), utcDate.getUTCDate()))
+}
+
 export function getCurrentDate (): Date {
   const refDate = new Date()
   return new Date(Date.UTC(refDate.getUTCFullYear(), refDate.getUTCMonth(), refDate.getUTCDate()))
