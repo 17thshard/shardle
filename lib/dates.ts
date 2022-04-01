@@ -1,6 +1,6 @@
 import { createContext } from 'react'
 
-export const REF_DATE = new Date(2022, 3, 3)
+export const REF_DATE = new Date(2022, 3, 2)
 
 export type ShardleDate = Date & { isToday: boolean, shardleDay: number }
 
