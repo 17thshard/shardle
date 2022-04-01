@@ -1,15 +1,12 @@
 import styles from 'styles/Countdown.module.scss'
 import { useEffect, useRef, useState } from 'react'
+import { getCurrentDate } from 'lib/dates'
 
 const SECONDS_IN_AN_HOUR = 60 * 60
 
 function getCountdown () {
-  let targetDate = new Date()
-  targetDate = new Date(targetDate.setUTCDate(targetDate.getUTCDate() + 1))
-  targetDate = new Date(targetDate.setUTCHours(0))
-  targetDate = new Date(targetDate.setUTCMinutes(0))
-  targetDate = new Date(targetDate.setUTCSeconds(0))
-  targetDate = new Date(targetDate.setUTCMilliseconds(0))
+  let targetDate = getCurrentDate()
+  targetDate.setDate(targetDate.getDate() + 1)
 
   const diff = Math.floor((targetDate.getTime() - Date.now()) / 1000)
   const hours = Math.floor(diff / SECONDS_IN_AN_HOUR)

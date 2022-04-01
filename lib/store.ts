@@ -1,4 +1,4 @@
-import { formatDate } from 'lib/dates'
+import { formatDate, getDay } from 'lib/dates'
 import { GameResult } from 'components/Game'
 
 export interface LetterResult {
@@ -104,9 +104,8 @@ export function getStats (): Stats {
 }
 
 export function addResult (date: Date, result: GameResult) {
-  const utcDate = new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate()))
-  const formattedDate = formatDate(utcDate)
-  const previousDate = formatDate(new Date(utcDate.setUTCDate(utcDate.getUTCDate() - 1)))
+  const formattedDate = formatDate(date)
+  const previousDate = formatDate(new Date(date.setDate(date.getDate() - 1)))
 
   const oldRaw = getAllResults()
   window.localStorage.setItem('results', JSON.stringify({ ...oldRaw, [formattedDate]: result }))
@@ -133,5 +132,9 @@ export function addResult (date: Date, result: GameResult) {
 }
 
 export function getResult (date: Date): GameResult | null {
+  if (getDay(date) <= 0) {
+    return null;
+  }
+
   return getAllResults()[formatDate(date)] ?? null
 }

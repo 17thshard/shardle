@@ -1,15 +1,15 @@
 import { createContext } from 'react'
 
-export const REF_DATE = new Date(Date.UTC(2022, 3, 1))
+export const REF_DATE = new Date(2022, 3, 3)
 
 export type ShardleDate = Date & { isToday: boolean, shardleDay: number }
 
 export const DateContext = createContext<ShardleDate>(undefined!)
 
 export function formatDate (date: Date): string {
-  const year = date.getUTCFullYear()
-  const month = date.getUTCMonth() + 1
-  const day = date.getUTCDate()
+  const year = date.getFullYear()
+  const month = date.getMonth() + 1
+  const day = date.getDate()
   const paddedMonth = month < 10 ? `0${month}` : month
   const paddedDay = day < 10 ? `0${day}` : day
 
@@ -22,16 +22,13 @@ export function parseDate (date: string): Date | null {
     return null
   }
 
-  return new Date(Date.UTC(Number.parseInt(match[1]), Number.parseInt(match[2]) - 1, Number.parseInt(match[3])))
-}
-
-export function localizeDate (utcDate: Date): Date {
-  return new Date(new Date().setFullYear(utcDate.getUTCFullYear(), utcDate.getUTCMonth(), utcDate.getUTCDate()))
+  return new Date(Number.parseInt(match[1]), Number.parseInt(match[2]) - 1, Number.parseInt(match[3]))
 }
 
 export function getCurrentDate (): Date {
-  const refDate = new Date()
-  return new Date(Date.UTC(refDate.getUTCFullYear(), refDate.getUTCMonth(), refDate.getUTCDate()))
+  const result = new Date()
+  result.setHours(0, 0, 0, 0)
+  return result
 }
 
 export function getDay(date: Date) {

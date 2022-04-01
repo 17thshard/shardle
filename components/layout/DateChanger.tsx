@@ -3,7 +3,7 @@ import { FiCalendar } from 'react-icons/fi'
 import { forwardRef, ReactNode, useContext, useEffect, useState } from 'react'
 import DatePicker from 'react-datepicker'
 import { useRouter } from 'next/router'
-import { DateContext, formatDate, getCurrentDate, localizeDate, parseDate, REF_DATE } from 'lib/dates'
+import { DateContext, formatDate, getCurrentDate, parseDate, REF_DATE } from 'lib/dates'
 import { getAllGuesses, getAllResults } from 'lib/store'
 import classNames from 'classnames'
 
@@ -12,16 +12,14 @@ interface DateChangerProps {
 }
 
 export default function DateChanger ({ className }: DateChangerProps) {
-  const minDate = localizeDate(REF_DATE)
-  const maxDate = localizeDate(getCurrentDate())
-  const utcDate = useContext(DateContext)
-  const date = localizeDate(utcDate)
+  const minDate = REF_DATE
+  const maxDate = getCurrentDate()
+  const date = useContext(DateContext)
 
   const router = useRouter()
 
   function onDateSelected (date: Date) {
-    const utcDate = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()))
-    if (formatDate(utcDate) === formatDate(getCurrentDate())) {
+    if (formatDate(date) === formatDate(getCurrentDate())) {
       if (router.query.date === undefined) {
         window.location.reload()
       } else {
@@ -31,7 +29,7 @@ export default function DateChanger ({ className }: DateChangerProps) {
       return
     }
 
-    router.push(formatDate(utcDate))
+    router.push(formatDate(date))
   }
 
   const [highlightedDates, setHighlightedDates] = useState<Record<string, Date[]>[]>([])
@@ -39,15 +37,15 @@ export default function DateChanger ({ className }: DateChangerProps) {
     () => {
       const results = getAllResults()
       const resultList = Object.entries(results)
-      const correct = resultList.filter(([_, result]) => result.success).map(([date]) => localizeDate(parseDate(date)!))
-      const incorrect = resultList.filter(([_, result]) => !result.success).map(([date]) => localizeDate(parseDate(date)!))
+      const correct = resultList.filter(([_, result]) => result.success).map(([date]) => parseDate(date)!)
+      const incorrect = resultList.filter(([_, result]) => !result.success).map(([date]) => parseDate(date)!)
 
       const allGuesses = Object.keys(getAllGuesses())
-      const incomplete = allGuesses.filter((key) => results[key] === undefined).map(date => localizeDate(parseDate(date)!))
+      const incomplete = allGuesses.filter((key) => results[key] === undefined).map(date => parseDate(date)!)
 
       setHighlightedDates([{ [styles.dateCorrect]: correct }, { [styles.dateIncomplete]: incomplete }, { [styles.dateIncorrect]: incorrect }])
     },
-    [utcDate]
+    [date]
   )
 
   const DatePickerButton = forwardRef<HTMLButtonElement, { onClick?: () => void }>(
@@ -79,6 +77,7 @@ export default function DateChanger ({ className }: DateChangerProps) {
         customInput={<DatePickerButton />}
         calendarContainer={DatePickerContainer}
         showPopperArrow={false}
+        disabledKeyboardNavigation
       />
     </div>
   )
