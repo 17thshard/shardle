@@ -3,9 +3,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true'
 })
 const withPWA = require('next-pwa')
-const runtimeCaching = require('next-pwa/cache')
-
-console.log(process.env)
+const runtimeCaching = require
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -30,7 +28,7 @@ const nextConfig = {
     outputStandalone: true
   },
   env: {
-    PUBLIC_URL: process.env.PUBLIC_URL
+    NEXT_PUBLIC_URL: process.env.NEXT_PUBLIC_URL
   },
   pwa: {
     dest: 'public',

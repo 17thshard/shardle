@@ -23,9 +23,9 @@ class MyDocument extends Document {
           />
           <meta property="og:site_name" content="17th Shard" />
           <meta property="og:type" content="website" />
-          <meta property="og:url" content={process.env.PUBLIC_URL} />
-          <meta property="og:image" content={`${process.env.PUBLIC_URL}/opengraph.webp`} />
-          <meta property="og:image" content={`${process.env.PUBLIC_URL}/opengraph.png`} />
+          <meta property="og:url" content={process.env.NEXT_PUBLIC_URL} />
+          <meta property="og:image" content={`${process.env.NEXT_PUBLIC_URL}/opengraph.webp`} />
+          <meta property="og:image" content={`${process.env.NEXT_PUBLIC_URL}/opengraph.png`} />
           <meta
             property="og:image:alt"
             content="Logo showing stylized Cosmere starhart in the background with the title 'Shardle' overlayed"
@@ -38,7 +38,7 @@ class MyDocument extends Document {
             property="twitter:description"
             content="Guess the Coppermind term in 6 tries. A new challenge is available each day."
           />
-          <meta property="twitter:image" content={`${process.env.PUBLIC_URL}/opengraph.webp`} />
+          <meta property="twitter:image" content={`${process.env.NEXT_PUBLIC_URL}/opengraph.webp`} />
           <meta
             property="twitter:image:alt"
             content="Logo showing stylized Cosmere starhart in the background with the title 'Shardle' overlayed"
