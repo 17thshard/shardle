@@ -95,7 +95,7 @@ function Statistics ({ visible = false, gameResult, close }: StatisticsProps) {
                   gameResult.success
                     ? [
                       'You did this without access to Fortune, or the Spiritual Realm?',
-                      'What I have seen in the last hour makes me question whether ‘average’ can be applied to you today.',
+                      'The way he thought, breathed, even moved, implicitly conveyed that today was a day of intelligence.',
                       'The Dula was surprisingly good, but he was no master.',
                       'Among kandra, my own skill is average. Some are worse, others are better.',
                       'Not very high, yes, but I couldn’t reasonably give myself the lowest mark possible.',
