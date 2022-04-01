@@ -1,9 +1,5 @@
 [
-    {
-        "word": [ "D", "I", "L", "I", "D" ],
-        "coppermindId": "9526",
-        "blurb": "Dilid is one of the ten fools, which are a part of the teachings of Vorinism."
-    },
+    { "word": [ "T", "O", "P", "A", "Z" ], "coppermindId": "6463", "blurb": "Topaz is an alias for Hoid." },
     {
         "word": [ "L", "A", "R", "A", "N" ],
         "coppermindId": "9547",
@@ -57,6 +53,11 @@
         "word": [ "J", "O", "R", "E", "T" ],
         "coppermindId": "9565",
         "blurb": "Joret is a Skybreaker squire under the Skybreaker masters Ki and Warren."
+    },
+    {
+        "word": [ "D", "I", "L", "I", "D" ],
+        "coppermindId": "9526",
+        "blurb": "Dilid is one of the ten fools, which are a part of the teachings of Vorinism."
     },
     { "word": [ "R", "E", "E", "S", "H" ], "coppermindId": "3969", "blurb": "Reesh is a soldier in Amaram's army in Alethkar on Roshar." },
     {
@@ -1687,7 +1688,6 @@
         "blurb": "The Covad Fragment is an old untranslated manuscript thought to be written in Dawnchant."
     },
     { "word": [ "Z", "E", "H", "E", "B" ], "coppermindId": "9254", "blurb": "Zeheb is an ardent from Hearthstone." },
-    { "word": [ "T", "O", "P", "A", "Z" ], "coppermindId": "6463", "blurb": "Topaz is an alias for Hoid." },
     { "word": [ "F", "I", "N", "I", "S" ], "coppermindId": "20787", "blurb": "Finis is an UrDail from ReDawn." },
     {
         "word": [ "R", "E", "S", "H", "I" ],
