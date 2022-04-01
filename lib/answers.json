@@ -1,1003 +1,273 @@
 [
-    { "word": [ "I", "N", "V", "I", "A" ], "coppermindId": "4947", "blurb": "Invia is a scholar on Roshar." },
-    { "word": [ "M", "A", "Z", "Z", "U" ], "coppermindId": "18020", "blurb": "Mazzu is a town in northwestern Azir on Roshar" },
-    { "word": [ "A", "L", "U", "K", "O" ], "coppermindId": "11349", "blurb": "Aluko is a member of the ground troup in Igneous Cavern." },
-    { "word": [ "L", "A", "H", "A", "R" ], "coppermindId": "18132", "blurb": "Lahar is an ardent on Roshar." },
     {
-        "word": [ "N", "A", "L", "E", "M" ],
-        "coppermindId": "4016",
-        "blurb": "Nalem is one of Gare's sergeants in Amaram's army on Roshar."
+        "word": [ "D", "I", "L", "I", "D" ],
+        "coppermindId": "9526",
+        "blurb": "Dilid is one of the ten fools, which are a part of the teachings of Vorinism."
     },
     {
-        "word": [ "I", "A", "D", "O", "N" ],
-        "coppermindId": "24",
-        "blurb": "Iadon was the first king of Arelon after the Reod on Sel. He is the father of Raoden."
+        "word": [ "L", "A", "R", "A", "N" ],
+        "coppermindId": "9547",
+        "blurb": "Laran is a messenger in the Kholin army turned Windrunner of Bridge Four"
     },
+    { "word": [ "B", "L", "A", "Z", "E" ], "coppermindId": "11438", "blurb": "Blaze is a scout pilot in the DDF." },
     {
-        "word": [ "E", "T", "H", "I", "D" ],
-        "coppermindId": "4933",
-        "blurb": "Ethid is a scion in Azir on Roshar during the Era of Solitude."
+        "word": [ "R", "E", "L", "I", "S" ],
+        "coppermindId": "6838",
+        "blurb": "Highprince Relis Ruthar is a Shardbearer and a highprince of Alethkar on Roshar."
     },
+    { "word": [ "G", "E", "V", "E", "D" ], "coppermindId": "9538", "blurb": "Geved is a veteran soldier from Jah Keved on Roshar." },
+    { "word": [ "A", "L", "L", "O", "Y" ], "coppermindId": "1028", "blurb": "The Alloy of Law is the fourth book set on Scadrial." },
     {
-        "word": [ "K", "W", "A", "T", "I" ],
-        "coppermindId": "9595",
-        "blurb": "Kwati is a corrupt government official who lives at the Purelake on Roshar."
+        "word": [ "A", "M", "U", "N", "A" ],
+        "coppermindId": "17935",
+        "blurb": "Amuna is an honorspren from Lasting Integrity in the Rosharan subastral, Shadesmar."
     },
-    {
-        "word": [ "R", "E", "A", "L", "M" ],
-        "coppermindId": "402",
-        "blurb": "The three Realms—Physical, Cognitive, and Spiritual—constitute the fundamental structure of the cosmere."
-    },
-    {
-        "word": [ "A", "I", "M", "I", "A" ],
-        "coppermindId": "942",
-        "blurb": "Aimia is a group of islands on Roshar as well as one of the Silver Kingdoms."
-    },
-    {
-        "word": [ "N", "O", "T", "U", "M" ],
-        "coppermindId": "9408",
-        "blurb": "Notum is an honorspren who serves as the captain of the ship Honor's Path."
-    },
-    { "word": [ "D", "O", "N", "N", "Y" ], "coppermindId": "20269", "blurb": "Donny is a koloss-blooded on Scadrial." },
-    { "word": [ "M", "A", "L", "E", "N" ], "coppermindId": "9420", "blurb": "Malen is one of the sexes of the singer species." },
-    { "word": [ "I", "S", "A", "B", "I" ], "coppermindId": "18041", "blurb": "Isabi is a young scholar on Roshar." },
-    { "word": [ "P", "A", "A", "L", "M" ], "coppermindId": "6491", "blurb": "Paalm was a female kandra of the Third Generation." },
-    {
-        "word": [ "T", "O", "R", "A", "L" ],
-        "coppermindId": "4036",
-        "blurb": "Toral was a lighteyed man from Highprince Aladar's camp on Roshar."
-    },
-    { "word": [ "H", "E", "R", "V", "E" ], "coppermindId": "8910", "blurb": "Herve is a footman for Waxillium Ladrian on Scadrial." },
-    { "word": [ "S", "C", "I", "O", "N" ], "coppermindId": "16333", "blurb": "A scion is an Azish priest." },
-    { "word": [ "M", "E", "T", "A", "L" ], "coppermindId": "1985", "blurb": "Metals are used central to the Metallic Arts on Scadrial." },
-    { "word": [ "B", "R", "U", "T", "E" ], "coppermindId": "15317", "blurb": "Pewter mistings are also called Brutes." },
-    {
-        "word": [ "H", "E", "S", "H", "O" ],
-        "coppermindId": "14789",
-        "blurb": "Hesho is a kitsen captain and the former king of an absolute monarchy of his species."
-    },
-    { "word": [ "W", "A", "Y", "N", "E" ], "coppermindId": "1213", "blurb": "Wayne is a Twinborn on Scadrial from Era 2." },
-    { "word": [ "G", "A", "V", "I", "L" ], "coppermindId": "20132", "blurb": "Gavil's Carriages is a taxiing company in Elendel." },
-    { "word": [ "S", "C", "R", "A", "K" ], "coppermindId": "788", "blurb": "Scrak is an axehound on Roshar owned by Balat Davar." },
-    { "word": [ "V", "I", "G", "O", "R" ], "coppermindId": "11436", "blurb": "Callsign Vigor is a former cadet in the DDF Flight Schoo." },
-    {
-        "word": [ "H", "I", "L", "D", "E" ],
-        "coppermindId": "4490",
-        "blurb": "Granny Hilde is the operator of a passwall in Luthadel on Scadrial."
-    },
-    { "word": [ "T", "E", "N", "E", "M" ], "coppermindId": "4074", "blurb": "Tenem is a soft, light-orange vegetable native to Roshar." },
-    { "word": [ "G", "E", "A", "N", "T" ], "coppermindId": "2727", "blurb": "Geant is a nation located on the continent of Sycla on Sel." },
-    { "word": [ "J", "A", "I", "S", "M" ], "coppermindId": "1187", "blurb": "Jaism is a religion on Scadrial." },
-    { "word": [ "E", "S", "H", "E", "N" ], "coppermindId": "25", "blurb": "Eshen is the former Queen of Arelon on Sel." },
-    { "word": [ "N", "O", "B", "L", "E" ], "coppermindId": "230", "blurb": "The nobles are a race of humans on pre-Catacendre Scadrial." },
-    {
-        "word": [ "K", "A", "L", "A", "D" ],
-        "coppermindId": "989",
-        "blurb": "Kalad is a historical figure on Nalthis who started the Manywar."
-    },
-    { "word": [ "T", "R", "I", "A", "X" ], "coppermindId": "2004", "blurb": "Triax is a small nation in southern Roshar." },
-    {
-        "word": [ "G", "W", "A", "R", "D" ],
-        "coppermindId": "20896",
-        "blurb": "Gward is the leader of a faction of pirates in the belt of the nowhere."
-    },
-    {
-        "word": [ "C", "A", "S", "E", "Y" ],
-        "coppermindId": "20288",
-        "blurb": "Abigail Casey is a Reckoner and often in command of operations within the Texas Reckoners."
-    },
-    { "word": [ "L", "I", "E", "S", "E" ], "coppermindId": "4513", "blurb": "Melend Liese was a noble in the Final Empire." },
-    {
-        "word": [ "R", "E", "V", "E", "N" ],
-        "coppermindId": "11418",
-        "blurb": "Reven is the king of Seevis, one of the Rim Kingdoms of Taldain."
-    },
-    {
-        "word": [ "P", "U", "U", "L", "I" ],
-        "coppermindId": "9496",
-        "blurb": "Puuli is a lighthouse keeper in a small port village in eastern Roshar."
-    },
-    {
-        "word": [ "B", "I", "L", "K", "O" ],
-        "coppermindId": "5884",
-        "blurb": "Bilko is an informant of some kind used by David Charleston before he became a member of the Reckoners."
-    },
-    { "word": [ "N", "L", "E", "N", "T" ], "coppermindId": "4979", "blurb": "Nlent is a squat Thaylen guard on Vstim's caravan." },
-    {
-        "word": [ "C", "H", "A", "N", "A" ],
-        "coppermindId": "11019",
-        "blurb": "Chanarach, also known as Chana, is one of the ten Heralds of Honor."
-    },
-    { "word": [ "F", "U", "E", "G", "O" ], "coppermindId": "13025", "blurb": "Fuego is an Epic in Prof's squad." },
-    {
-        "word": [ "S", "I", "M", "O", "L" ],
-        "coppermindId": "5002",
-        "blurb": "Simol is a historical figure mentioned in Words of Radiance."
-    },
-    {
-        "word": [ "K", "R", "E", "L", "L" ],
-        "coppermindId": "14904",
-        "blurb": "KRELL is the acronym for a paramilitary force within the Superiority's Department of Protective Services."
-    },
-    { "word": [ "G", "A", "V", "A", "M" ], "coppermindId": "18004", "blurb": "Gavam is a woman on Roshar." },
-    {
-        "word": [ "K", "L", "I", "S", "N" ],
-        "coppermindId": "17747",
-        "blurb": "Klisn is a Thaylen sailor and a crewmember of the Wandersail."
-    },
-    { "word": [ "R", "I", "I", "N", "A" ], "coppermindId": "6849", "blurb": "Riina is a member of the Ire." },
-    {
-        "word": [ "H", "U", "M", "A", "N" ],
-        "coppermindId": "1815",
-        "blurb": "Human is a koloss of unknown age created in the Final Empire."
-    },
-    { "word": [ "B", "R", "A", "S", "S" ], "coppermindId": "63", "blurb": "Brass is one of the alloys used in the Metallic Arts." },
-    {
-        "word": [ "P", "R", "I", "M", "E" ],
-        "coppermindId": "16535",
-        "blurb": "The Prime Aqasix is the title of the elected ruler of Azir."
-    },
-    {
-        "word": [ "K", "E", "R", "L", "A" ],
-        "coppermindId": "10594",
-        "blurb": "The Kerla is an area of desert at the center of the Dayside on Taldain."
-    },
-    { "word": [ "S", "O", "P", "H", "I" ], "coppermindId": "6485", "blurb": "Sophi Tarcsel is an inventor in Elendel on Scadrial." },
-    {
-        "word": [ "S", "T", "E", "E", "N" ],
-        "coppermindId": "2002",
-        "blurb": "Steen is a kingdom at the tip of a peninsula in southwestern Roshar."
-    },
-    {
-        "word": [ "N", "I", "T", "E", "R" ],
-        "coppermindId": "2623",
-        "blurb": "Niter is the head of the Cobalt Guard in Alethkar on Roshar during the War of Reckoning."
-    },
-    { "word": [ "T", "E", "V", "E", "N" ], "coppermindId": "113", "blurb": "Lord Teven Renoux is a noble from the Final Empire." },
-    {
-        "word": [ "L", "E", "R", "A", "S" ],
-        "coppermindId": "587",
-        "blurb": "Leras is the first Vessel of the Shard Preservation, originally from Yolen."
-    },
-    { "word": [ "S", "Y", "N", "O", "D" ], "coppermindId": "822", "blurb": "The Synod is the ruling council of the Keepers of Terris." },
-    {
-        "word": [ "Y", "E", "N", "E", "V" ],
-        "coppermindId": "5021",
-        "blurb": "Highprince Yenev is a former highprince of Alethkar prior to the Kholin unification of the nation."
-    },
-    {
-        "word": [ "D", "R", "A", "M", "A" ],
-        "coppermindId": "14024",
-        "blurb": "Drama is a cadet in either Inkwell Flight or Firestorm Flight in the DDF."
-    },
-    { "word": [ "W", "V", "L", "A", "N" ], "coppermindId": "17756", "blurb": "Wvlan is a Thaylen sailor on the Wandersail." },
-    { "word": [ "B", "E", "N", "R", "U" ], "coppermindId": "18022", "blurb": "Benru is a town on Roshar." },
-    { "word": [ "N", "I", "A", "L", "I" ], "coppermindId": "3787", "blurb": "Niali the Just is a philosopher on Roshar." },
-    { "word": [ "S", "Z", "E", "T", "H" ], "coppermindId": "160", "blurb": "Szeth is a Shin man from Roshar." },
-    { "word": [ "F", "E", "A", "S", "T" ], "coppermindId": "953", "blurb": "The Beggars' Feast is an Alethi tradition." },
-    { "word": [ "G", "R", "U", "N", "D" ], "coppermindId": "9543", "blurb": "Grund is an urchin in Kholinar." },
-    { "word": [ "K", "R", "Y", "S", "T" ], "coppermindId": "18348", "blurb": "Kryst is a woman who is married to Jor on Roshar." },
-    {
-        "word": [ "T", "E", "L", "E", "B" ],
-        "coppermindId": "2906",
-        "blurb": "Teleb is a lighteyed officer and Shardbearer in Dalinar's warcamp on Roshar."
-    },
-    { "word": [ "F", "R", "O", "S", "T" ], "coppermindId": "5959", "blurb": "Frost is a dragon from Yolen." },
-    { "word": [ "D", "I", "R", "E", "N" ], "coppermindId": "3067", "blurb": "Diren was an Elantrian on Sel." },
-    { "word": [ "G", "L", "Y", "P", "H" ], "coppermindId": "3563", "blurb": "Glyphs are a writing system used on Roshar." },
-    { "word": [ "S", "U", "R", "G", "E" ], "coppermindId": "1504", "blurb": "The Surges are the ten fundamental forces on Roshar." },
-    {
-        "word": [ "B", "O", "R", "E", "A" ],
-        "coppermindId": "9487",
-        "blurb": "Borea is an honorspren who serves as the first mate of the ship Honor's Path."
-    },
-    {
-        "word": [ "B", "R", "A", "D", "E" ],
-        "coppermindId": "14823",
-        "blurb": "Brade Shimabukuro is a human woman and Cytonic licensed to Winzik."
-    },
-    { "word": [ "B", "E", "D", "E", "S" ], "coppermindId": "4466", "blurb": "Captain Bedes is an young noble in Luthadel." },
-    {
-        "word": [ "V", "E", "L", "A", "T" ],
-        "coppermindId": "5019",
-        "blurb": "Brightness Velat is an Alethi lighteyes and scholar on Roshar specializing in cartography."
-    },
-    { "word": [ "G", "R", "E", "M", "M" ], "coppermindId": "20887", "blurb": "Gremm is a tenasi pirate in the belt of the nowhere." },
-    { "word": [ "B", "R", "I", "L", "L" ], "coppermindId": "13519", "blurb": "Brill is a construction worker in Elendel on Scadrial." },
-    { "word": [ "L", "A", "Q", "Q", "I" ], "coppermindId": "18252", "blurb": "Laqqi is a village in central Emul on Roshar." },
-    {
-        "word": [ "T", "A", "U", "D", "R" ],
-        "coppermindId": "6498",
-        "blurb": "Taudr is a constable of the Elendel constabulary on Scadrial."
-    },
-    { "word": [ "I", "V", "I", "A", "D" ], "coppermindId": "4114", "blurb": "The Iviad is a literary work on Roshar." },
-    {
-        "word": [ "O", "R", "S", "O", "N" ],
-        "coppermindId": "3585",
-        "blurb": "Captain Orson Ansed is a member of the Evensong Police Department."
-    },
-    {
-        "word": [ "D", "A", "V", "I", "D" ],
-        "coppermindId": "4270",
-        "blurb": "David Charleston, an orphaned teen living in Newcago, is a member of the Reckoners."
-    },
-    {
-        "word": [ "S", "Y", "C", "L", "A" ],
-        "coppermindId": "1961",
-        "blurb": "Sycla is one name for the continent on Sel that Elantris is found on."
-    },
-    {
-        "word": [ "S", "H", "A", "R", "D" ],
-        "coppermindId": "362",
-        "blurb": "The Shards of Adonalsium, or Shards for short, are sixteen pieces of the power of creation."
-    },
-    { "word": [ "M", "A", "C", "O", "B" ], "coppermindId": "4963", "blurb": "Macob is the head of a caravan of merchants on Roshar." },
-    { "word": [ "C", "A", "M", "O", "N" ], "coppermindId": "101", "blurb": "Camon is a skaa from Luthadel on Scadrial." },
-    {
-        "word": [ "D", "E", "H", "W", "O" ],
-        "coppermindId": "5244",
-        "blurb": "DeHwo is the JinDo name of Dereth, the founder of the Shu-Dereth religion on Sel."
-    },
-    {
-        "word": [ "Y", "O", "L", "E", "N" ],
-        "coppermindId": "887",
-        "blurb": "Yolen is the planet in the cosmere where the Shattering of Adonalsium happened."
-    },
+    { "word": [ "Y", "A", "M", "M", "A" ], "coppermindId": "5027", "blurb": "Cussweed or yamma root is a plant native to Roshar." },
     {
         "word": [ "T", "E", "Z", "I", "M" ],
         "coppermindId": "2909",
         "blurb": "Tezim is an alias used by Ishar, one of the ten Heralds of Honor."
     },
     {
-        "word": [ "C", "O", "V", "A", "D" ],
-        "coppermindId": "9415",
-        "blurb": "The Covad Fragment is an old untranslated manuscript thought to be written in Dawnchant."
-    },
-    { "word": [ "A", "D", "I", "E", "N" ], "coppermindId": "90", "blurb": "Adien is an Elantrian from Sel." },
-    { "word": [ "R", "I", "L", "L", "A" ], "coppermindId": "2891", "blurb": "Rilla is a woman on Roshar." },
-    { "word": [ "N", "A", "K", "A", "L" ], "coppermindId": "4975", "blurb": "Nakal is an Rosharan man on Elhokar's staff." },
-    { "word": [ "H", "E", "K", "L", "O" ], "coppermindId": "14819", "blurb": "The heklo are a member species of the Superiority." },
-    { "word": [ "T", "R", "I", "S", "S" ], "coppermindId": "4541", "blurb": "Lady Triss is a noble in Luthadel on Scadrial." },
-    { "word": [ "Z", "E", "T", "A", "H" ], "coppermindId": "9253", "blurb": "Zetah the Voiced is a Rosharan scholar." },
-    { "word": [ "F", "A", "F", "E", "N" ], "coppermindId": "279", "blurb": "Fafen is a princess of Idris on Nalthis." },
-    { "word": [ "M", "A", "L", "A", "N" ], "coppermindId": "2624", "blurb": "Malan is a lighteyed Alethi military officer on Roshar." },
-    {
-        "word": [ "T", "H", "I", "O", "R" ],
-        "coppermindId": "11385",
-        "blurb": "Dr. Thior is a doctor and the head of Defiant Defense Force."
-    },
-    { "word": [ "L", "A", "R", "G", "O" ], "coppermindId": "12892", "blurb": "The Largo is a starfighter used by the DDF." },
-    {
-        "word": [ "K", "H", "E", "N", "I" ],
-        "coppermindId": "9589",
-        "blurb": "Kheni is a poor woman who lives in Kholinar after the coming of the True Desolation."
-    },
-    { "word": [ "F", "E", "R", "A", "L" ], "coppermindId": "20514", "blurb": "Feral is an Epic with mutation powers." },
-    { "word": [ "I", "S", "H", "A", "R" ], "coppermindId": "972", "blurb": "Ishar is one of the ten Heralds of Honor." },
-    {
-        "word": [ "M", "I", "S", "T", "S" ],
-        "coppermindId": "4012",
-        "blurb": "Mist is a term used to refer to a phenomenon in the world of Scadrial."
-    },
-    { "word": [ "D", "A", "I", "U", "S" ], "coppermindId": "4468", "blurb": "Daius is an attorney in Elendel on Scadrial" },
-    { "word": [ "C", "O", "R", "G", "I" ], "coppermindId": "20769", "blurb": "Corgi is a taynix." },
-    { "word": [ "I", "D", "A", "N", "I" ], "coppermindId": "18038", "blurb": "Idani is an Alethi woman on Roshar." },
-    {
-        "word": [ "W", "Z", "M", "A", "L" ],
-        "coppermindId": "9677",
-        "blurb": "Wzmal is a man mentioned in one of the records in the Urithiru gem archive."
-    },
-    { "word": [ "C", "R", "E", "E", "R" ], "coppermindId": "9524", "blurb": "Creer and his brother are members of Bridge Twenty." },
-    { "word": [ "S", "U", "S", "H", "I" ], "coppermindId": "11431", "blurb": "Callsign Sushi is a member of Nightmare Flight." },
-    { "word": [ "F", "I", "N", "I", "S" ], "coppermindId": "20787", "blurb": "Finis is an UrDail from ReDawn." },
-    {
-        "word": [ "V", "E", "X", "I", "L" ],
-        "coppermindId": "9670",
-        "blurb": "Vexil the Wise is the Prime of  the Makabaki kingdom of Emul on Roshar during the Era of Solitude."
-    },
-    { "word": [ "S", "O", "N", "I", "C" ], "coppermindId": "20426", "blurb": "Sonic Snare is an Epic." },
-    {
-        "word": [ "K", "A", "U", "R", "I" ],
-        "coppermindId": "14794",
-        "blurb": "Kauri is a kitsen who travels to Starsight under the leadership of Hesho."
-    },
-    {
-        "word": [ "F", "E", "D", "I", "K" ],
-        "coppermindId": "3860",
-        "blurb": "Fedik was a member of the party that travelled with Alendi to the Well of Ascension."
-    },
-    { "word": [ "M", "A", "S", "H", "E" ], "coppermindId": "8728", "blurb": "Mashe is the star of the Selish system." },
-    { "word": [ "T", "R", "E", "F", "F" ], "coppermindId": "3955", "blurb": "Treff is a member of Bridge Four." },
-    { "word": [ "M", "A", "B", "E", "N" ], "coppermindId": "4962", "blurb": "Maben is a chambermaid on King Taravangian's staff." },
-    { "word": [ "T", "I", "B", "O", "N" ], "coppermindId": "2621", "blurb": "Tibon was a lighteyed Alethi on Roshar." },
-    {
-        "word": [ "T", "O", "M", "O", "R" ],
-        "coppermindId": "18306",
-        "blurb": "Tomor is an ardent who serves as a junior engineer/artifabrian on Roshar."
-    },
-    {
         "word": [ "R", "A", "Y", "S", "E" ],
         "coppermindId": "361",
         "blurb": "Rayse is the first Vessel of the Shard Odium, originally from Yolen."
     },
-    { "word": [ "Y", "U", "L", "A", "Y" ], "coppermindId": "2007", "blurb": "Yulay is a kingdom in central Roshar." },
-    { "word": [ "R", "A", "Z", "A", "L" ], "coppermindId": "6542", "blurb": "Razal is a Terrisman who lives in the Village in Elendel." },
-    { "word": [ "K", "A", "L", "O", "O" ], "coppermindId": "15825", "blurb": "Kaloo is an alias used by Raoden." },
-    { "word": [ "P", "A", "X", "E", "N" ], "coppermindId": "3937", "blurb": "Paxen is an Idrian slumlord in Hallandren on Nalthis." },
-    {
-        "word": [ "C", "L", "U", "B", "S" ],
-        "coppermindId": "15492",
-        "blurb": "Cladent, going by the nickname Clubs, is a member of Kelsier's crew."
-    },
-    { "word": [ "A", "R", "M", "A", "L" ], "coppermindId": "4462", "blurb": "Armal is a cousin of Steris Harms." },
     { "word": [ "F", "R", "E", "S", "A" ], "coppermindId": "12893", "blurb": "The Fresa is a starfighter used by the DDF." },
-    { "word": [ "K", "O", "O", "L", "F" ], "coppermindId": "2871", "blurb": "Koolf is a member of Bridge Four on Roshar." },
-    { "word": [ "D", "R", "E", "H", "Y" ], "coppermindId": "2852", "blurb": "Drehy is a member of Bridge Four." },
-    {
-        "word": [ "S", "E", "R", "A", "N" ],
-        "coppermindId": "826",
-        "blurb": "The Conventical of Seran is a fortress of the Canton of Inquisition on Scadrial."
-    },
-    { "word": [ "H", "O", "R", "E", "N" ], "coppermindId": "3476", "blurb": "Horen is an Elantrian on Sel." },
-    { "word": [ "R", "A", "S", "A", "N" ], "coppermindId": "17970", "blurb": "Rasan is another name for Rayse." },
-    { "word": [ "C", "R", "E", "W", "S" ], "coppermindId": "4459", "blurb": "Crews Geffenry is a Mistborn on Scadrial." },
-    { "word": [ "K", "O", "R", "O", "N" ], "coppermindId": "13026", "blurb": "Koron is an Alethi accent." },
-    { "word": [ "J", "A", "G", "E", "R" ], "coppermindId": "11433", "blurb": "Callsign Jager is a member of Nightmare Flight." },
-    { "word": [ "H", "A", "P", "P", "Y" ], "coppermindId": "20632", "blurb": "Happy is a very fat taynix." },
-    {
-        "word": [ "V", "A", "R", "T", "H" ],
-        "coppermindId": "3829",
-        "blurb": "Varth is a squadleader in Meridas Amaram's army under Torol Sadeas in Alethkar on Roshar."
-    },
-    {
-        "word": [ "D", "E", "R", "A", "L" ],
-        "coppermindId": "11419",
-        "blurb": "Captain Deral was an Elisian man who traveled with Duchess Khrissalla and her party to the Dayside of Taldain."
-    },
-    {
-        "word": [ "Y", "I", "X", "L", "I" ],
-        "coppermindId": "9679",
-        "blurb": "Yixli is the Voidspren that leads Khen, Sah, and Kaladin to Revolar."
-    },
-    { "word": [ "S", "T", "E", "E", "L" ], "coppermindId": "16", "blurb": "Steel is one of the alloys used in the Metallic Arts." },
-    { "word": [ "J", "A", "S", "O", "N" ], "coppermindId": "3529", "blurb": "Jason Write is the head operative of the Phone Company." },
-    { "word": [ "L", "A", "R", "A", "L" ], "coppermindId": "2604", "blurb": "Laral Roshone is the citylady of Hearthstone on Roshar." },
-    {
-        "word": [ "G", "R", "E", "M", "T" ],
-        "coppermindId": "14920",
-        "blurb": "Officer Gremt is a member of The Tower on the Dayside of Lord General Raagent."
-    },
-    { "word": [ "M", "A", "R", "I", "N" ], "coppermindId": "15212", "blurb": "Eliza Marin was a child who lived on Scadrial." },
-    { "word": [ "B", "I", "L", "M", "Y" ], "coppermindId": "8907", "blurb": "Bilmy is a resident of New Seran on Scadrial." },
-    { "word": [ "Y", "A", "R", "D", "A" ], "coppermindId": "3056", "blurb": "Yarda is the general of the Idrian armies." },
-    { "word": [ "V", "A", "R", "G", "O" ], "coppermindId": "9205", "blurb": "Vargo is a nickname for Taravangian." },
-    { "word": [ "V", "A", "L", "L", "A" ], "coppermindId": "4103", "blurb": "The Valla were a religious sect from Classical Scadrial." },
-    { "word": [ "I", "X", "S", "I", "X" ], "coppermindId": "3783", "blurb": "Ixsix is the author of \"Emperor\" on Roshar." },
-    { "word": [ "C", "O", "L", "M", "S" ], "coppermindId": "1638", "blurb": "Colms is Marasi's last name." },
-    { "word": [ "M", "A", "K", "A", "L" ], "coppermindId": "4045", "blurb": "Makal is a lighteyed woman on Roshar." },
-    {
-        "word": [ "M", "A", "R", "C", "O" ],
-        "coppermindId": "5876",
-        "blurb": "Marco is a resident of Babilar and a friend of Missouri Williams."
-    },
-    { "word": [ "T", "Y", "V", "N", "K" ], "coppermindId": "16424", "blurb": "Tyvnk is Rysn's 'pet' Shin grass on Roshar." },
-    { "word": [ "S", "T", "I", "C", "K" ], "coppermindId": "4757", "blurb": "Stick is an ordinary stick." },
-    { "word": [ "M", "E", "R", "C", "Y" ], "coppermindId": "17918", "blurb": "Mercy is one of the sixteen Shards of Adonalsium." },
-    {
-        "word": [ "A", "L", "L", "R", "I" ],
-        "coppermindId": "6536",
-        "blurb": "Lady Allri Innate is a highborn woman married to Replar Innate in Elendel on Scadrial."
-    },
-    {
-        "word": [ "D", "I", "L", "A", "F" ],
-        "coppermindId": "82",
-        "blurb": "Dilaf is the gragdet of the Dakhor monastery leading up to the invasion of Arelon."
-    },
-    { "word": [ "W", "A", "B", "E", "R" ], "coppermindId": "3990", "blurb": "Waber is the gardener at Hearthstone's manor on Roshar." },
-    { "word": [ "B", "L", "A", "I", "N" ], "coppermindId": "8545", "blurb": "Blain Charleston is David Charleston's father." },
-    {
-        "word": [ "C", "U", "L", "E", "E" ],
-        "coppermindId": "4460",
-        "blurb": "Lord Culee is a noble military commander on Scadrial during the Final Empire."
-    },
-    {
-        "word": [ "S", "A", "K", "I", "N" ],
-        "coppermindId": "9510",
-        "blurb": "Sakin is a resident of a small port on the eastern edge of Roshar."
-    },
-    {
-        "word": [ "A", "S", "H", "N", "O" ],
-        "coppermindId": "4033",
-        "blurb": "Ashno of Sages is a rich Emuli holy man and former Prime on Roshar."
-    },
-    { "word": [ "V", "A", "M", "A", "H" ], "coppermindId": "9303", "blurb": "Loradar Vamah is a highprince of Alethkar on Roshar." },
-    {
-        "word": [ "A", "L", "F", "I", "R" ],
-        "coppermindId": "11348",
-        "blurb": "Alfir is a sanitation worker in Igneous Cavern who visits Spensa's school."
-    },
-    { "word": [ "L", "O", "A", "T", "S" ], "coppermindId": "3988", "blurb": "Loats was a resident of Hearthstone on Roshar." },
-    { "word": [ "R", "U", "S", "K", "O" ], "coppermindId": "6592", "blurb": "Rusko operates The Weeping Bull in the Roughs." },
-    { "word": [ "K", "A", "H", "A", "R" ], "coppermindId": "3478", "blurb": "Kahar is an Elantrian on Sel who cleaned New Elantris." },
-    { "word": [ "D", "O", "R", "G", "O" ], "coppermindId": "11384", "blurb": "Dorgo is a member of the groundcrew at Alta Base." },
-    { "word": [ "V", "E", "N", "L", "I" ], "coppermindId": "4922", "blurb": "Venli is a listener scholar in Narak and Eshonai's sister." },
-    { "word": [ "M", "O", "R", "A", "G" ], "coppermindId": "15077", "blurb": "Morag is one of the Ashmounts in the Final Empire." },
-    {
-        "word": [ "J", "A", "V", "I", "H" ],
-        "coppermindId": "4951",
-        "blurb": "Javih is a captain in the Kholin army during the Battle of Narak."
-    },
-    { "word": [ "M", "A", "S", "H", "A" ], "coppermindId": "12951", "blurb": "Masha-daughter-Shaliv is a scholar of the Recreance." },
-    {
-        "word": [ "A", "N", "E", "S", "A" ],
-        "coppermindId": "17942",
-        "blurb": "Anesa is a lighteyed attendant of Navani Kholin's in Urithiru on Roshar."
-    },
-    {
-        "word": [ "R", "E", "B", "S", "K" ],
-        "coppermindId": "17738",
-        "blurb": "Rebsk is a term for a shipmaster or owner that originates from Thaylen merchant ships on Roshar."
-    },
-    { "word": [ "J", "E", "B", "E", "R" ], "coppermindId": "18045", "blurb": "Jeber is a resident of Hearthstone on Roshar." },
-    { "word": [ "J", "A", "B", "O", "M" ], "coppermindId": "17980", "blurb": "Jabom is a town in southern Marat on Roshar." },
-    { "word": [ "K", "A", "I", "S", "E" ], "coppermindId": "87", "blurb": "Kaise is an Arelene girl." },
-    {
-        "word": [ "L", "A", "R", "A", "N" ],
-        "coppermindId": "9547",
-        "blurb": "Laran is a messenger in the Kholin army turned Windrunner of Bridge Four"
-    },
-    {
-        "word": [ "L", "I", "G", "H", "T" ],
-        "coppermindId": "17883",
-        "blurb": "Gaseous Investiture within the Rosharan system manifests as a number of different Lights."
-    },
-    { "word": [ "S", "K", "A", "Z", "E" ], "coppermindId": "787", "blurb": "The skaze are Splinters of Dominion that live on Sel." },
-    { "word": [ "I", "F", "A", "B", "A" ], "coppermindId": "18028", "blurb": "Ifaba is a town in southeastern Tashikk on Roshar." },
-    { "word": [ "G", "E", "R", "E", "H" ], "coppermindId": "18017", "blurb": "Gereh is the house steward in Kholinar Palace on Roshar." },
-    {
-        "word": [ "L", "O", "L", "A", "N" ],
-        "coppermindId": "3936",
-        "blurb": "Lolan is a servant at Mercystar's palace in Hallandren on Nalthis."
-    },
-    { "word": [ "U", "K", "R", "I", "T" ], "coppermindId": "11381", "blurb": "Ukrit is a National Assembly Leader on Detritus." },
-    {
-        "word": [ "L", "I", "M", "M", "I" ],
-        "coppermindId": "4508",
-        "blurb": "Limmi is the head of the ground-floor staff for House Ladrian on Scadrial."
-    },
-    { "word": [ "F", "I", "M", "K", "N" ], "coppermindId": "17746", "blurb": "Fimkn is a Thaylen sailor and medic on the Wandersail." },
-    {
-        "word": [ "K", "E", "S", "H", "U" ],
-        "coppermindId": "14310",
-        "blurb": "Keshu, called Keseg by the Fjordell, was an elderly philosopher from JinDo on Sel."
-    },
-    { "word": [ "L", "U", "K", "E", "L" ], "coppermindId": "88", "blurb": "Lukel is an Arelene merchant from Sel." },
-    { "word": [ "R", "A", "L", "E", "N" ], "coppermindId": "10770", "blurb": "Ralen is a planet in the Selish system." },
-    {
-        "word": [ "A", "V", "I", "A", "R" ],
-        "coppermindId": "5433",
-        "blurb": "Aviar are birds that have gained magical powers, or \"talents\", on the island of Patji on First of the Sud."
-    },
-    { "word": [ "T", "Y", "D", "E", "N" ], "coppermindId": "3855", "blurb": "Tyden is a nobleman in the Final Empire on Scadrial." },
-    {
-        "word": [ "D", "E", "L", "T", "A" ],
-        "coppermindId": "20624",
-        "blurb": "Delta Squadron is an elite special ops squad led by Hershel Black."
-    },
-    { "word": [ "D", "R", "A", "P", "E" ], "coppermindId": "20651", "blurb": "Drape is a taynix found on Detritus." },
-    { "word": [ "T", "O", "R", "O", "L" ], "coppermindId": "9214", "blurb": "Torol Sadeas is an Alethi Highprince on Roshar." },
-    { "word": [ "S", "L", "I", "N", "K" ], "coppermindId": "8916", "blurb": "Slink is one of the eight members of Migs' gang in Elendel." },
-    { "word": [ "M", "A", "A", "R", "E" ], "coppermindId": "3480", "blurb": "Maare is an Elantrian on Sel." },
-    { "word": [ "T", "A", "R", "A", "H" ], "coppermindId": "1748", "blurb": "Tarah is a darkeyed Alethi woman on Roshar." },
-    { "word": [ "S", "A", "L", "A", "S" ], "coppermindId": "5100", "blurb": "Salas is the smallest, violet moon of Roshar." },
-    {
-        "word": [ "S", "H", "A", "D", "E" ],
-        "coppermindId": "3735",
-        "blurb": "A shade is a type of Cognitive Shadow that is native to the Forests of Hell on Threnody."
-    },
-    { "word": [ "A", "U", "G", "U", "R" ], "coppermindId": "15303", "blurb": "Gold mistings are also called Augurs." },
-    { "word": [ "S", "P", "O", "O", "K" ], "coppermindId": "105", "blurb": "Spook, or Lestibournes, is a skaa Misting on Scadrial." },
-    { "word": [ "N", "O", "M", "O", "N" ], "coppermindId": "3039", "blurb": "Nomon is the middle, blue moon of Roshar." },
-    {
-        "word": [ "A", "M", "P", "H", "I" ],
-        "coppermindId": "20641",
-        "blurb": "Amphi is Arturo's nickname based on his full callsign Amphisbaena."
-    },
-    { "word": [ "K", "E", "T", "E", "K" ], "coppermindId": "902", "blurb": "A ketek is a form of holy Vorin poetry." },
-    {
-        "word": [ "B", "L", "O", "M", "E" ],
-        "coppermindId": "6525",
-        "blurb": "Blome is a Seeker and a bartender for Lord Winsting Innate at his mansion in Elendel on Scadrial."
-    },
-    { "word": [ "L", "I", "R", "I", "N" ], "coppermindId": "181", "blurb": "Lirin is a darkeyed Alethi surgeon and Kaladin's father." },
-    { "word": [ "R", "L", "A", "I", "N" ], "coppermindId": "4742", "blurb": "Rlain is a listener and member of Bridge Four." },
-    {
-        "word": [ "J", "E", "D", "A", "N" ],
-        "coppermindId": "9033",
-        "blurb": "Jedan is a trackt on the Dayside of Taldain who works under the command of Ais."
-    },
-    { "word": [ "L", "E", "V", "E", "N" ], "coppermindId": "18133", "blurb": "Leven is a cobbler from Hearthstone on Roshar." },
-    { "word": [ "D", "A", "H", "A", "D" ], "coppermindId": "3064", "blurb": "Dahad is an Elantrian on Sel during the Reod." },
-    {
-        "word": [ "M", "A", "R", "S", "H" ],
-        "coppermindId": "98",
-        "blurb": "Marsh is a half-skaa Seeker from the Final Empire on Scadrial."
-    },
-    {
-        "word": [ "I", "S", "T", "O", "W" ],
-        "coppermindId": "4018",
-        "blurb": "Brightlady Istow is a lighteyed Alethi woman on the Shattered Plains of Roshar."
-    },
-    { "word": [ "A", "L", "L", "I", "K" ], "coppermindId": "8375", "blurb": "Allik Neverfar is a Southern Scadrian." },
-    {
-        "word": [ "A", "C", "R", "O", "N" ],
-        "coppermindId": "14098",
-        "blurb": "Jon Acron is a professor and anthropologist from the Darkside of Taldain."
-    },
-    { "word": [ "M", "O", "T", "I", "F" ], "coppermindId": "18333", "blurb": "Motif is a Cryptic on Roshar bonded to Ishnah." },
-    { "word": [ "E", "D", "D", "I", "E" ], "coppermindId": "5883", "blurb": "Eddie Macano is a gang leader in Newcago." },
-    {
-        "word": [ "C", "H", "U", "L", "L" ],
-        "coppermindId": "898",
-        "blurb": "The chull is a species of crustacean useful for labor intensive jobs on Roshar."
-    },
-    {
-        "word": [ "V", "A", "T", "H", "I" ],
-        "coppermindId": "5438",
-        "blurb": "Vathi is a woman from the Eelakin Islands on First of the Sun."
-    },
-    {
-        "word": [ "D", "O", "N", "A", "L" ],
-        "coppermindId": "4470",
-        "blurb": "Donal is the leader of a gang of outlaws in the Roughs of Scadrial."
-    },
-    { "word": [ "K", "R", "E", "N", "T" ], "coppermindId": "4506", "blurb": "Krent is House Ladrian's coachman in Elendel." },
-    {
-        "word": [ "S", "A", "V", "R", "I" ],
-        "coppermindId": "18314",
-        "blurb": "Savrahalidem, also known as Savri to those close to her, is the queen of Kharbranth."
-    },
-    {
-        "word": [ "T", "R", "E", "L", "L" ],
-        "coppermindId": "14130",
-        "blurb": "Trell is the god worshiped by the religion of Trelagism on Scadrial."
-    },
-    { "word": [ "U", "R", "T", "A", "N" ], "coppermindId": "2820", "blurb": "Urtan was a place in Classical Scadrial." },
-    {
-        "word": [ "S", "T", "A", "S", "E" ],
-        "coppermindId": "4535",
-        "blurb": "Lady Stase Blanches is a noble in Luthadel on Scadrial during the Final Empire."
-    },
-    { "word": [ "G", "E", "V", "E", "D" ], "coppermindId": "9538", "blurb": "Geved is a veteran soldier from Jah Keved on Roshar." },
-    {
-        "word": [ "P", "A", "T", "J", "I" ],
-        "coppermindId": "9956",
-        "blurb": "Patji is an avatar of Autonomy related to the planet First of the Sun in the Drominad system"
-    },
-    { "word": [ "G", "R", "U", "M", "P" ], "coppermindId": "20667", "blurb": "Grump is the name that Ishikk uses to refer to Galladon." },
-    {
-        "word": [ "R", "E", "L", "I", "S" ],
-        "coppermindId": "6838",
-        "blurb": "Highprince Relis Ruthar is a Shardbearer and a highprince of Alethkar on Roshar."
-    },
-    { "word": [ "H", "A", "V", "A", "H" ], "coppermindId": "5146", "blurb": "A havah is a traditional Vorin dress on Roshar." },
-    { "word": [ "F", "L", "E", "E", "T" ], "coppermindId": "5285", "blurb": "Fleet is a figure from legends on Roshar." },
-    {
-        "word": [ "H", "A", "L", "A", "N" ],
-        "coppermindId": "3934",
-        "blurb": "Halan is an infant in Hallandren on Nalthis stricken with deathfever."
-    },
-    {
-        "word": [ "W", "I", "N", "D", "S" ],
-        "coppermindId": "5443",
-        "blurb": "Winds is an Eelakin working for Northern Interests Trading Company on First of the Sun."
-    },
-    { "word": [ "G", "A", "R", "A", "M" ], "coppermindId": "4030", "blurb": "Garams are a food on Roshar." },
-    { "word": [ "H", "A", "R", "T", "H" ], "coppermindId": "9558", "blurb": "Harth is a swordsman from Alethkar on Roshar." },
-    {
-        "word": [ "M", "A", "G", "N", "A" ],
-        "coppermindId": "11339",
-        "blurb": "Magna (Callsign: Morningtide) is a Vician cadet in Skyward Flight."
-    },
-    {
-        "word": [ "R", "I", "I", "N", "O" ],
-        "coppermindId": "9453",
-        "blurb": "Riino is a formerly-Hoed Elantrian and a member of the Ire from Sel."
-    },
-    {
-        "word": [ "H", "A", "L", "A", "D" ],
-        "coppermindId": "9555",
-        "blurb": "Highmarshal Halad is a respected figure in the military circles of Alethkar on Roshar."
-    },
-    {
-        "word": [ "D", "E", "T", "O", "R" ],
-        "coppermindId": "4476",
-        "blurb": "Lord Detor is one of Ashweather Cett's generals during the Siege and Battle of Luthadel."
-    },
-    { "word": [ "V", "S", "T", "I", "M" ], "coppermindId": "1573", "blurb": "Vstim is a Thaylen merchant on Roshar." },
-    {
-        "word": [ "M", "A", "L", "I", "N" ],
-        "coppermindId": "13898",
-        "blurb": "Dr. Florin Malin is a former government official in the Elendel Basin on Scadrial."
-    },
-    { "word": [ "M", "E", "A", "L", "A" ], "coppermindId": "3573", "blurb": "Meala is the head maid of Iadon's palace in Arelon on Sel." },
-    { "word": [ "B", "R", "A", "N", "D" ], "coppermindId": "9422", "blurb": "The Fused are subdivided into Brands." },
-    { "word": [ "T", "A", "R", "A", "N" ], "coppermindId": "2905", "blurb": "Taran is a serving boy in Tvlakv's slave caravan on Roshar." },
-    {
-        "word": [ "U", "L", "A", "T", "U" ],
-        "coppermindId": "14231",
-        "blurb": "An ulatu is a traditional men's garment worn in Jah Keved on Roshar."
-    },
-    {
-        "word": [ "N", "A", "T", "A", "N" ],
-        "coppermindId": "2726",
-        "blurb": "Natanatan was one of the Silver Kingdoms on Roshar during the Heraldic Epochs."
-    },
-    { "word": [ "H", "U", "R", "L", "I" ], "coppermindId": "3075", "blurb": "Hurli is a Striker guard in the Rose Palace." },
-    {
-        "word": [ "T", "A", "R", "M", "A" ],
-        "coppermindId": "3387",
-        "blurb": "Tarma was a kingdom on Roshar during the Desolations of the Heraldic Epochs."
-    },
-    {
-        "word": [ "C", "L", "O", "A", "K" ],
-        "coppermindId": "11439",
-        "blurb": "Callsign Cloak is a scout from Ranger flight in the Defiant Defence Force."
-    },
-    {
-        "word": [ "A", "R", "C", "L", "O" ],
-        "coppermindId": "17734",
-        "blurb": "Arclomedarian, also known as Arclo, is a Dysian Aimian who resides in Tashikk on Roshar."
-    },
-    { "word": [ "T", "U", "K", "A", "R" ], "coppermindId": "966", "blurb": "Tukar is a kingdom on Roshar." },
-    { "word": [ "B", "E", "R", "Q", "Q" ], "coppermindId": "18023", "blurb": "Berqq is a town on Roshar." },
-    { "word": [ "I", "D", "R", "I", "S" ], "coppermindId": "281", "blurb": "Idris is a country to the north of Hallandren on Nalthis." },
-    { "word": [ "S", "O", "U", "S", "A" ], "coppermindId": "14327", "blurb": "Sousa is a pilot in the DDF on Detritus." },
-    { "word": [ "P", "A", "R", "S", "H" ], "coppermindId": "9285", "blurb": "Humans on Roshar call the singers parsh or parshmen." },
-    { "word": [ "L", "A", "N", "K", "A" ], "coppermindId": "9426", "blurb": "The lanka is a species of crustacean on Roshar." },
-    {
-        "word": [ "G", "L", "U", "R", "V" ],
-        "coppermindId": "4940",
-        "blurb": "Glurv is a deserter from the Alethi armies during the War of Reckoning."
-    },
-    { "word": [ "S", "O", "O", "M", "I" ], "coppermindId": "5877", "blurb": "Soomi is a resident of Babilar." },
-    { "word": [ "T", "A", "L", "I", "K" ], "coppermindId": "5009", "blurb": "Talik is a Reshi trademaster who lives on Relu-na." },
-    { "word": [ "W", "R", "I", "T", "E" ], "coppermindId": "3529", "blurb": "Jason Write is the head operative of the Phone Company." },
-    {
-        "word": [ "S", "I", "X", "T", "H" ],
-        "coppermindId": "5437",
-        "blurb": "Sixth of the Dusk is the protagonist of the eponymous novella."
-    },
-    {
-        "word": [ "K", "W", "A", "A", "N" ],
-        "coppermindId": "129",
-        "blurb": "Kwaan was a Worldbringer of Terris prior to the Final Empire on Scadrial."
-    },
-    { "word": [ "M", "I", "L", "E", "N" ], "coppermindId": "4514", "blurb": "Milen Davenpleu is a noble in the Final Empire on Scadrial." },
-    {
-        "word": [ "K", "M", "E", "E", "R" ],
-        "coppermindId": "4100",
-        "blurb": "Kmeer is the name sometimes used in Duladel for the syre light sword."
-    },
-    { "word": [ "H", "A", "W", "I", "N" ], "coppermindId": "18036", "blurb": "Hawin is a young woman in Urithiru on Roshar." },
-    {
-        "word": [ "V", "A", "P", "O", "R" ],
-        "coppermindId": "14887",
-        "blurb": "Vapor is a figment who lives on Starsight and who works for Cuna."
-    },
-    {
-        "word": [ "A", "R", "D", "R", "A" ],
-        "coppermindId": "20691",
-        "blurb": "The Ardra riots are an event that destroyed most of the servers that could contain the contents of the vault at First Union Bank vault."
-    },
-    { "word": [ "L", "A", "G", "E", "T" ], "coppermindId": "5087", "blurb": "Lagets are a form of food eaten in the Final Empire." },
-    {
-        "word": [ "D", "E", "D", "R", "I" ],
-        "coppermindId": "3842",
-        "blurb": "Dedri Vasting is a nobleman on Scadrial during the Final Empire."
-    },
-    { "word": [ "G", "R", "I", "P", "S" ], "coppermindId": "9542", "blurb": "The Grips are a gang of thugs in Kholinar on Roshar." },
-    { "word": [ "A", "M", "A", "R", "K" ], "coppermindId": "2846", "blurb": "Amark is a Bavlander and a member of Bridge Four on Roshar." },
-    {
-        "word": [ "B", "E", "A", "R", "D" ],
-        "coppermindId": "9517",
-        "blurb": "Beard is an eccentric member of the Kholinar Wall Guard in Alethkar on Roshar."
-    },
-    { "word": [ "R", "O", "I", "O", "N" ], "coppermindId": "1810", "blurb": "Roion is a highprince of Alethkar on Roshar." },
-    {
-        "word": [ "M", "A", "X", "I", "N" ],
-        "coppermindId": "4226",
-        "blurb": "Maxin is a thief and member of Huqin's crew who attempts to rob the Bronze Palace in Azir."
-    },
-    {
-        "word": [ "F", "R", "A", "V", "A" ],
-        "coppermindId": "2444",
-        "blurb": "Frava is the seniormost arbiter and leader of the Heritage Faction of the Rose Empire on Sel."
-    },
-    { "word": [ "A", "S", "H", "L", "V" ], "coppermindId": "2848", "blurb": "Ashlv is a Thaylen woman on Roshar." },
-    {
-        "word": [ "C", "O", "V", "E", "N" ],
-        "coppermindId": "5284",
-        "blurb": "The Coven are a group of six Epics ruling the south of the Fractured States."
-    },
-    { "word": [ "Q", "U", "I", "R", "K" ], "coppermindId": "11340", "blurb": "Quirk is Kimmalyn's callsign." },
-    { "word": [ "P", "A", "I", "G", "E" ], "coppermindId": "20285", "blurb": "Paige is a member of the Texas Reckoners cell." },
-    {
-        "word": [ "F", "O", "O", "L", "S" ],
-        "coppermindId": "3030",
-        "blurb": "The ten fools are legendary individuals of cultural significance on Roshar."
-    },
-    { "word": [ "M", "I", "L", "E", "S" ], "coppermindId": "1272", "blurb": "Miles Dagouter is the main antagonist of The Alloy of Law." },
-    {
-        "word": [ "K", "M", "A", "K", "L" ],
-        "coppermindId": "9591",
-        "blurb": "Kmakl is Queen Fen's husband and the prince consort of Thaylenah on Roshar."
-    },
-    {
-        "word": [ "Z", "E", "Z", "I", "N" ],
-        "coppermindId": "14801",
-        "blurb": "Zezin is a figment who serves Minister Cuna in the Superiority."
-    },
-    { "word": [ "Z", "A", "H", "E", "L" ], "coppermindId": "4737", "blurb": "Zahel is the alias Vasher uses on Roshar." },
-    { "word": [ "H", "O", "N", "O", "R" ], "coppermindId": "235", "blurb": "Honor is one of the sixteen Shards of Adonalsium." },
-    {
-        "word": [ "A", "S", "H", "Y", "N" ],
-        "coppermindId": "3838",
-        "blurb": "Ashyn is a planet in the Rosharan system that will be the setting of The Silence Divine."
-    },
-    {
-        "word": [ "D", "E", "E", "L", "I" ],
-        "coppermindId": "2851",
-        "blurb": "Deeli is a lighteyed woman on the Shattered Plains of Roshar."
-    },
-    { "word": [ "U", "L", "I", "U", "S" ], "coppermindId": "18478", "blurb": "The ulius is a type of classic dueling sword on Roshar." },
-    {
-        "word": [ "J", "O", "R", "E", "T" ],
-        "coppermindId": "9565",
-        "blurb": "Joret is a Skybreaker squire under the Skybreaker masters Ki and Warren."
-    },
-    { "word": [ "F", "L", "E", "N", "D" ], "coppermindId": "17752", "blurb": "Flend is a Thaylen sailor on the Wandersail." },
-    {
-        "word": [ "M", "A", "N", "N", "Y" ],
-        "coppermindId": "20435",
-        "blurb": "Manny is the name of an animated mannequin powered by a motivator."
-    },
-    { "word": [ "R", "I", "E", "L", "Y" ], "coppermindId": "15041", "blurb": "Riely is an operative in the Phone Company." },
-    { "word": [ "D", "A", "S", "H", "E" ], "coppermindId": "2973", "blurb": "Dashe is an Elantrian from Sel." },
-    { "word": [ "N", "O", "R", "I", "L" ], "coppermindId": "18091", "blurb": "Noril is an Alethi refugee on Roshar." },
-    { "word": [ "E", "M", "U", "L", "I" ], "coppermindId": "1415", "blurb": "Emuli is the demonym for the nation of Emul." },
-    {
-        "word": [ "G", "E", "V", "I", "N" ],
-        "coppermindId": "8442",
-        "blurb": "Gevalden, nicknamed Gevin, is a prince of the Kingdom of Elis on the Darkside of Taldain."
-    },
-    { "word": [ "E", "L", "E", "N", "D" ], "coppermindId": "391", "blurb": "Elend Venture is a Mistborn. He is married to Vin." },
-    { "word": [ "J", "I", "N", "D", "O" ], "coppermindId": "8695", "blurb": "JinDo is a nation on Sel and part of the Fjordish Empire." },
-    {
-        "word": [ "M", "A", "L", "A", "D" ],
-        "coppermindId": "9597",
-        "blurb": "Malad-son-Zent was a Shin soldier during the Last Desolation who fought at Aharietiam."
-    },
-    { "word": [ "N", "A", "F", "T", "I" ], "coppermindId": "3103", "blurb": "Nafti was one of the Uvara, a legendary society on Roshar." },
-    { "word": [ "T", "A", "X", "I", "L" ], "coppermindId": "9638", "blurb": "Traxil is a scholar on Roshar." },
-    { "word": [ "L", "O", "P", "E", "N" ], "coppermindId": "1194", "blurb": "Lopen is a member of Bridge Four." },
-    { "word": [ "P", "E", "R", "E", "L" ], "coppermindId": "4986", "blurb": "Perel is a field commander on Roshar." },
-    { "word": [ "D", "O", "N", "N", "E" ], "coppermindId": "10768", "blurb": "Donne is a planet in the Selish system." },
-    {
-        "word": [ "T", "U", "A", "K", "A" ],
-        "coppermindId": "9631",
-        "blurb": "Tuaka'li'na'calmi'nor, shortened to Tuaka or simply Song, is Lunamor's wife."
-    },
-    { "word": [ "S", "E", "E", "L", "I" ], "coppermindId": "2897", "blurb": "Seeli was a young girl who lived on Heraldic Epoch." },
-    {
-        "word": [ "V", "A", "T", "H", "E" ],
-        "coppermindId": "2892",
-        "blurb": "Vathe is a surgeon from Shorsebroon, who trained at the Great Concourse of Kharbranth."
-    },
-    {
-        "word": [ "N", "A", "M", "A", "R" ],
-        "coppermindId": "4977",
-        "blurb": "Namar is a person on Roshar who developed a theory on how spren could be categorized."
-    },
     {
         "word": [ "R", "E", "D", "D", "I" ],
         "coppermindId": "3640",
         "blurb": "Lieutenant Reddi is a constable in the 4th Octant constabulary district."
     },
     {
-        "word": [ "K", "A", "V", "E", "S" ],
-        "coppermindId": "9305",
-        "blurb": "Brightlord Kaves Kholin is a distant Kholin relative that lives in Kholinar during the Era of Solitude."
+        "word": [ "J", "A", "V", "I", "H" ],
+        "coppermindId": "4951",
+        "blurb": "Javih is a captain in the Kholin army during the Battle of Narak."
     },
+    { "word": [ "A", "A", "R", "O", "N" ], "coppermindId": "15040", "blurb": "Aaron is an operative in the Phone Company." },
     {
-        "word": [ "R", "E", "G", "A", "L" ],
-        "coppermindId": "9200",
-        "blurb": "Regals are singers who bond with Voidspren, granting them a transformation called a form of power."
+        "word": [ "C", "L", "U", "B", "S" ],
+        "coppermindId": "15492",
+        "blurb": "Cladent, going by the nickname Clubs, is a member of Kelsier's crew."
     },
+    { "word": [ "D", "A", "O", "R", "A" ], "coppermindId": "85", "blurb": "Daora is an Arelene woman on Sel." },
+    { "word": [ "F", "A", "F", "E", "N" ], "coppermindId": "279", "blurb": "Fafen is a princess of Idris on Nalthis." },
+    { "word": [ "S", "E", "E", "L", "I" ], "coppermindId": "2897", "blurb": "Seeli was a young girl who lived on Heraldic Epoch." },
     {
-        "word": [ "N", "I", "C", "K", "I" ],
-        "coppermindId": "9854",
-        "blurb": "Nicki is the nickname Allomancer Jak uses for Nicelle Sauvage."
+        "word": [ "J", "O", "R", "E", "T" ],
+        "coppermindId": "9565",
+        "blurb": "Joret is a Skybreaker squire under the Skybreaker masters Ki and Warren."
     },
-    { "word": [ "T", "L", "M", "K", "O" ], "coppermindId": "9441", "blurb": "A tlmko is a form of Thaylen outfit." },
-    { "word": [ "A", "T", "A", "R", "A" ], "coppermindId": "2121", "blurb": "Atara is Duke Telrii's wife from Arelon on Sel." },
-    { "word": [ "R", "I", "G", "B", "Y" ], "coppermindId": "20905", "blurb": "Mount Rigby is a location in the belt of the nowhere." },
-    { "word": [ "D", "E", "M", "I", "D" ], "coppermindId": "4921", "blurb": "Demid is a listener on Roshar." },
-    { "word": [ "V", "E", "D", "E", "L" ], "coppermindId": "969", "blurb": "Vedel is one of the ten Heralds of Honor." },
-    { "word": [ "G", "A", "L", "I", "D" ], "coppermindId": "9540", "blurb": "Galid was a classical scholar on Roshar." },
-    { "word": [ "I", "D", "R", "E", "N" ], "coppermindId": "4495", "blurb": "Lord Idren Seeris is a noble on Scadrial." },
-    {
-        "word": [ "T", "H", "A", "U", "B" ],
-        "coppermindId": "15015",
-        "blurb": "The Thaub is a minor Epic who was killed in Ildithia during Prof's fight with Tavi."
-    },
-    { "word": [ "L", "O", "R", "E", "N" ], "coppermindId": "3479", "blurb": "Loren is an Elantrian on Sel." },
-    {
-        "word": [ "F", "R", "A", "Y", "N" ],
-        "coppermindId": "5083",
-        "blurb": "Black Frayn is an herbal stimulant used during the Final Empire on Scadrial."
-    },
-    { "word": [ "G", "R", "A", "N", "D" ], "coppermindId": "2457", "blurb": "The Grands are a race on Sel that rule the Rose Empire." },
-    { "word": [ "Z", "E", "H", "E", "B" ], "coppermindId": "9254", "blurb": "Zeheb is an ardent from Hearthstone." },
-    { "word": [ "I", "N", "N", "I", "A" ], "coppermindId": "3782", "blurb": "Innia was the author of Tales by Hearthlight on Roshar." },
-    {
-        "word": [ "T", "H", "A", "M", "E" ],
-        "coppermindId": "3940",
-        "blurb": "Thame is an Idrian living in the slums of T'Telir on Nalthis."
-    },
-    { "word": [ "R", "O", "D", "G", "E" ], "coppermindId": "15072", "blurb": "Rodge McCaffrey is a childhood friend of Spensa." },
-    { "word": [ "V", "O", "I", "C", "E" ], "coppermindId": "20401", "blurb": "A Voice is an envoyform singer who represents a Fused." },
-    {
-        "word": [ "V", "I", "V", "I", "M" ],
-        "coppermindId": "9409",
-        "blurb": "Vivim trees are a plant on Roshar with intertwining spindly branches. They are present in Alethkar."
-    },
-    { "word": [ "M", "A", "S", "L", "Y" ], "coppermindId": "3785", "blurb": "Masly is a scholar on Roshar." },
-    { "word": [ "J", "O", "R", "N", "A" ], "coppermindId": "3975", "blurb": "Jorna was a youth of Hearthstone in Alethkar on Roshar." },
-    { "word": [ "H", "A", "I", "K", "O" ], "coppermindId": "2640", "blurb": "HaiKo is a city in JinDo on Sel." },
-    { "word": [ "B", "I", "S", "I", "G" ], "coppermindId": "3952", "blurb": "Bisig is a member of Bridge Four." },
-    {
-        "word": [ "R", "I", "R", "A", "N" ],
-        "coppermindId": "9201",
-        "blurb": "Rira is a kingdom in northwestern Roshar, bordering Iri and Babatharnam."
-    },
-    {
-        "word": [ "X", "I", "S", "I", "S" ],
-        "coppermindId": "17338",
-        "blurb": "Xisis is a non-human man (likely dragon), originally from Yolen, but currently living elsewhere, on a planet near the location of a lot of the Aethers."
-    },
+    { "word": [ "R", "E", "E", "S", "H" ], "coppermindId": "3969", "blurb": "Reesh is a soldier in Amaram's army in Alethkar on Roshar." },
     {
         "word": [ "C", "O", "L", "O", "T" ],
         "coppermindId": "9523",
         "blurb": "Colot is a Captain of the Fifth Battalion of the Kholin army on Roshar."
     },
     {
-        "word": [ "T", "H", "U", "D", "E" ],
-        "coppermindId": "5012",
-        "blurb": "Thude is a Parshendi warrior in Narak during the War of Reckoning."
+        "word": [ "T", "R", "E", "L", "L" ],
+        "coppermindId": "14130",
+        "blurb": "Trell is the god worshiped by the religion of Trelagism on Scadrial."
+    },
+    { "word": [ "R", "O", "D", "G", "E" ], "coppermindId": "15072", "blurb": "Rodge McCaffrey is a childhood friend of Spensa." },
+    {
+        "word": [ "N", "A", "M", "A", "R" ],
+        "coppermindId": "4977",
+        "blurb": "Namar is a person on Roshar who developed a theory on how spren could be categorized."
+    },
+    { "word": [ "M", "R", "A", "L", "L" ], "coppermindId": "4974", "blurb": "Mrall is a member of the Diagram on Roshar." },
+    {
+        "word": [ "T", "U", "R", "L", "M" ],
+        "coppermindId": "17742",
+        "blurb": "Turlm is a Thaylen sailor and a member of the crew of the Wandersail."
     },
     {
-        "word": [ "Y", "A", "Z", "A", "D" ],
-        "coppermindId": "3902",
-        "blurb": "Yazad was the forty-eighth Emperor of the Rose Empire on Sel."
-    },
-    { "word": [ "H", "U", "I", "S", "I" ], "coppermindId": "8883", "blurb": "Huisi is an orphaned urchin on Roshar." },
-    { "word": [ "L", "E", "S", "A", "N" ], "coppermindId": "19235", "blurb": "Lesan Calour is a publisher on Scadrial." },
-    { "word": [ "B", "L", "A", "D", "E" ], "coppermindId": "20861", "blurb": "A Shardblade is a type of Invested weapon found on Roshar." },
-    { "word": [ "A", "A", "R", "O", "N" ], "coppermindId": "15040", "blurb": "Aaron is an operative in the Phone Company." },
-    { "word": [ "A", "P", "A", "R", "A" ], "coppermindId": "4900", "blurb": "Apara is a lighteyed woman on the Shattered Plains." },
-    { "word": [ "K", "A", "M", "A", "R" ], "coppermindId": "3390", "blurb": "Sur Kamar is a Veden on Roshar." },
-    {
-        "word": [ "P", "A", "C", "L", "O" ],
-        "coppermindId": "3526",
-        "blurb": "Paclo, sometimes referred to as Paclo the Dusty was a deputy lawman under Waxillium Ladrian in the town of Weathering on Scadrial."
-    },
-    {
-        "word": [ "G", "A", "L", "A", "N" ],
-        "coppermindId": "3980",
-        "blurb": "Galan is a soldier in Highmarshal Meridas Amaram's army on Roshar."
-    },
-    {
-        "word": [ "E", "U", "S", "T", "O" ],
-        "coppermindId": "5444",
-        "blurb": "Captain Eusto is an Eelakin working for Northern Interests Trading Company on First of the Sun."
-    },
-    {
-        "word": [ "D", "O", "B", "S", "I" ],
-        "coppermindId": "14805",
-        "blurb": "Dobsi is a mechanic in the DDF on Platform Prime, and is part of the ground crews."
-    },
-    {
-        "word": [ "E", "L", "R", "A", "O" ],
-        "coppermindId": "6848",
-        "blurb": "Elrao is a member of the Ire, a group of Elantrians from Sel."
-    },
-    {
-        "word": [ "V", "E", "H", "A", "H" ],
-        "coppermindId": "9353",
-        "blurb": "Vehah is a traditional wrestling style in Alethkar on Roshar."
-    },
-    {
-        "word": [ "Q", "U", "I", "L", "I" ],
-        "coppermindId": "2270",
-        "blurb": "Quili is one of the Reshi Isles, west of Abri, but east of the kingdom of Rira."
-    },
-    { "word": [ "B", "L", "U", "N", "T" ], "coppermindId": "5102", "blurb": "Baon is a soldier from Iiaria on the Darkside of Taldain." },
-    { "word": [ "N", "A", "T", "I", "R" ], "coppermindId": "3415", "blurb": "Natir is an Alethi steward on Roshar." },
-    {
-        "word": [ "B", "L", "U", "T", "H" ],
-        "coppermindId": "2628",
-        "blurb": "Bluth was a mercenary in the service of the Thaylen slaver Tvlakv on Roshar."
-    },
-    {
-        "word": [ "T", "E", "R", "H", "A" ],
-        "coppermindId": "13253",
-        "blurb": "The terha is a domesticated animal on the Dayside of Taldain."
-    },
-    {
-        "word": [ "K", "E", "S", "E", "G" ],
-        "coppermindId": "1843",
+        "word": [ "K", "E", "S", "H", "U" ],
+        "coppermindId": "14310",
         "blurb": "Keshu, called Keseg by the Fjordell, was an elderly philosopher from JinDo on Sel."
     },
+    { "word": [ "S", "E", "L", "A", "Y" ], "coppermindId": "3116", "blurb": "Sela Tales was one of the Silver Kingdoms on Roshar." },
     {
-        "word": [ "G", "N", "A", "S", "H" ],
-        "coppermindId": "21066",
-        "blurb": "Gnash the Slaughterer is a garqua that lives in an oceanic fragment in the nowhere."
+        "word": [ "S", "T", "U", "M", "P" ],
+        "coppermindId": "17928",
+        "blurb": "Arshqqam, also known as the Stump, is a woman who runs the Tashi's Light Orphanage in Yeddaw."
     },
-    { "word": [ "G", "Y", "O", "R", "N" ], "coppermindId": "1750", "blurb": "Gyorn is one of the ranks in the Shu-Dereth church." },
+    { "word": [ "P", "A", "A", "L", "M" ], "coppermindId": "6491", "blurb": "Paalm was a female kandra of the Third Generation." },
+    { "word": [ "I", "N", "N", "I", "A" ], "coppermindId": "3782", "blurb": "Innia was the author of Tales by Hearthlight on Roshar." },
     {
-        "word": [ "M", "I", "L", "I", "V" ],
-        "coppermindId": "3417",
-        "blurb": "Miliv was Citylord Wistiow's head steward in Hearthstone on .Roshar"
-    },
-    {
-        "word": [ "T", "U", "M", "U", "L" ],
-        "coppermindId": "4005",
-        "blurb": "Brightlord Tumul is a noble on the Shattered Plains on Roshar."
-    },
-    {
-        "word": [ "A", "S", "H", "I", "R" ],
-        "coppermindId": "1764",
-        "blurb": "Ashir is a chemist and ardent who lives with Geranid on a small Reshi island on Roshar."
+        "word": [ "G", "R", "E", "M", "T" ],
+        "coppermindId": "14920",
+        "blurb": "Officer Gremt is a member of The Tower on the Dayside of Lord General Raagent."
     },
     {
         "word": [ "C", "H", "A", "S", "M" ],
         "coppermindId": "431",
         "blurb": "The Chasm is a major geographical feature of the Arelon region of the planet Sel."
     },
-    { "word": [ "V", "A", "L", "A", "M" ], "coppermindId": "2895", "blurb": "Valam is a Veden highprince on Roshar." },
-    { "word": [ "N", "A", "T", "E", "M" ], "coppermindId": "18321", "blurb": "Natem is a soldier in the Kholin army on Roshar." },
+    { "word": [ "V", "E", "N", "L", "I" ], "coppermindId": "4922", "blurb": "Venli is a listener scholar in Narak and Eshonai's sister." },
     {
-        "word": [ "S", "L", "U", "S", "H" ],
-        "coppermindId": "20547",
-        "blurb": "Doc Slush is a Reckoner doctor who lives in Layfayette, Louisiana as part of the Louisiana cell."
+        "word": [ "A", "N", "S", "E", "D" ],
+        "coppermindId": "3585",
+        "blurb": "Captain Orson Ansed is a member of the Evensong Police Department."
+    },
+    { "word": [ "A", "S", "H", "L", "V" ], "coppermindId": "2848", "blurb": "Ashlv is a Thaylen woman on Roshar." },
+    {
+        "word": [ "K", "L", "I", "S", "N" ],
+        "coppermindId": "17747",
+        "blurb": "Klisn is a Thaylen sailor and a crewmember of the Wandersail."
+    },
+    { "word": [ "L", "A", "L", "A", "I" ], "coppermindId": "4043", "blurb": "Brightness Lalai is a lighteyed woman on Roshar." },
+    {
+        "word": [ "E", "R", "L", "A", "C" ],
+        "coppermindId": "9040",
+        "blurb": "Erlac is a city in the Eastern Dominance in the Final Empire."
     },
     {
-        "word": [ "S", "P", "R", "A", "Y" ],
-        "coppermindId": "5394",
-        "blurb": "Spray is a mare in the Kholin warcamp on the Shattered Plains of Roshar during the War of Reckoning."
+        "word": [ "S", "H", "A", "R", "D" ],
+        "coppermindId": "362",
+        "blurb": "The Shards of Adonalsium, or Shards for short, are sixteen pieces of the power of creation."
+    },
+    { "word": [ "P", "E", "D", "I", "N" ], "coppermindId": "4985", "blurb": "Pedin is a member of Bridge Four." },
+    { "word": [ "T", "O", "R", "O", "L" ], "coppermindId": "9214", "blurb": "Torol Sadeas is an Alethi Highprince on Roshar." },
+    {
+        "word": [ "G", "N", "A", "S", "H" ],
+        "coppermindId": "21066",
+        "blurb": "Gnash the Slaughterer is a garqua that lives in an oceanic fragment in the nowhere."
+    },
+    { "word": [ "U", "R", "I", "A", "M" ], "coppermindId": "18264", "blurb": "Uriam the Defiant is a Fused on Roshar." },
+    { "word": [ "M", "I", "L", "E", "N" ], "coppermindId": "4514", "blurb": "Milen Davenpleu is a noble in the Final Empire on Scadrial." },
+    {
+        "word": [ "S", "E", "N", "N", "A" ],
+        "coppermindId": "8895",
+        "blurb": "Senna is someone or something that Leras, the Vessel of Preservation, mentions to Kelsier in the Cognitive Realm prior to his death."
     },
     {
-        "word": [ "D", "A", "V", "A", "R" ],
-        "coppermindId": "5518",
-        "blurb": "House Davar is a small lighteyed Veden family living in the Valam princedom of Jah Keved."
+        "word": [ "T", "E", "R", "H", "A" ],
+        "coppermindId": "13253",
+        "blurb": "The terha is a domesticated animal on the Dayside of Taldain."
+    },
+    { "word": [ "T", "A", "X", "I", "L" ], "coppermindId": "9638", "blurb": "Traxil is a scholar on Roshar." },
+    { "word": [ "H", "A", "P", "P", "Y" ], "coppermindId": "20632", "blurb": "Happy is a very fat taynix." },
+    { "word": [ "S", "O", "P", "H", "I" ], "coppermindId": "6485", "blurb": "Sophi Tarcsel is an inventor in Elendel on Scadrial." },
+    { "word": [ "S", "K", "I", "F", "F" ], "coppermindId": "4502", "blurb": "Skiff is a guard in Luthadel during the Final Empire." },
+    { "word": [ "T", "U", "K", "A", "R" ], "coppermindId": "966", "blurb": "Tukar is a kingdom on Roshar." },
+    { "word": [ "K", "E", "T", "E", "K" ], "coppermindId": "902", "blurb": "A ketek is a form of holy Vorin poetry." },
+    {
+        "word": [ "L", "I", "G", "H", "T" ],
+        "coppermindId": "17883",
+        "blurb": "Gaseous Investiture within the Rosharan system manifests as a number of different Lights."
     },
     {
-        "word": [ "A", "M", "U", "N", "A" ],
-        "coppermindId": "17935",
-        "blurb": "Amuna is an honorspren from Lasting Integrity in the Rosharan subastral, Shadesmar."
+        "word": [ "M", "I", "Z", "Z", "Y" ],
+        "coppermindId": "5964",
+        "blurb": "Missouri Williams, known as Mizzy, is a member of the Reckoners."
+    },
+    { "word": [ "H", "A", "R", "V", "O" ], "coppermindId": "18035", "blurb": "Harvo is a singer on Roshar." },
+    { "word": [ "M", "I", "L", "E", "V" ], "coppermindId": "1206", "blurb": "Milev was a dark skinned skaa from Luthadel on Scadrial." },
+    { "word": [ "T", "R", "E", "F", "F" ], "coppermindId": "3955", "blurb": "Treff is a member of Bridge Four." },
+    {
+        "word": [ "C", "A", "S", "E", "Y" ],
+        "coppermindId": "20288",
+        "blurb": "Abigail Casey is a Reckoner and often in command of operations within the Texas Reckoners."
+    },
+    { "word": [ "S", "O", "U", "S", "A" ], "coppermindId": "14327", "blurb": "Sousa is a pilot in the DDF on Detritus." },
+    {
+        "word": [ "G", "A", "V", "A", "L" ],
+        "coppermindId": "9298",
+        "blurb": "Nacomb Gaval is a young lighteyed soldier in the Kholin army during the War of Reckoning on Roshar."
+    },
+    { "word": [ "M", "A", "S", "H", "E" ], "coppermindId": "8728", "blurb": "Mashe is the star of the Selish system." },
+    {
+        "word": [ "R", "E", "V", "E", "N" ],
+        "coppermindId": "11418",
+        "blurb": "Reven is the king of Seevis, one of the Rim Kingdoms of Taldain."
+    },
+    { "word": [ "Y", "U", "L", "A", "Y" ], "coppermindId": "2007", "blurb": "Yulay is a kingdom in central Roshar." },
+    { "word": [ "S", "T", "E", "E", "L" ], "coppermindId": "16", "blurb": "Steel is one of the alloys used in the Metallic Arts." },
+    {
+        "word": [ "A", "L", "L", "R", "I" ],
+        "coppermindId": "6536",
+        "blurb": "Lady Allri Innate is a highborn woman married to Replar Innate in Elendel on Scadrial."
+    },
+    { "word": [ "I", "D", "R", "I", "S" ], "coppermindId": "281", "blurb": "Idris is a country to the north of Hallandren on Nalthis." },
+    {
+        "word": [ "R", "U", "L", "E", "S" ],
+        "coppermindId": "3732",
+        "blurb": "The Simple Rules are a set of rules that a person must follow in the Forests of Hell on Threnody to avoid attracting the attention of shades."
+    },
+    { "word": [ "G", "E", "A", "N", "T" ], "coppermindId": "2727", "blurb": "Geant is a nation located on the continent of Sycla on Sel." },
+    {
+        "word": [ "K", "O", "H", "W", "O" ],
+        "coppermindId": "5246",
+        "blurb": "KoHwo is the JinDo name of Korath, the founder of the Shu-Korath religion on Sel."
+    },
+    { "word": [ "M", "A", "S", "L", "Y" ], "coppermindId": "3785", "blurb": "Masly is a scholar on Roshar." },
+    { "word": [ "O", "P", "A", "I", "S" ], "coppermindId": "3451", "blurb": "Opais is the daughter of Karata on Sel." },
+    {
+        "word": [ "R", "E", "G", "A", "L" ],
+        "coppermindId": "9200",
+        "blurb": "Regals are singers who bond with Voidspren, granting them a transformation called a form of power."
+    },
+    { "word": [ "B", "A", "L", "A", "T" ], "coppermindId": "5520", "blurb": "Balat Davar is a lighteyed Veden on Roshar." },
+    {
+        "word": [ "K", "A", "U", "R", "I" ],
+        "coppermindId": "14794",
+        "blurb": "Kauri is a kitsen who travels to Starsight under the leadership of Hesho."
+    },
+    { "word": [ "E", "S", "H", "E", "N" ], "coppermindId": "25", "blurb": "Eshen is the former Queen of Arelon on Sel." },
+    { "word": [ "D", "O", "N", "N", "E" ], "coppermindId": "10768", "blurb": "Donne is a planet in the Selish system." },
+    {
+        "word": [ "Z", "E", "N", "T", "U" ],
+        "coppermindId": "14816",
+        "blurb": "Zentu is a dione philosopher and scientist and is known for their work on the properties of life."
+    },
+    { "word": [ "T", "W", "I", "S", "T" ], "coppermindId": "20652", "blurb": "Twist is a taynix." },
+    {
+        "word": [ "T", "E", "O", "R", "N" ],
+        "coppermindId": "3221",
+        "blurb": "Teorn is the Crown Prince of Teod, and the heir to the Teo throne."
+    },
+    {
+        "word": [ "C", "H", "U", "L", "L" ],
+        "coppermindId": "898",
+        "blurb": "The chull is a species of crustacean useful for labor intensive jobs on Roshar."
+    },
+    { "word": [ "N", "A", "F", "T", "I" ], "coppermindId": "3103", "blurb": "Nafti was one of the Uvara, a legendary society on Roshar." },
+    { "word": [ "T", "U", "K", "K", "S" ], "coppermindId": "1191", "blurb": "Tukks is an Alethi sergeant on Roshar." },
+    {
+        "word": [ "P", "U", "U", "L", "I" ],
+        "coppermindId": "9496",
+        "blurb": "Puuli is a lighthouse keeper in a small port village in eastern Roshar."
+    },
+    { "word": [ "I", "V", "O", "R", "Y" ], "coppermindId": "5057", "blurb": "Ivory is an inkspren and bonded to Jasnah." },
+    { "word": [ "L", "E", "K", "A", "L" ], "coppermindId": "9031", "blurb": "Lekal is a family name on Scadrial during the Final Empire." },
+    { "word": [ "N", "A", "K", "A", "L" ], "coppermindId": "4975", "blurb": "Nakal is an Rosharan man on Elhokar's staff." },
+    { "word": [ "K", "A", "L", "A", "K" ], "coppermindId": "162", "blurb": "Kalak is one of the ten Heralds of Honor." },
+    {
+        "word": [ "J", "O", "C", "H", "I" ],
+        "coppermindId": "9568",
+        "blurb": "Jochi is the pen name of a scholar from Thaylen City on Roshar."
+    },
+    {
+        "word": [ "V", "A", "P", "O", "R" ],
+        "coppermindId": "14887",
+        "blurb": "Vapor is a figment who lives on Starsight and who works for Cuna."
     },
     { "word": [ "V", "E", "N", "A", "N" ], "coppermindId": "19954", "blurb": "Venan is a resident of Urithiru on Roshar." },
-    { "word": [ "T", "A", "L", "E", "B" ], "coppermindId": "3987", "blurb": "Taleb is a resident of Hearthstone on Roshar." },
-    { "word": [ "K", "Y", "L", "R", "M" ], "coppermindId": "3023", "blurb": "Kylrm is a guardsman on Roshar." },
-    { "word": [ "S", "K", "R", "I", "P" ], "coppermindId": "9438", "blurb": "A skrip is a species of cremling on Roshar." },
-    { "word": [ "S", "T", "A", "G", "M" ], "coppermindId": "4075", "blurb": "Stagm is a brownish tuber native to Roshar." },
-    { "word": [ "G", "V", "O", "R", "I" ], "coppermindId": "9541", "blurb": "Gvori is Taravangian's eldest granddaughter." },
-    { "word": [ "D", "R", "I", "L", "E" ], "coppermindId": "8444", "blurb": "Drile is a sand master on the Dayside of Taldain." },
+    { "word": [ "I", "S", "A", "B", "I" ], "coppermindId": "18041", "blurb": "Isabi is a young scholar on Roshar." },
+    { "word": [ "H", "A", "D", "A", "H" ], "coppermindId": "4104", "blurb": "HaDah is a religion from Classical Scadrial." },
     {
-        "word": [ "K", "A", "L", "K", "I" ],
-        "coppermindId": "20525",
-        "blurb": "Kalkis are rumored metal beings created by the Lord Ruler on Scadrial."
+        "word": [ "B", "R", "A", "D", "E" ],
+        "coppermindId": "14823",
+        "blurb": "Brade Shimabukuro is a human woman and Cytonic licensed to Winzik."
+    },
+    { "word": [ "H", "E", "R", "V", "E" ], "coppermindId": "8910", "blurb": "Herve is a footman for Waxillium Ladrian on Scadrial." },
+    { "word": [ "G", "L", "I", "N", "T" ], "coppermindId": "19243", "blurb": "Glint is the nickname of a revolver on Scadrial." },
+    { "word": [ "M", "E", "T", "H", "I" ], "coppermindId": "4083", "blurb": "Methi is a type of fruit native to Roshar." },
+    {
+        "word": [ "T", "R", "I", "K", "E" ],
+        "coppermindId": "3284",
+        "blurb": "Trike is a food fish that lives in the Sea of Fjorden on Sel."
     },
     {
         "word": [ "R", "U", "S", "H", "U" ],
@@ -1005,587 +275,382 @@
         "blurb": "Rushu is an ardent that works as scholar affiliated with the Kholin princedom."
     },
     {
-        "word": [ "H", "A", "M", "E", "L" ],
-        "coppermindId": "3964",
-        "blurb": "Hamel is a darkeyed soldier in Kaladin's squad in Highmarshal Meridas Amaram's army on Roshar."
+        "word": [ "F", "O", "O", "L", "S" ],
+        "coppermindId": "3030",
+        "blurb": "The ten fools are legendary individuals of cultural significance on Roshar."
     },
     {
-        "word": [ "T", "R", "I", "K", "E" ],
-        "coppermindId": "3284",
-        "blurb": "Trike is a food fish that lives in the Sea of Fjorden on Sel."
+        "word": [ "D", "E", "D", "R", "I" ],
+        "coppermindId": "3842",
+        "blurb": "Dedri Vasting is a nobleman on Scadrial during the Final Empire."
+    },
+    { "word": [ "L", "A", "Q", "Q", "I" ], "coppermindId": "18252", "blurb": "Laqqi is a village in central Emul on Roshar." },
+    { "word": [ "H", "O", "N", "O", "R" ], "coppermindId": "235", "blurb": "Honor is one of the sixteen Shards of Adonalsium." },
+    {
+        "word": [ "M", "E", "L", "L", "Y" ],
+        "coppermindId": "14097",
+        "blurb": "Melloni, often called Melly, is the daughter of Ais and Mellis on Taldain."
     },
     {
-        "word": [ "A", "V", "E", "N", "A" ],
-        "coppermindId": "4901",
-        "blurb": "Avena is a historical scholar on Words of Radiance, and may have been consulted about unusual events that were occurring ahead of the Recreance."
+        "word": [ "H", "I", "L", "D", "E" ],
+        "coppermindId": "4490",
+        "blurb": "Granny Hilde is the operator of a passwall in Luthadel on Scadrial."
     },
-    { "word": [ "J", "U", "S", "H", "U" ], "coppermindId": "5519", "blurb": "Asha Jushu Davar is a lighteyed Veden on Roshar." },
+    { "word": [ "H", "O", "R", "E", "N" ], "coppermindId": "3476", "blurb": "Horen is an Elantrian on Sel." },
+    { "word": [ "N", "A", "T", "E", "M" ], "coppermindId": "18321", "blurb": "Natem is a soldier in the Kholin army on Roshar." },
+    { "word": [ "H", "A", "R", "T", "H" ], "coppermindId": "9558", "blurb": "Harth is a swordsman from Alethkar on Roshar." },
     {
-        "word": [ "A", "X", "I", "E", "S" ],
-        "coppermindId": "285",
-        "blurb": "Axies the Collector is a Siah Aimian engaged in a quest to catalog all the different varieties of spren on Roshar."
-    },
-    {
-        "word": [ "K", "Y", "R", "I", "L" ],
-        "coppermindId": "9596",
-        "blurb": "Kyril is a Fused who performs inspections in Celebrant in Shadesmar."
+        "word": [ "P", "A", "R", "I", "K" ],
+        "coppermindId": "20428",
+        "blurb": "Parik is a scientist under Lifeforce’s employ who lives in Lux."
     },
     {
-        "word": [ "L", "E", "I", "K", "O" ],
-        "coppermindId": "20646",
-        "blurb": "Leiko (Callsign: Lizard) is a member of Nightmare Flight in the DDF."
+        "word": [ "R", "E", "A", "L", "M" ],
+        "coppermindId": "402",
+        "blurb": "The three Realms—Physical, Cognitive, and Spiritual—constitute the fundamental structure of the cosmere."
     },
     {
-        "word": [ "A", "M", "A", "L", "A" ],
-        "coppermindId": "5864",
-        "blurb": "Amala was an Epic and an acquaintance of Jonathan Phaedrus and Tia."
+        "word": [ "H", "U", "M", "A", "N" ],
+        "coppermindId": "1815",
+        "blurb": "Human is a koloss of unknown age created in the Final Empire."
     },
+    { "word": [ "V", "A", "R", "G", "O" ], "coppermindId": "9205", "blurb": "Vargo is a nickname for Taravangian." },
+    { "word": [ "V", "O", "I", "C", "E" ], "coppermindId": "20401", "blurb": "A Voice is an envoyform singer who represents a Fused." },
+    { "word": [ "T", "E", "V", "E", "N" ], "coppermindId": "113", "blurb": "Lord Teven Renoux is a noble from the Final Empire." },
     {
-        "word": [ "I", "R", "I", "C", "H" ],
-        "coppermindId": "6871",
-        "blurb": "Professor Irich is a scientist and a member of the Set on Scadrial."
+        "word": [ "K", "R", "E", "L", "L" ],
+        "coppermindId": "14904",
+        "blurb": "KRELL is the acronym for a paramilitary force within the Superiority's Department of Protective Services."
     },
-    { "word": [ "A", "L", "I", "L", "I" ], "coppermindId": "17933", "blurb": "Alili is an Alethi master-servant on Roshar." },
-    { "word": [ "C", "L", "E", "M", "A" ], "coppermindId": "8851", "blurb": "Clema is a crop grown on Roshar." },
-    {
-        "word": [ "C", "A", "D", "O", "N" ],
-        "coppermindId": "4092",
-        "blurb": "Cadon is a palace steward in Elend Venture's palace in Luthadel on Scadrial."
-    },
-    {
-        "word": [ "T", "A", "S", "H", "I" ],
-        "coppermindId": "8860",
-        "blurb": "Tashikk is a princedom on Roshar that is a major ally to Azir."
-    },
-    { "word": [ "T", "O", "P", "A", "Z" ], "coppermindId": "6463", "blurb": "Topaz is an alias for Hoid." },
-    { "word": [ "C", "A", "R", "L", "A" ], "coppermindId": "8544", "blurb": "Carla is the leader of the Stingray Clan in Ildithia." },
-    { "word": [ "R", "T", "I", "C", "H" ], "coppermindId": "12895", "blurb": "Rtich was a Russian Epic with mercury manipulating powers." },
-    {
-        "word": [ "F", "O", "R", "C", "H" ],
-        "coppermindId": "6695",
-        "blurb": "Forch is a Terris youth living in The Village in Elendel on Scadrial during Waxillium Ladrian's youth."
-    },
-    { "word": [ "P", "A", "W", "N", "S" ], "coppermindId": "9435", "blurb": "Pawns is a game played on Roshar." },
-    {
-        "word": [ "M", "A", "T", "A", "L" ],
-        "coppermindId": "3922",
-        "blurb": "Brightlord Avarak Matal is lighteyed officer in the Sadeas warcamp on the Shattered Plains of Roshar."
-    },
-    { "word": [ "D", "O", "R", "A", "N" ], "coppermindId": "15042", "blurb": "Doran is an operative in the Phone Company." },
-    {
-        "word": [ "Z", "E", "N", "T", "U" ],
-        "coppermindId": "14816",
-        "blurb": "Zentu is a dione philosopher and scientist and is known for their work on the properties of life."
-    },
-    { "word": [ "D", "E", "V", "I", "N" ], "coppermindId": "18931", "blurb": "Devin is the leader of a Reckoners cell." },
-    {
-        "word": [ "J", "E", "D", "A", "L" ],
-        "coppermindId": "999",
-        "blurb": "Jedal is a skaa miner from the Eastern Dominance of the Final Empire on Scadrial."
-    },
-    { "word": [ "L", "U", "E", "S", "H" ], "coppermindId": "2876", "blurb": "Luesh is a steward of House Davar in Jah Keved on Roshar." },
-    {
-        "word": [ "S", "I", "D", "I", "N" ],
-        "coppermindId": "9646",
-        "blurb": "Sidin is a captain of the Palace Guard in Kholinar on Roshar."
-    },
-    {
-        "word": [ "G", "I", "L", "A", "F" ],
-        "coppermindId": "20749",
-        "blurb": "Gilaf is an ReDawn. He is the brother of Alanik, and a member of the Independence faction."
-    },
-    { "word": [ "K", "A", "L", "A", "K" ], "coppermindId": "162", "blurb": "Kalak is one of the ten Heralds of Honor." },
-    {
-        "word": [ "B", "R", "O", "A", "M" ],
-        "coppermindId": "2069",
-        "blurb": "A broam is one of the divisions of the sphere currency used on Roshar."
-    },
-    { "word": [ "D", "E", "L", "G", "O" ], "coppermindId": "17993", "blurb": "Delgo is a member of the Diagram on Roshar." },
-    { "word": [ "H", "A", "O", "N", "A" ], "coppermindId": "15828", "blurb": "Haona is an Elantrian woman on Sel." },
-    { "word": [ "N", "A", "T", "A", "M" ], "coppermindId": "3956", "blurb": "Natam is a member of Bridge Four." },
-    { "word": [ "B", "L", "A", "Z", "E" ], "coppermindId": "11438", "blurb": "Blaze is a scout pilot in the DDF." },
-    { "word": [ "R", "I", "I", "K", "A" ], "coppermindId": "5178", "blurb": "Riika is a young Elantrian child." },
-    { "word": [ "J", "A", "L", "L", "A" ], "coppermindId": "89", "blurb": "Jalla is a Svordish woman from Sel." },
-    { "word": [ "E", "L", "I", "Z", "A" ], "coppermindId": "15212", "blurb": "Eliza Marin was a child who lived on Scadrial." },
-    { "word": [ "F", "T", "O", "R", "I" ], "coppermindId": "1572", "blurb": "Rysn Ftori is a young woman from Thaylenah on Roshar." },
-    { "word": [ "T", "E", "N", "E", "T" ], "coppermindId": "14212", "blurb": "The Tenets are a lighteyed family in Alethkar on Roshar." },
-    { "word": [ "B", "R", "E", "K", "V" ], "coppermindId": "17744", "blurb": "Brekv is a Thaylen sailor who works with Yalb." },
-    { "word": [ "T", "I", "Q", "Q", "A" ], "coppermindId": "8888", "blurb": "Tiqqa is an urchin girl in Yeddaw on Roshar." },
-    {
-        "word": [ "G", "A", "V", "R", "I" ],
-        "coppermindId": "18094",
-        "blurb": "Gavri is a military officer in the coalition of monarchs on Roshar."
-    },
-    { "word": [ "R", "E", "V", "A", "N" ], "coppermindId": "13955", "blurb": "Revan is a city in Seevis on the Dayside of Taldain." },
-    { "word": [ "H", "U", "S", "A", "L" ], "coppermindId": "18037", "blurb": "Husal is a singer on Roshar." },
-    {
-        "word": [ "D", "E", "N", "T", "H" ],
-        "coppermindId": "150",
-        "blurb": "Denth or VaraTreledees is one of the Five Scholars from Nalthis."
-    },
-    { "word": [ "L", "A", "M", "I", "O" ], "coppermindId": "2832", "blurb": "Lamio is an ancient nation on Sel." },
-    {
-        "word": [ "S", "E", "N", "N", "A" ],
-        "coppermindId": "8895",
-        "blurb": "Senna is someone or something that Leras, the Vessel of Preservation, mentions to Kelsier in the Cognitive Realm prior to his death."
-    },
-    {
-        "word": [ "H", "A", "L", "E", "X" ],
-        "coppermindId": "6581",
-        "blurb": "Mistress Halex is the proprietor of a soothing parlor on Decan street in Elendel."
-    },
+    { "word": [ "K", "A", "I", "S", "E" ], "coppermindId": "87", "blurb": "Kaise is an Arelene girl." },
+    { "word": [ "E", "X", "T", "E", "S" ], "coppermindId": "3834", "blurb": "Extes is a man from Vorin mythology on Roshar." },
+    { "word": [ "N", "A", "T", "I", "R" ], "coppermindId": "3415", "blurb": "Natir is an Alethi steward on Roshar." },
+    { "word": [ "J", "A", "R", "E", "L" ], "coppermindId": "3993", "blurb": "Old Jarel is a resident of Hearthstone on Roshar." },
     { "word": [ "W", "I", "K", "I", "M" ], "coppermindId": "5521", "blurb": "Tet Wikim Davar is a lighteyed Veden on Roshar." },
+    { "word": [ "V", "A", "L", "O", "R" ], "coppermindId": "17919", "blurb": "Valor is one of the sixteen Shards of Adonalsium." },
+    { "word": [ "S", "U", "R", "G", "E" ], "coppermindId": "1504", "blurb": "The Surges are the ten fundamental forces on Roshar." },
     {
-        "word": [ "P", "L", "A", "T", "E" ],
-        "coppermindId": "2063",
-        "blurb": "Shardplate is an ancient and magical type of full-body armor found on Roshar."
-    },
-    {
-        "word": [ "W", "A", "R", "E", "N" ],
-        "coppermindId": "3066",
-        "blurb": "Lord Waren is a noble in Arelon on Sel. His conversion to Shu-Dereth is an important part of the gyorn Hrathen's plan to convert all of Arelon"
-    },
-    {
-        "word": [ "G", "R", "A", "E", "O" ],
-        "coppermindId": "3210",
-        "blurb": "Count Graeo is a young member of the Teo court, and the former fiance of Sarene."
-    },
-    { "word": [ "N", "A", "V", "A", "R" ], "coppermindId": "3966", "blurb": "Navar was a soldier in Amaram's army in Alethkar on Roshar." },
-    {
-        "word": [ "M", "A", "R", "N", "I" ],
-        "coppermindId": "18793",
-        "blurb": "Marni is an employee at Jez's Duty in the Ten Rings section of Urithiru on Roshar."
-    },
-    {
-        "word": [ "F", "E", "B", "I", "N" ],
-        "coppermindId": "9489",
-        "blurb": "Febin is an Dalinar Kholin's elites on Roshar during the Era of Solitude."
-    },
-    { "word": [ "S", "W", "E", "E", "N" ], "coppermindId": "18024", "blurb": "Sween is a town in southeastern Babatharnam on Roshar" },
-    {
-        "word": [ "R", "E", "S", "H", "I" ],
-        "coppermindId": "2268",
-        "blurb": "The Reshi Isles are a collection of islands on the northern edge of Roshar in the Reshi Sea."
-    },
-    { "word": [ "N", "A", "L", "A", "N" ], "coppermindId": "4792", "blurb": "Nale, also known as Nalan, is one of the Heralds of Honor." },
-    { "word": [ "C", "A", "Z", "Z", "I" ], "coppermindId": "1188", "blurb": "The Cazzi were a people on Classical Scadrial." },
-    {
-        "word": [ "K", "N", "O", "X", "X" ],
-        "coppermindId": "5875",
-        "blurb": "Knoxx is a thug turned Epic in Babilar, and a known member of Newton’s gang."
-    },
-    {
-        "word": [ "P", "E", "R", "E", "T" ],
-        "coppermindId": "3821",
-        "blurb": "Peret the Black was a Pewterarm rapist in the Roughs of Scadrial."
-    },
-    {
-        "word": [ "K", "H", "Y", "A", "N" ],
-        "coppermindId": "14057",
-        "blurb": "Khyan is a builder in Lossand who works with Trell under Kelzi Kar."
-    },
-    {
-        "word": [ "J", "O", "C", "H", "I" ],
-        "coppermindId": "9568",
-        "blurb": "Jochi is the pen name of a scholar from Thaylen City on Roshar."
-    },
-    { "word": [ "I", "N", "S", "A", "H" ], "coppermindId": "9561", "blurb": "Insah is an ardent on Roshar." },
-    {
-        "word": [ "S", "A", "D", "I", "E" ],
-        "coppermindId": "14833",
-        "blurb": "Sadie (callsign: Sentry) is a member of the DDF and in Skyward Flight."
-    },
-    {
-        "word": [ "B", "E", "Z", "N", "K" ],
-        "coppermindId": "4389",
-        "blurb": "Beznk is a Thaylen sailor on the Wind's Pleasure under Captain Tozbek on Roshar."
-    },
-    {
-        "word": [ "N", "A", "H", "E", "L" ],
-        "coppermindId": "20099",
-        "blurb": "The Nahel bond is a connection between a spren and a being from the Physical Realm."
-    },
-    { "word": [ "D", "A", "O", "R", "A" ], "coppermindId": "85", "blurb": "Daora is an Arelene woman on Sel." },
-    {
-        "word": [ "P", "U", "N", "I", "O" ],
-        "coppermindId": "4988",
-        "blurb": "Punio is a Windrunner and one of Lopen's many cousins on Roshar."
-    },
-    { "word": [ "B", "E", "R", "Y", "L" ], "coppermindId": "18301", "blurb": "Beryl is a Lightweaver on Roshar bonded to Ornament." },
-    { "word": [ "E", "D", "G", "L", "I" ], "coppermindId": "6655", "blurb": "Edgli is the Vessel of the Shard Endowment." },
-    {
-        "word": [ "T", "A", "L", "A", "K" ],
-        "coppermindId": "4388",
-        "blurb": "Talak was a Veden man, who served Liss, the Weeper, an assassin on Roshar."
-    },
-    { "word": [ "S", "A", "Z", "E", "D" ], "coppermindId": "108", "blurb": "Sazed is a Terrisman steward from Scadrial." },
-    {
-        "word": [ "K", "L", "A", "D", "E" ],
-        "coppermindId": "1407",
-        "blurb": "Klade is a listener and former member of the Council of Five in Narak on Roshar."
-    },
-    {
-        "word": [ "B", "A", "N", "K", "S" ],
-        "coppermindId": "11434",
-        "blurb": "Callsign Banks is a pilot who participated in the Battle of Alta."
-    },
-    { "word": [ "M", "R", "A", "L", "L" ], "coppermindId": "4974", "blurb": "Mrall is a member of the Diagram on Roshar." },
-    { "word": [ "A", "L", "L", "O", "Y" ], "coppermindId": "1028", "blurb": "The Alloy of Law is the fourth book set on Scadrial." },
-    { "word": [ "H", "A", "U", "K", "A" ], "coppermindId": "8709", "blurb": "Hauka is an Azish guard captain on Roshar." },
-    { "word": [ "J", "U", "N", "M", "I" ], "coppermindId": "11440", "blurb": "Junmi is the author of The Conquest of Space." },
-    {
-        "word": [ "N", "I", "K", "L", "I" ],
-        "coppermindId": "17779",
-        "blurb": "Nikliasorm, also known as Nikli, is a Dysian Aimian living on Roshar."
-    },
-    {
-        "word": [ "H", "A", "V", "A", "R" ],
-        "coppermindId": "4010",
-        "blurb": "Brightlord Havar is an officer in Highprince Dalinar Kholin's army on the Shattered Plains of Roshar."
-    },
-    {
-        "word": [ "S", "E", "N", "S", "E" ],
-        "coppermindId": "4164",
-        "blurb": "Edmund Sense, also known as the Epic Conflux, is commonly believed to be a member of Steelheart's inner circle."
-    },
-    { "word": [ "H", "U", "Q", "I", "N" ], "coppermindId": "4227", "blurb": "Huqin is a thief from Azir on Roshar." },
-    {
-        "word": [ "S", "T", "O", "F", "F" ],
-        "coppermindId": "21138",
-        "blurb": "Vice Admiral Stoff is an officer in the Defiant Defense Force."
-    },
-    { "word": [ "S", "T", "I", "N", "E" ], "coppermindId": "5004", "blurb": "Stine is a senior member of Meridas Amaram's staff." },
-    {
-        "word": [ "N", "O", "U", "R", "A" ],
-        "coppermindId": "8886",
-        "blurb": "Noura is a high-ranking vizier in Prime Aqasix Yanagawn the First's court in Azir on Roshar."
-    },
-    {
-        "word": [ "L", "A", "I", "R", "D" ],
-        "coppermindId": "1204",
-        "blurb": "Prelan Laird was an obligator of the Canton of Finance on Scadrial during the times of the Final Empire."
-    },
-    { "word": [ "N", "A", "R", "A", "K" ], "coppermindId": "4875", "blurb": "Narak is the home of the listeners on Roshar." },
-    { "word": [ "O", "P", "A", "I", "S" ], "coppermindId": "3451", "blurb": "Opais is the daughter of Karata on Sel." },
-    {
-        "word": [ "T", "O", "M", "A", "T" ],
-        "coppermindId": "2681",
-        "blurb": "Tomat is a city in the Sadeas princedom of Alethkar on Roshar."
-    },
-    { "word": [ "U", "S", "C", "R", "I" ], "coppermindId": "9660", "blurb": "Uscri is a character from a tragic Rosharan poem." },
-    { "word": [ "F", "E", "D", "E", "R" ], "coppermindId": "6502", "blurb": "Feder Tower is a skyscraper in Elendel." },
-    {
-        "word": [ "M", "E", "G", "A", "N" ],
-        "coppermindId": "4163",
-        "blurb": "Megan Tarash, also known as the Epic Firefight, is a member of Steelheart's inner circle."
-    },
-    { "word": [ "N", "A", "L", "M", "A" ], "coppermindId": "2887", "blurb": "Nalma is a slave on Roshar." },
-    { "word": [ "J", "A", "V", "I", "E" ], "coppermindId": "8903", "blurb": "Professor Javie is an engineer and member of the Set." },
-    {
-        "word": [ "D", "U", "K", "A", "R" ],
-        "coppermindId": "9529",
-        "blurb": "Dukar is a stormwarden and a member of the Diagram on Roshar."
-    },
-    { "word": [ "K", "E", "L", "E", "K" ], "coppermindId": "4039", "blurb": "Kelek is the Vorin name for the Herald Kalak." },
-    {
-        "word": [ "K", "U", "R", "D", "I" ],
-        "coppermindId": "13865",
-        "blurb": "Kurdi mushrooms are an edible fungus which grows in the subterranean cave systems of Detritus."
-    },
-    {
-        "word": [ "E", "R", "L", "A", "C" ],
-        "coppermindId": "9040",
-        "blurb": "Erlac is a city in the Eastern Dominance in the Final Empire."
-    },
-    {
-        "word": [ "D", "I", "L", "I", "D" ],
-        "coppermindId": "9526",
-        "blurb": "Dilid is one of the ten fools, which are a part of the teachings of Vorinism."
-    },
-    { "word": [ "E", "O", "D", "E", "N" ], "coppermindId": "3071", "blurb": "Eoden is a lord, perhaps a Teo lord, on Sel." },
-    { "word": [ "V", "E", "D", "E", "N" ], "coppermindId": "1423", "blurb": "Veden is the demonym for the nation of Jah Keved." },
-    {
-        "word": [ "P", "H", "A", "R", "L" ],
-        "coppermindId": "14523",
-        "blurb": "Rennold Pharl, also known as The Tonk, is a criminal working for Sharezan on Taldain."
-    },
-    { "word": [ "Y", "U", "N", "M", "I" ], "coppermindId": "20582", "blurb": "Newton is an Epic that serves Regalia in Babilar." },
-    { "word": [ "M", "A", "R", "A", "T" ], "coppermindId": "977", "blurb": "Marat is a small kingdom in southern Roshar." },
-    {
-        "word": [ "D", "I", "O", "N", "E" ],
-        "coppermindId": "14793",
-        "blurb": "Diones are one of the five alien species that lead the Superiority."
-    },
-    {
-        "word": [ "F", "U", "S", "E", "D" ],
-        "coppermindId": "9422",
-        "blurb": "The Fused are the souls of ancient singers that are able to be reborn by possessing the bodies of living singers."
-    },
-    { "word": [ "L", "A", "N", "N", "A" ], "coppermindId": "3530", "blurb": "Lanna Write is an operative of the Phone Company." },
-    {
-        "word": [ "T", "E", "O", "R", "N" ],
-        "coppermindId": "3221",
-        "blurb": "Teorn is the Crown Prince of Teod, and the heir to the Teo throne."
-    },
-    { "word": [ "R", "O", "B", "I", "N" ], "coppermindId": "20761", "blurb": "Robin is a member of Stardragon Flight in the DDF." },
-    {
-        "word": [ "I", "S", "H", "A", "L" ],
-        "coppermindId": "9562",
-        "blurb": "Ishal is an Alethi ardent from Kholinar in the Era of Solitude."
-    },
-    { "word": [ "L", "E", "K", "A", "L" ], "coppermindId": "9031", "blurb": "Lekal is a family name on Scadrial during the Final Empire." },
-    {
-        "word": [ "T", "A", "L", "A", "T" ],
-        "coppermindId": "16014",
-        "blurb": "Talat is a nickname for Talenel, one of the Heralds on Roshar."
-    },
-    {
-        "word": [ "D", "U", "A", "N", "E" ],
-        "coppermindId": "15154",
-        "blurb": "Duane is a member of the DDF ground crew who works in the hangar bay of Platform Prime."
-    },
-    {
-        "word": [ "S", "W", "I", "N", "G" ],
-        "coppermindId": "11435",
-        "blurb": "Callsign Swing is a pilot who participated in the Battle of Alta."
-    },
-    { "word": [ "U", "R", "I", "A", "M" ], "coppermindId": "18264", "blurb": "Uriam the Defiant is a Fused on Roshar." },
-    {
-        "word": [ "F", "E", "D", "R", "E" ],
-        "coppermindId": "451",
-        "blurb": "Lord Fedre was a canal architect from Scadrial who lived in the eighth century of the Final Empire."
-    },
-    { "word": [ "A", "T", "L", "A", "S" ], "coppermindId": "20385", "blurb": "Atlas Butler is a paramedic who works in Boston." },
-    { "word": [ "R", "I", "E", "R", "A" ], "coppermindId": "18003", "blurb": "The Ganlos Riera is a female person on Roshar." },
-    { "word": [ "H", "A", "D", "A", "H" ], "coppermindId": "4104", "blurb": "HaDah is a religion from Classical Scadrial." },
-    {
-        "word": [ "R", "A", "R", "I", "V" ],
-        "coppermindId": "3932",
-        "blurb": "Rariv is a servant at Mercystar's palace in Hallandren on Nalthis."
-    },
-    { "word": [ "K", "O", "O", "R", "M" ], "coppermindId": "3958", "blurb": "Koorm is a bridgeman at the Shattered Plains on Roshar." },
-    { "word": [ "S", "K", "I", "F", "F" ], "coppermindId": "4502", "blurb": "Skiff is a guard in Luthadel during the Final Empire." },
-    { "word": [ "E", "L", "T", "O", "N" ], "coppermindId": "15052", "blurb": "Elton Flippenday is an alias used by Jason Write." },
-    {
-        "word": [ "I", "D", "R", "I", "N" ],
-        "coppermindId": "4945",
-        "blurb": "Idrin is the head of the King's Guard on the Shattered Plains prior to Kaladin assuming its command."
-    },
-    { "word": [ "A", "X", "I", "K", "K" ], "coppermindId": "4902", "blurb": "Axikk is a vizier in the Azish government on Roshar." },
-    { "word": [ "M", "A", "L", "L", "I" ], "coppermindId": "9604", "blurb": "Malli is a scribe on Roshar." },
-    { "word": [ "T", "W", "I", "S", "T" ], "coppermindId": "20652", "blurb": "Twist is a taynix." },
-    {
-        "word": [ "A", "V", "A", "D", "O" ],
-        "coppermindId": "948",
-        "blurb": "Avado is a non-Alethi merchant on Roshar during the Era of Solitude."
-    },
-    {
-        "word": [ "V", "L", "X", "I", "M" ],
-        "coppermindId": "17745",
-        "blurb": "Vlxim is a Thaylen sailor and a helmsman of the Wandersail on Roshar."
+        "word": [ "D", "E", "E", "L", "I" ],
+        "coppermindId": "2851",
+        "blurb": "Deeli is a lighteyed woman on the Shattered Plains of Roshar."
     },
     {
         "word": [ "D", "I", "R", "I", "N" ],
         "coppermindId": "8736",
         "blurb": "Dirin is a sand master living in Kezare, on the Dayside of Taldain."
     },
-    { "word": [ "M", "E", "H", "E", "N" ], "coppermindId": "5999", "blurb": "Mehen is a philosopher on Sel." },
+    { "word": [ "U", "L", "I", "N", "A" ], "coppermindId": "18307", "blurb": "Ulina is a member of the Sons of Honor on Roshar." },
+    { "word": [ "I", "F", "A", "B", "A" ], "coppermindId": "18028", "blurb": "Ifaba is a town in southeastern Tashikk on Roshar." },
     {
-        "word": [ "N", "O", "R", "B", "Y" ],
-        "coppermindId": "3970",
-        "blurb": "Captainlord Norby is an officer in Amaram's army in Alethkar on Roshar."
+        "word": [ "M", "A", "X", "I", "N" ],
+        "coppermindId": "4226",
+        "blurb": "Maxin is a thief and member of Huqin's crew who attempts to rob the Bronze Palace in Azir."
     },
     {
-        "word": [ "W", "I", "P", "E", "R" ],
-        "coppermindId": "8549",
-        "blurb": "Wiper is an Epic that lives in Ildithia and works for Limelight."
+        "word": [ "C", "A", "D", "O", "N" ],
+        "coppermindId": "4092",
+        "blurb": "Cadon is a palace steward in Elend Venture's palace in Luthadel on Scadrial."
+    },
+    { "word": [ "I", "G", "L", "O", "M" ], "coppermindId": "11386", "blurb": "Dr. Iglom is a doctor in the Defiant Defense Force." },
+    { "word": [ "T", "E", "N", "E", "M" ], "coppermindId": "4074", "blurb": "Tenem is a soft, light-orange vegetable native to Roshar." },
+    { "word": [ "D", "R", "E", "O", "K" ], "coppermindId": "15821", "blurb": "Dreok Crushthroat is an alias adopted by Kiin." },
+    { "word": [ "G", "R", "U", "M", "P" ], "coppermindId": "20667", "blurb": "Grump is the name that Ishikk uses to refer to Galladon." },
+    {
+        "word": [ "T", "A", "D", "E", "T" ],
+        "coppermindId": "4052",
+        "blurb": "Brother Tadet was an ardent with House Kholin on the Shattered Plains."
     },
     {
-        "word": [ "H", "A", "L", "L", "O" ],
-        "coppermindId": "10831",
-        "blurb": "The Hallo are a race of aliens who have reached Prime Intelligence."
+        "word": [ "B", "R", "O", "A", "M" ],
+        "coppermindId": "2069",
+        "blurb": "A broam is one of the divisions of the sphere currency used on Roshar."
     },
-    { "word": [ "R", "E", "M", "I", "N" ], "coppermindId": "6566", "blurb": "Lady Remin is a noblewoman on Scadrial." },
+    { "word": [ "J", "U", "S", "H", "U" ], "coppermindId": "5519", "blurb": "Asha Jushu Davar is a lighteyed Veden on Roshar." },
     {
-        "word": [ "K", "L", "I", "S", "S" ],
-        "coppermindId": "115",
-        "blurb": "Lady Kliss is a noblewoman on Scadrial during the Final Empire."
+        "word": [ "A", "S", "H", "I", "R" ],
+        "coppermindId": "1764",
+        "blurb": "Ashir is a chemist and ardent who lives with Geranid on a small Reshi island on Roshar."
+    },
+    {
+        "word": [ "M", "A", "L", "I", "N" ],
+        "coppermindId": "13898",
+        "blurb": "Dr. Florin Malin is a former government official in the Elendel Basin on Scadrial."
+    },
+    {
+        "word": [ "F", "R", "A", "Y", "N" ],
+        "coppermindId": "5083",
+        "blurb": "Black Frayn is an herbal stimulant used during the Final Empire on Scadrial."
+    },
+    { "word": [ "S", "H", "I", "K", "I" ], "coppermindId": "9425", "blurb": "Shiki is an Unkalaki drink on Roshar." },
+    {
+        "word": [ "A", "X", "I", "E", "S" ],
+        "coppermindId": "285",
+        "blurb": "Axies the Collector is a Siah Aimian engaged in a quest to catalog all the different varieties of spren on Roshar."
+    },
+    { "word": [ "A", "T", "L", "A", "S" ], "coppermindId": "20385", "blurb": "Atlas Butler is a paramedic who works in Boston." },
+    {
+        "word": [ "S", "E", "R", "A", "N" ],
+        "coppermindId": "826",
+        "blurb": "The Conventical of Seran is a fortress of the Canton of Inquisition on Scadrial."
+    },
+    { "word": [ "T", "L", "M", "K", "O" ], "coppermindId": "9441", "blurb": "A tlmko is a form of Thaylen outfit." },
+    {
+        "word": [ "D", "I", "L", "A", "F" ],
+        "coppermindId": "82",
+        "blurb": "Dilaf is the gragdet of the Dakhor monastery leading up to the invasion of Arelon."
+    },
+    { "word": [ "R", "I", "L", "L", "A" ], "coppermindId": "2891", "blurb": "Rilla is a woman on Roshar." },
+    { "word": [ "H", "A", "R", "M", "S" ], "coppermindId": "2198", "blurb": "House Harms is a wealthy noble house in Elendel." },
+    {
+        "word": [ "H", "A", "V", "A", "R" ],
+        "coppermindId": "4010",
+        "blurb": "Brightlord Havar is an officer in Highprince Dalinar Kholin's army on the Shattered Plains of Roshar."
     },
     { "word": [ "S", "P", "A", "R", "K" ], "coppermindId": "9650", "blurb": "Spark is an ashspren on Roshar who is bonded to Malata." },
+    { "word": [ "V", "I", "G", "O", "R" ], "coppermindId": "11436", "blurb": "Callsign Vigor is a former cadet in the DDF Flight Schoo." },
+    { "word": [ "B", "A", "B", "S", "K" ], "coppermindId": "3025", "blurb": "Babsk is a term for a teacher or master in Thaylenah." },
     {
-        "word": [ "D", "A", "L", "K", "Y" ],
-        "coppermindId": "8882",
-        "blurb": "Dalksi is an Azish vizier on Roshar during the Era of Solitude."
+        "word": [ "A", "R", "D", "R", "A" ],
+        "coppermindId": "20691",
+        "blurb": "The Ardra riots are an event that destroyed most of the servers that could contain the contents of the vault at First Union Bank vault."
     },
-    { "word": [ "M", "A", "L", "O", "P" ], "coppermindId": "2844", "blurb": "Malop is a member of Bridge Four." },
-    { "word": [ "E", "L", "E", "G", "Y" ], "coppermindId": "10760", "blurb": "Elegy is a planet in the Threnodite system." },
+    { "word": [ "H", "A", "U", "K", "A" ], "coppermindId": "8709", "blurb": "Hauka is an Azish guard captain on Roshar." },
     {
-        "word": [ "D", "A", "R", "L", "A" ],
-        "coppermindId": "11403",
-        "blurb": "Darla Mee-Bim was an applicant for the Defiant Defence Force Flight School."
+        "word": [ "A", "C", "R", "O", "N" ],
+        "coppermindId": "14098",
+        "blurb": "Jon Acron is a professor and anthropologist from the Darkside of Taldain."
     },
+    { "word": [ "Y", "O", "M", "E", "N" ], "coppermindId": "137", "blurb": "Yomen is a family name on Scadrial." },
+    { "word": [ "M", "O", "R", "A", "G" ], "coppermindId": "15077", "blurb": "Morag is one of the Ashmounts in the Final Empire." },
+    { "word": [ "N", "L", "E", "N", "T" ], "coppermindId": "4979", "blurb": "Nlent is a squat Thaylen guard on Vstim's caravan." },
+    { "word": [ "S", "T", "A", "G", "M" ], "coppermindId": "4075", "blurb": "Stagm is a brownish tuber native to Roshar." },
     {
-        "word": [ "B", "E", "B", "I", "D" ],
-        "coppermindId": "2098",
-        "blurb": "Bebid is a priest, of unknown rank, to Brightvision on Nalthis."
+        "word": [ "A", "V", "E", "N", "A" ],
+        "coppermindId": "4901",
+        "blurb": "Avena is a historical scholar on Words of Radiance, and may have been consulted about unusual events that were occurring ahead of the Recreance."
     },
+    { "word": [ "O", "D", "I", "U", "M" ], "coppermindId": "365", "blurb": "Odium is one of the sixteen Shards of Adonalsium." },
+    { "word": [ "D", "A", "H", "A", "D" ], "coppermindId": "3064", "blurb": "Dahad is an Elantrian on Sel during the Reod." },
+    { "word": [ "W", "A", "Y", "N", "E" ], "coppermindId": "1213", "blurb": "Wayne is a Twinborn on Scadrial from Era 2." },
+    { "word": [ "B", "E", "R", "Q", "Q" ], "coppermindId": "18023", "blurb": "Berqq is a town on Roshar." },
+    { "word": [ "A", "L", "I", "L", "I" ], "coppermindId": "17933", "blurb": "Alili is an Alethi master-servant on Roshar." },
+    { "word": [ "K", "A", "M", "A", "R" ], "coppermindId": "3390", "blurb": "Sur Kamar is a Veden on Roshar." },
     {
-        "word": [ "A", "O", "N", "I", "C" ],
-        "coppermindId": "3337",
-        "blurb": "Aonic is the term used to refer to an ethnic group that exists on the planet Elantris."
-    },
-    { "word": [ "J", "E", "L", "L", "A" ], "coppermindId": "5034", "blurb": "The jella tree is a species of tree native to Roshar." },
-    {
-        "word": [ "R", "E", "R", "A", "L" ],
-        "coppermindId": "4017",
-        "blurb": "Reral Makoram is a lighteyed member of the sixth battalion in Sadeas's army on the Shattered Plains of Roshar."
-    },
-    { "word": [ "A", "Z", "U", "R", "E" ], "coppermindId": "9217", "blurb": "Azure is an alias used by Vivenna on Roshar." },
-    {
-        "word": [ "G", "R", "E", "N", "T" ],
-        "coppermindId": "4527",
-        "blurb": "Grent is a soldier and guard in the army of Straff Venture after the Collapse on Scadrial."
-    },
-    { "word": [ "L", "A", "K", "I", "N" ], "coppermindId": "18469", "blurb": "Lakin is man from Hearthstone on Roshar." },
-    { "word": [ "J", "E", "N", "I", "N" ], "coppermindId": "9571", "blurb": "Jenin is one of Dalinar's elites." },
-    {
-        "word": [ "V", "A", "R", "A", "S" ],
-        "coppermindId": "2893",
-        "blurb": "Varas is the assistant chief of collections in the Palanaeum."
-    },
-    { "word": [ "V", "A", "H", "N", "N" ], "coppermindId": "15051", "blurb": "Vahnn is a varvax ambassador sent to Evensong." },
-    {
-        "word": [ "K", "O", "H", "W", "O" ],
-        "coppermindId": "5246",
-        "blurb": "KoHwo is the JinDo name of Korath, the founder of the Shu-Korath religion on Sel."
-    },
-    { "word": [ "C", "H", "U", "B", "S" ], "coppermindId": "20631", "blurb": "Chubs is a very fat taynix." },
-    {
-        "word": [ "M", "I", "D", "G", "E" ],
-        "coppermindId": "11135",
-        "blurb": "Midge is a soldier in Elend's army on Scadrial during the Final Empire."
+        "word": [ "R", "O", "I", "A", "L" ],
+        "coppermindId": "94",
+        "blurb": "Duke Roial of Ial Plantation was an old Arelene merchant and nobleman."
     },
     {
-        "word": [ "A", "V", "I", "N", "G" ],
-        "coppermindId": "3637",
-        "blurb": "Lady Aving Cett is a member of House Cett in Elendel on Scadrial."
-    },
-    { "word": [ "P", "E", "D", "I", "N" ], "coppermindId": "4985", "blurb": "Pedin is a member of Bridge Four." },
-    {
-        "word": [ "S", "H", "A", "O", "R" ],
-        "coppermindId": "2917",
-        "blurb": "Shaor was a young girl who became an Elantrian before Raoden did."
+        "word": [ "M", "A", "R", "K", "S" ],
+        "coppermindId": "2622",
+        "blurb": "Marks is a lighteyed Alethi on Roshar and a member of the Cobalt Guard."
     },
     {
-        "word": [ "W", "E", "L", "L", "S" ],
-        "coppermindId": "6609",
-        "blurb": "Wells is a constable of the Elendel constabulary on Scadrial."
+        "word": [ "M", "A", "R", "N", "I" ],
+        "coppermindId": "18793",
+        "blurb": "Marni is an employee at Jez's Duty in the Ten Rings section of Urithiru on Roshar."
     },
     {
-        "word": [ "E", "I", "L", "I", "Z" ],
-        "coppermindId": "2853",
-        "blurb": "Eiliz was a kingdom on Roshar during the Desolations of the Heraldic Epochs."
+        "word": [ "R", "I", "R", "A", "N" ],
+        "coppermindId": "9201",
+        "blurb": "Rira is a kingdom in northwestern Roshar, bordering Iri and Babatharnam."
+    },
+    {
+        "word": [ "N", "O", "T", "U", "M" ],
+        "coppermindId": "9408",
+        "blurb": "Notum is an honorspren who serves as the captain of the ship Honor's Path."
+    },
+    { "word": [ "A", "L", "A", "M", "I" ], "coppermindId": "3959", "blurb": "Lady Alami is an Alethi noblewoman on Roshar." },
+    {
+        "word": [ "A", "M", "P", "H", "I" ],
+        "coppermindId": "20641",
+        "blurb": "Amphi is Arturo's nickname based on his full callsign Amphisbaena."
+    },
+    { "word": [ "V", "A", "L", "A", "M" ], "coppermindId": "2895", "blurb": "Valam is a Veden highprince on Roshar." },
+    { "word": [ "U", "R", "I", "A", "N" ], "coppermindId": "9657", "blurb": "Nan Urian is a Veden Highprince." },
+    {
+        "word": [ "T", "H", "A", "M", "E" ],
+        "coppermindId": "3940",
+        "blurb": "Thame is an Idrian living in the slums of T'Telir on Nalthis."
+    },
+    {
+        "word": [ "V", "A", "T", "H", "I" ],
+        "coppermindId": "5438",
+        "blurb": "Vathi is a woman from the Eelakin Islands on First of the Sun."
+    },
+    {
+        "word": [ "B", "L", "U", "T", "H" ],
+        "coppermindId": "2628",
+        "blurb": "Bluth was a mercenary in the service of the Thaylen slaver Tvlakv on Roshar."
     },
     {
         "word": [ "Y", "T", "V", "E", "S" ],
         "coppermindId": "4518",
         "blurb": "Ytves is the author of \"Studies in Revolution\" during the Final Empire."
     },
-    { "word": [ "S", "T", "E", "V", "E" ], "coppermindId": "16357", "blurb": "Steve is a resident of Babilar who was killed by an Epic." },
-    { "word": [ "S", "E", "L", "A", "Y" ], "coppermindId": "3116", "blurb": "Sela Tales was one of the Silver Kingdoms on Roshar." },
     {
-        "word": [ "W", "M", "L", "A", "K" ],
-        "coppermindId": "9676",
-        "blurb": "Wmlak is Rysn's assistant and porter in the Thaylen Gemstone Reserve on Roshar."
+        "word": [ "X", "I", "S", "I", "S" ],
+        "coppermindId": "17338",
+        "blurb": "Xisis is a non-human man (likely dragon), originally from Yolen, but currently living elsewhere, on a planet near the location of a lot of the Aethers."
     },
-    { "word": [ "S", "H", "I", "K", "I" ], "coppermindId": "9425", "blurb": "Shiki is an Unkalaki drink on Roshar." },
-    { "word": [ "V", "O", "R", "I", "N" ], "coppermindId": "870", "blurb": "Vorinism is one of the primary religions of Roshar." },
+    { "word": [ "B", "L", "U", "N", "T" ], "coppermindId": "5102", "blurb": "Baon is a soldier from Iiaria on the Darkside of Taldain." },
+    { "word": [ "N", "A", "L", "A", "N" ], "coppermindId": "4792", "blurb": "Nale, also known as Nalan, is one of the Heralds of Honor." },
+    { "word": [ "L", "E", "S", "A", "N" ], "coppermindId": "19235", "blurb": "Lesan Calour is a publisher on Scadrial." },
     {
-        "word": [ "P", "H", "O", "N", "E" ],
-        "coppermindId": "3541",
-        "blurb": "The Phone Company, commonly referred to as the PC, was a corporate entity responsible for developing human cytonics."
+        "word": [ "D", "O", "N", "A", "L" ],
+        "coppermindId": "4470",
+        "blurb": "Donal is the leader of a gang of outlaws in the Roughs of Scadrial."
     },
-    { "word": [ "M", "I", "S", "R", "A" ], "coppermindId": "6539", "blurb": "Misra is a Scadrian woman in Elendel." },
-    { "word": [ "Y", "O", "M", "E", "N" ], "coppermindId": "137", "blurb": "Yomen is a family name on Scadrial." },
-    { "word": [ "R", "E", "E", "S", "H" ], "coppermindId": "3969", "blurb": "Reesh is a soldier in Amaram's army in Alethkar on Roshar." },
+    { "word": [ "G", "A", "V", "I", "L" ], "coppermindId": "20132", "blurb": "Gavil's Carriages is a taxiing company in Elendel." },
+    { "word": [ "M", "A", "L", "A", "N" ], "coppermindId": "2624", "blurb": "Malan is a lighteyed Alethi military officer on Roshar." },
     {
-        "word": [ "N", "E", "T", "E", "B" ],
-        "coppermindId": "4051",
-        "blurb": "Brightlord Neteb is a noble on the Shattered Plains on Roshar."
+        "word": [ "H", "A", "M", "E", "L" ],
+        "coppermindId": "3964",
+        "blurb": "Hamel is a darkeyed soldier in Kaladin's squad in Highmarshal Meridas Amaram's army on Roshar."
     },
+    { "word": [ "M", "A", "R", "A", "T" ], "coppermindId": "977", "blurb": "Marat is a small kingdom in southern Roshar." },
+    { "word": [ "A", "T", "I", "U", "M" ], "coppermindId": "76", "blurb": "Atium is a Ruin's God Metal." },
+    { "word": [ "R", "E", "V", "A", "N" ], "coppermindId": "13955", "blurb": "Revan is a city in Seevis on the Dayside of Taldain." },
+    { "word": [ "T", "A", "R", "A", "H" ], "coppermindId": "1748", "blurb": "Tarah is a darkeyed Alethi woman on Roshar." },
+    { "word": [ "S", "L", "I", "N", "K" ], "coppermindId": "8916", "blurb": "Slink is one of the eight members of Migs' gang in Elendel." },
+    { "word": [ "H", "A", "O", "N", "A" ], "coppermindId": "15828", "blurb": "Haona is an Elantrian woman on Sel." },
     {
-        "word": [ "S", "E", "A", "L", "A" ],
-        "coppermindId": "3575",
-        "blurb": "Seala is a young Arelene woman from Sel and the former wife of Dilaf."
+        "word": [ "G", "R", "A", "E", "O" ],
+        "coppermindId": "3210",
+        "blurb": "Count Graeo is a young member of the Teo court, and the former fiance of Sarene."
     },
+    { "word": [ "S", "Y", "N", "O", "D" ], "coppermindId": "822", "blurb": "The Synod is the ruling council of the Keepers of Terris." },
     {
-        "word": [ "C", "O", "R", "E", "B" ],
-        "coppermindId": "2850",
-        "blurb": "Coreb is a darkeyed soldier in Kaladin's squad in Highmarshal Meridas Amaram's army on Roshar."
+        "word": [ "B", "A", "N", "K", "S" ],
+        "coppermindId": "11434",
+        "blurb": "Callsign Banks is a pilot who participated in the Battle of Alta."
     },
-    { "word": [ "N", "I", "L", "T", "O" ], "coppermindId": "9017", "blurb": "Nilto is a man in Kezare also known as the \"Lord Beggar\"." },
+    { "word": [ "A", "R", "M", "A", "L" ], "coppermindId": "4462", "blurb": "Armal is a cousin of Steris Harms." },
+    { "word": [ "U", "K", "R", "I", "T" ], "coppermindId": "11381", "blurb": "Ukrit is a National Assembly Leader on Detritus." },
     {
-        "word": [ "T", "A", "F", "F", "A" ],
-        "coppermindId": "2899",
-        "blurb": "Taffa was a woman who lived on Roshar during the Eighth Heraldic Epoch."
-    },
-    { "word": [ "O", "D", "I", "U", "M" ], "coppermindId": "365", "blurb": "Odium is one of the sixteen Shards of Adonalsium." },
-    {
-        "word": [ "G", "A", "V", "A", "L" ],
-        "coppermindId": "9298",
-        "blurb": "Nacomb Gaval is a young lighteyed soldier in the Kholin army during the War of Reckoning on Roshar."
-    },
-    { "word": [ "S", "Y", "L", "E", "S" ], "coppermindId": "8834", "blurb": "Syles is a brand of brandy." },
-    {
-        "word": [ "B", "R", "I", "G", "S" ],
-        "coppermindId": "20067",
-        "blurb": "Brigs Wennington is a business in Elendel that sells electric lights."
+        "word": [ "P", "L", "A", "T", "E" ],
+        "coppermindId": "2063",
+        "blurb": "Shardplate is an ancient and magical type of full-body armor found on Roshar."
     },
     {
-        "word": [ "D", "A", "L", "A", "R" ],
-        "coppermindId": "3979",
-        "blurb": "Dalar is a sergeant of the reserves in Highmarshal Meridas Amaram's army from Alethkar on Roshar."
+        "word": [ "W", "E", "L", "L", "S" ],
+        "coppermindId": "6609",
+        "blurb": "Wells is a constable of the Elendel constabulary on Scadrial."
+    },
+    { "word": [ "M", "A", "S", "H", "A" ], "coppermindId": "12951", "blurb": "Masha-daughter-Shaliv is a scholar of the Recreance." },
+    { "word": [ "R", "I", "G", "B", "Y" ], "coppermindId": "20905", "blurb": "Mount Rigby is a location in the belt of the nowhere." },
+    {
+        "word": [ "D", "I", "O", "N", "E" ],
+        "coppermindId": "14793",
+        "blurb": "Diones are one of the five alien species that lead the Superiority."
+    },
+    { "word": [ "R", "O", "B", "I", "N" ], "coppermindId": "20761", "blurb": "Robin is a member of Stardragon Flight in the DDF." },
+    {
+        "word": [ "K", "H", "Y", "A", "N" ],
+        "coppermindId": "14057",
+        "blurb": "Khyan is a builder in Lossand who works with Trell under Kelzi Kar."
     },
     {
-        "word": [ "P", "A", "R", "I", "K" ],
-        "coppermindId": "20428",
-        "blurb": "Parik is a scientist under Lifeforce’s employ who lives in Lux."
+        "word": [ "G", "E", "V", "I", "N" ],
+        "coppermindId": "8442",
+        "blurb": "Gevalden, nicknamed Gevin, is a prince of the Kingdom of Elis on the Darkside of Taldain."
     },
-    { "word": [ "D", "U", "N", "N", "Y" ], "coppermindId": "186", "blurb": "Dunny is a member of Bridge Four." },
+    { "word": [ "B", "A", "X", "I", "L" ], "coppermindId": "188", "blurb": "Baxil is an Emuli thief on Roshar who is hired by Shalash." },
+    { "word": [ "R", "E", "M", "I", "N" ], "coppermindId": "6566", "blurb": "Lady Remin is a noblewoman on Scadrial." },
     {
-        "word": [ "S", "T", "U", "M", "P" ],
-        "coppermindId": "17928",
-        "blurb": "Arshqqam, also known as the Stump, is a woman who runs the Tashi's Light Orphanage in Yeddaw."
+        "word": [ "L", "E", "I", "K", "O" ],
+        "coppermindId": "20646",
+        "blurb": "Leiko (Callsign: Lizard) is a member of Nightmare Flight in the DDF."
     },
+    { "word": [ "E", "O", "D", "E", "N" ], "coppermindId": "3071", "blurb": "Eoden is a lord, perhaps a Teo lord, on Sel." },
+    { "word": [ "M", "I", "L", "E", "S" ], "coppermindId": "1272", "blurb": "Miles Dagouter is the main antagonist of The Alloy of Law." },
     {
-        "word": [ "D", "A", "V", "I", "M" ],
-        "coppermindId": "4919",
-        "blurb": "Davim is a member of the listener Council of Five in Narak during the War of Reckoning on Roshar."
-    },
-    {
-        "word": [ "K", "E", "L", "I", "N" ],
-        "coppermindId": "21146",
-        "blurb": "Kelin is a guard assigned to the commander of the Defiant Defense Force."
-    },
-    { "word": [ "V", "A", "L", "O", "R" ], "coppermindId": "17919", "blurb": "Valor is one of the sixteen Shards of Adonalsium." },
-    { "word": [ "D", "A", "O", "R", "N" ], "coppermindId": "86", "blurb": "Daorn is an Arelene boy on Sel." },
-    { "word": [ "D", "E", "N", "K", "A" ], "coppermindId": "8623", "blurb": "Denka is a nation on the Dayside of Taldain." },
-    {
-        "word": [ "M", "I", "Z", "Z", "Y" ],
-        "coppermindId": "5964",
-        "blurb": "Missouri Williams, known as Mizzy, is a member of the Reckoners."
+        "word": [ "G", "L", "U", "R", "V" ],
+        "coppermindId": "4940",
+        "blurb": "Glurv is a deserter from the Alethi armies during the War of Reckoning."
     },
     {
-        "word": [ "D", "O", "R", "I", "M" ],
-        "coppermindId": "8411",
-        "blurb": "Dorim vines are a type of flora native to the Dayside of Taldain."
+        "word": [ "C", "O", "V", "E", "N" ],
+        "coppermindId": "5284",
+        "blurb": "The Coven are a group of six Epics ruling the south of the Fractured States."
     },
-    { "word": [ "M", "O", "A", "S", "H" ], "coppermindId": "185", "blurb": "Moash is an Alethi man on Roshar." },
-    { "word": [ "H", "A", "R", "E", "L" ], "coppermindId": "18034", "blurb": "Harel is a singer on Roshar." },
     {
-        "word": [ "M", "E", "L", "L", "Y" ],
-        "coppermindId": "14097",
-        "blurb": "Melloni, often called Melly, is the daughter of Ais and Mellis on Taldain."
+        "word": [ "S", "H", "A", "D", "E" ],
+        "coppermindId": "3735",
+        "blurb": "A shade is a type of Cognitive Shadow that is native to the Forests of Hell on Threnody."
+    },
+    { "word": [ "Y", "E", "D", "E", "N" ], "coppermindId": "110", "blurb": "Yeden is a skaa from the Final Empire on Scadrial." },
+    { "word": [ "W", "A", "L", "I", "N" ], "coppermindId": "4519", "blurb": "Walin is a prisoner at the Pits of Hathsin on Scadrial." },
+    { "word": [ "T", "I", "B", "O", "N" ], "coppermindId": "2621", "blurb": "Tibon was a lighteyed Alethi on Roshar." },
+    { "word": [ "J", "A", "I", "S", "M" ], "coppermindId": "1187", "blurb": "Jaism is a religion on Scadrial." },
+    { "word": [ "R", "T", "I", "C", "H" ], "coppermindId": "12895", "blurb": "Rtich was a Russian Epic with mercury manipulating powers." },
+    { "word": [ "M", "A", "L", "E", "N" ], "coppermindId": "9420", "blurb": "Malen is one of the sexes of the singer species." },
+    {
+        "word": [ "M", "A", "T", "A", "L" ],
+        "coppermindId": "3922",
+        "blurb": "Brightlord Avarak Matal is lighteyed officer in the Sadeas warcamp on the Shattered Plains of Roshar."
+    },
+    { "word": [ "K", "A", "H", "A", "R" ], "coppermindId": "3478", "blurb": "Kahar is an Elantrian on Sel who cleaned New Elantris." },
+    { "word": [ "Y", "U", "N", "M", "I" ], "coppermindId": "20582", "blurb": "Newton is an Epic that serves Regalia in Babilar." },
+    {
+        "word": [ "W", "A", "R", "E", "N" ],
+        "coppermindId": "3066",
+        "blurb": "Lord Waren is a noble in Arelon on Sel. His conversion to Shu-Dereth is an important part of the gyorn Hrathen's plan to convert all of Arelon"
+    },
+    { "word": [ "T", "Y", "D", "E", "N" ], "coppermindId": "3855", "blurb": "Tyden is a nobleman in the Final Empire on Scadrial." },
+    { "word": [ "S", "A", "Z", "E", "D" ], "coppermindId": "108", "blurb": "Sazed is a Terrisman steward from Scadrial." },
+    { "word": [ "B", "R", "I", "L", "L" ], "coppermindId": "13519", "blurb": "Brill is a construction worker in Elendel on Scadrial." },
+    {
+        "word": [ "A", "S", "H", "N", "O" ],
+        "coppermindId": "4033",
+        "blurb": "Ashno of Sages is a rich Emuli holy man and former Prime on Roshar."
+    },
+    {
+        "word": [ "D", "E", "R", "A", "L" ],
+        "coppermindId": "11419",
+        "blurb": "Captain Deral was an Elisian man who traveled with Duchess Khrissalla and her party to the Dayside of Taldain."
+    },
+    { "word": [ "J", "A", "S", "O", "N" ], "coppermindId": "3529", "blurb": "Jason Write is the head operative of the Phone Company." },
+    {
+        "word": [ "A", "S", "H", "Y", "N" ],
+        "coppermindId": "3838",
+        "blurb": "Ashyn is a planet in the Rosharan system that will be the setting of The Silence Divine."
+    },
+    { "word": [ "K", "Y", "L", "R", "M" ], "coppermindId": "3023", "blurb": "Kylrm is a guardsman on Roshar." },
+    {
+        "word": [ "T", "O", "M", "A", "T" ],
+        "coppermindId": "2681",
+        "blurb": "Tomat is a city in the Sadeas princedom of Alethkar on Roshar."
+    },
+    { "word": [ "I", "S", "H", "A", "R" ], "coppermindId": "972", "blurb": "Ishar is one of the ten Heralds of Honor." },
+    { "word": [ "C", "R", "E", "E", "R" ], "coppermindId": "9524", "blurb": "Creer and his brother are members of Bridge Twenty." },
+    { "word": [ "B", "L", "A", "I", "N" ], "coppermindId": "8545", "blurb": "Blain Charleston is David Charleston's father." },
+    {
+        "word": [ "V", "A", "R", "T", "H" ],
+        "coppermindId": "3829",
+        "blurb": "Varth is a squadleader in Meridas Amaram's army under Torol Sadeas in Alethkar on Roshar."
+    },
+    {
+        "word": [ "H", "A", "L", "A", "D" ],
+        "coppermindId": "9555",
+        "blurb": "Highmarshal Halad is a respected figure in the military circles of Alethkar on Roshar."
+    },
+    { "word": [ "M", "E", "R", "C", "Y" ], "coppermindId": "17918", "blurb": "Mercy is one of the sixteen Shards of Adonalsium." },
+    { "word": [ "S", "H", "A", "S", "H" ], "coppermindId": "16394", "blurb": "The Shash glyph means dangerous." },
+    {
+        "word": [ "D", "O", "X", "I", "L" ],
+        "coppermindId": "15815",
+        "blurb": "Doxil is a month in the Scadrian calendar in Era 2, named after Dockson."
+    },
+    {
+        "word": [ "M", "I", "D", "G", "E" ],
+        "coppermindId": "11135",
+        "blurb": "Midge is a soldier in Elend's army on Scadrial during the Final Empire."
+    },
+    {
+        "word": [ "N", "I", "T", "E", "R" ],
+        "coppermindId": "2623",
+        "blurb": "Niter is the head of the Cobalt Guard in Alethkar on Roshar during the War of Reckoning."
     },
     {
         "word": [ "E", "L", "O", "R", "S" ],
@@ -1593,143 +658,149 @@
         "blurb": "Elors Durnsed is the leader of the United Tradeworkers Union on Scadrial."
     },
     {
-        "word": [ "R", "E", "D", "I", "N" ],
-        "coppermindId": "4991",
-        "blurb": "Redin is an illegitimate son of Highprince Valam of Jah Keved on Roshar."
+        "word": [ "B", "E", "Z", "N", "K" ],
+        "coppermindId": "4389",
+        "blurb": "Beznk is a Thaylen sailor on the Wind's Pleasure under Captain Tozbek on Roshar."
     },
-    {
-        "word": [ "B", "E", "C", "C", "A" ],
-        "coppermindId": "11327",
-        "blurb": "Becca Nightshade, more commonly known as Gran-Gran, is Spensa's grandmother."
-    },
-    {
-        "word": [ "D", "O", "X", "I", "L" ],
-        "coppermindId": "15815",
-        "blurb": "Doxil is a month in the Scadrian calendar in Era 2, named after Dockson."
-    },
-    {
-        "word": [ "V", "M", "E", "E", "R" ],
-        "coppermindId": "15183",
-        "blurb": "Mrs. Vmeer is the Work Studies teacher at Spensa's school in Igneous Cavern."
-    },
-    { "word": [ "G", "A", "D", "O", "L" ], "coppermindId": "2855", "blurb": "Gadol is a member of Bridge Four." },
-    { "word": [ "I", "G", "L", "O", "M" ], "coppermindId": "11386", "blurb": "Dr. Iglom is a doctor in the Defiant Defense Force." },
-    { "word": [ "U", "R", "I", "A", "N" ], "coppermindId": "9657", "blurb": "Nan Urian is a Veden Highprince." },
-    { "word": [ "B", "A", "X", "I", "L" ], "coppermindId": "188", "blurb": "Baxil is an Emuli thief on Roshar who is hired by Shalash." },
-    { "word": [ "K", "E", "T", "O", "L" ], "coppermindId": "2169", "blurb": "Ketol is an Arelene court attendant on Sel." },
-    { "word": [ "W", "A", "L", "I", "N" ], "coppermindId": "4519", "blurb": "Walin is a prisoner at the Pits of Hathsin on Scadrial." },
-    {
-        "word": [ "R", "O", "I", "A", "L" ],
-        "coppermindId": "94",
-        "blurb": "Duke Roial of Ial Plantation was an old Arelene merchant and nobleman."
-    },
-    { "word": [ "M", "A", "R", "R", "I" ], "coppermindId": "4966", "blurb": "Marri is a lady's maid serving Shallan Davar." },
+    { "word": [ "L", "A", "G", "E", "T" ], "coppermindId": "5087", "blurb": "Lagets are a form of food eaten in the Final Empire." },
+    { "word": [ "M", "E", "T", "A", "L" ], "coppermindId": "1985", "blurb": "Metals are used central to the Metallic Arts on Scadrial." },
+    { "word": [ "T", "A", "L", "E", "B" ], "coppermindId": "3987", "blurb": "Taleb is a resident of Hearthstone on Roshar." },
+    { "word": [ "A", "D", "I", "E", "N" ], "coppermindId": "90", "blurb": "Adien is an Elantrian from Sel." },
+    { "word": [ "D", "E", "M", "I", "D" ], "coppermindId": "4921", "blurb": "Demid is a listener on Roshar." },
+    { "word": [ "Z", "A", "H", "E", "L" ], "coppermindId": "4737", "blurb": "Zahel is the alias Vasher uses on Roshar." },
+    { "word": [ "M", "O", "A", "S", "H" ], "coppermindId": "185", "blurb": "Moash is an Alethi man on Roshar." },
     {
         "word": [ "R", "A", "L", "L", "Y" ],
         "coppermindId": "11427",
         "blurb": "Callsign Rally is a member of Hope Flight who participated in the Battle of Alta."
     },
     {
-        "word": [ "A", "U", "D", "I", "L" ],
-        "coppermindId": "8435",
-        "blurb": "Audil Lekal was the second king of the kingdom formed by Jastes Lekal on Scadrial."
+        "word": [ "R", "E", "B", "S", "K" ],
+        "coppermindId": "17738",
+        "blurb": "Rebsk is a term for a shipmaster or owner that originates from Thaylen merchant ships on Roshar."
     },
+    { "word": [ "E", "L", "E", "G", "Y" ], "coppermindId": "10760", "blurb": "Elegy is a planet in the Threnodite system." },
+    { "word": [ "B", "L", "A", "D", "E" ], "coppermindId": "20861", "blurb": "A Shardblade is a type of Invested weapon found on Roshar." },
+    { "word": [ "C", "A", "R", "L", "A" ], "coppermindId": "8544", "blurb": "Carla is the leader of the Stingray Clan in Ildithia." },
+    { "word": [ "P", "A", "X", "E", "N" ], "coppermindId": "3937", "blurb": "Paxen is an Idrian slumlord in Hallandren on Nalthis." },
+    { "word": [ "E", "D", "G", "L", "I" ], "coppermindId": "6655", "blurb": "Edgli is the Vessel of the Shard Endowment." },
+    { "word": [ "A", "M", "A", "R", "K" ], "coppermindId": "2846", "blurb": "Amark is a Bavlander and a member of Bridge Four on Roshar." },
+    { "word": [ "S", "C", "I", "O", "N" ], "coppermindId": "16333", "blurb": "A scion is an Azish priest." },
     {
-        "word": [ "L", "A", "V", "I", "S" ],
-        "coppermindId": "5101",
-        "blurb": "Lavis is a species of plant from the rockbud family on Roshar."
+        "word": [ "D", "A", "L", "K", "Y" ],
+        "coppermindId": "8882",
+        "blurb": "Dalksi is an Azish vizier on Roshar during the Era of Solitude."
     },
+    { "word": [ "H", "U", "Q", "I", "N" ], "coppermindId": "4227", "blurb": "Huqin is a thief from Azir on Roshar." },
+    { "word": [ "J", "I", "N", "D", "O" ], "coppermindId": "8695", "blurb": "JinDo is a nation on Sel and part of the Fjordish Empire." },
     {
-        "word": [ "A", "N", "S", "E", "D" ],
-        "coppermindId": "3585",
-        "blurb": "Captain Orson Ansed is a member of the Evensong Police Department."
+        "word": [ "P", "A", "C", "L", "O" ],
+        "coppermindId": "3526",
+        "blurb": "Paclo, sometimes referred to as Paclo the Dusty was a deputy lawman under Waxillium Ladrian in the town of Weathering on Scadrial."
     },
-    { "word": [ "S", "H", "A", "S", "H" ], "coppermindId": "16394", "blurb": "The Shash glyph means dangerous." },
-    { "word": [ "M", "I", "S", "E", "L" ], "coppermindId": "3813", "blurb": "Misel was a young Hallandren on Nalthis." },
-    { "word": [ "S", "N", "I", "D", "E" ], "coppermindId": "20770", "blurb": "Snide is a taynix." },
-    {
-        "word": [ "U", "L", "V", "L", "K" ],
-        "coppermindId": "18327",
-        "blurb": "Ulvlk is a young Thaylen artifabrian in the Vriztl Guild living in Urithiru on Roshar."
-    },
-    { "word": [ "I", "V", "O", "R", "Y" ], "coppermindId": "5057", "blurb": "Ivory is an inkspren and bonded to Jasnah." },
+    { "word": [ "A", "U", "G", "U", "R" ], "coppermindId": "15303", "blurb": "Gold mistings are also called Augurs." },
+    { "word": [ "M", "A", "K", "A", "L" ], "coppermindId": "4045", "blurb": "Makal is a lighteyed woman on Roshar." },
     { "word": [ "R", "U", "D", "D", "Y" ], "coppermindId": "4532", "blurb": "Ruddy is an underworld Smoker known to Kelsier and Dockson." },
-    { "word": [ "A", "S", "H", "E", "R" ], "coppermindId": "20575", "blurb": "Asher Vidales is the real name of the High Epic Languish." },
-    { "word": [ "L", "E", "M", "E", "X" ], "coppermindId": "2174", "blurb": "Lemex is an Idrian merchant living in T'Telir on Nalthis." },
     {
-        "word": [ "W", "I", "D", "O", "R" ],
-        "coppermindId": "2643",
-        "blurb": "Widor is the capital city of Fjorden on Sel, and by extension, the entire Fjordell Empire."
+        "word": [ "I", "S", "H", "A", "L" ],
+        "coppermindId": "9562",
+        "blurb": "Ishal is an Alethi ardent from Kholinar in the Era of Solitude."
+    },
+    { "word": [ "E", "L", "I", "Z", "A" ], "coppermindId": "15212", "blurb": "Eliza Marin was a child who lived on Scadrial." },
+    { "word": [ "R", "O", "I", "O", "N" ], "coppermindId": "1810", "blurb": "Roion is a highprince of Alethkar on Roshar." },
+    { "word": [ "C", "A", "Z", "Z", "I" ], "coppermindId": "1188", "blurb": "The Cazzi were a people on Classical Scadrial." },
+    { "word": [ "S", "Y", "L", "E", "S" ], "coppermindId": "8834", "blurb": "Syles is a brand of brandy." },
+    { "word": [ "J", "E", "L", "L", "A" ], "coppermindId": "5034", "blurb": "The jella tree is a species of tree native to Roshar." },
+    {
+        "word": [ "T", "A", "L", "A", "T" ],
+        "coppermindId": "16014",
+        "blurb": "Talat is a nickname for Talenel, one of the Heralds on Roshar."
+    },
+    { "word": [ "S", "A", "L", "A", "S" ], "coppermindId": "5100", "blurb": "Salas is the smallest, violet moon of Roshar." },
+    {
+        "word": [ "G", "A", "L", "A", "N" ],
+        "coppermindId": "3980",
+        "blurb": "Galan is a soldier in Highmarshal Meridas Amaram's army on Roshar."
+    },
+    { "word": [ "F", "E", "D", "E", "R" ], "coppermindId": "6502", "blurb": "Feder Tower is a skyscraper in Elendel." },
+    {
+        "word": [ "T", "O", "R", "A", "L" ],
+        "coppermindId": "4036",
+        "blurb": "Toral was a lighteyed man from Highprince Aladar's camp on Roshar."
+    },
+    { "word": [ "N", "A", "V", "A", "R" ], "coppermindId": "3966", "blurb": "Navar was a soldier in Amaram's army in Alethkar on Roshar." },
+    {
+        "word": [ "Y", "E", "N", "E", "V" ],
+        "coppermindId": "5021",
+        "blurb": "Highprince Yenev is a former highprince of Alethkar prior to the Kholin unification of the nation."
+    },
+    { "word": [ "S", "U", "S", "H", "I" ], "coppermindId": "11431", "blurb": "Callsign Sushi is a member of Nightmare Flight." },
+    {
+        "word": [ "C", "H", "I", "V", "I" ],
+        "coppermindId": "4910",
+        "blurb": "Chivi is a member of the listener Council of Five in Narak during the War of Reckoning on Roshar."
     },
     {
-        "word": [ "K", "U", "R", "T", "H" ],
-        "coppermindId": "2262",
-        "blurb": "Kurth, also known as the City of Lightning, is an island city in Rira on Roshar."
-    },
-    { "word": [ "D", "R", "E", "O", "K" ], "coppermindId": "15821", "blurb": "Dreok Crushthroat is an alias adopted by Kiin." },
-    { "word": [ "K", "E", "H", "W", "O" ], "coppermindId": "5245", "blurb": "KeHwo is the honorific given to Keshu on Sel." },
-    {
-        "word": [ "F", "L", "A", "D", "M" ],
-        "coppermindId": "9535",
-        "blurb": "Fladm is a guard at the Thaylen Gemstone Reserve in Thaylen City on Roshar."
-    },
-    { "word": [ "H", "E", "S", "S", "I" ], "coppermindId": "9550", "blurb": "Hessi is a scholar and author on Roshar." },
-    { "word": [ "M", "A", "K", "A", "M" ], "coppermindId": "4082", "blurb": "Makam are a type of tree native to Roshar." },
-    {
-        "word": [ "A", "A", "R", "I", "K" ],
-        "coppermindId": "8674",
-        "blurb": "Aarik is a young merchant from Lossand and childhood friend of Kenton."
-    },
-    { "word": [ "G", "L", "I", "N", "T" ], "coppermindId": "19243", "blurb": "Glint is the nickname of a revolver on Scadrial." },
-    {
-        "word": [ "J", "E", "N", "E", "T" ],
-        "coppermindId": "4953",
-        "blurb": "Jenet is the stablemaster of the Kholin warcamp's stables on the Shattered Plains."
+        "word": [ "I", "A", "D", "O", "N" ],
+        "coppermindId": "24",
+        "blurb": "Iadon was the first king of Arelon after the Reod on Sel. He is the father of Raoden."
     },
     {
-        "word": [ "U", "V", "A", "R", "A" ],
-        "coppermindId": "2913",
-        "blurb": "The Uvara, also known as the People of the Great Abyss, are a possibly mythical society that lived on uncharted islands in the oceans of Roshar."
+        "word": [ "V", "M", "E", "E", "R" ],
+        "coppermindId": "15183",
+        "blurb": "Mrs. Vmeer is the Work Studies teacher at Spensa's school in Igneous Cavern."
     },
-    { "word": [ "L", "U", "T", "E", "N" ], "coppermindId": "3996", "blurb": "Luten is a resident of Hearthstone on Roshar." },
-    { "word": [ "H", "A", "R", "V", "O" ], "coppermindId": "18035", "blurb": "Harvo is a singer on Roshar." },
+    { "word": [ "N", "A", "T", "A", "M" ], "coppermindId": "3956", "blurb": "Natam is a member of Bridge Four." },
     {
-        "word": [ "M", "A", "R", "K", "S" ],
-        "coppermindId": "2622",
-        "blurb": "Marks is a lighteyed Alethi on Roshar and a member of the Cobalt Guard."
+        "word": [ "F", "O", "R", "G", "E" ],
+        "coppermindId": "2423",
+        "blurb": "Forgery is a manifestation of Investiture on Sel that is powered by the Dor."
     },
-    { "word": [ "B", "A", "B", "S", "K" ], "coppermindId": "3025", "blurb": "Babsk is a term for a teacher or master in Thaylenah." },
-    { "word": [ "J", "A", "R", "E", "L" ], "coppermindId": "3993", "blurb": "Old Jarel is a resident of Hearthstone on Roshar." },
-    { "word": [ "H", "A", "R", "M", "S" ], "coppermindId": "2198", "blurb": "House Harms is a wealthy noble house in Elendel." },
+    { "word": [ "D", "U", "N", "N", "Y" ], "coppermindId": "186", "blurb": "Dunny is a member of Bridge Four." },
+    { "word": [ "F", "L", "E", "E", "T" ], "coppermindId": "5285", "blurb": "Fleet is a figure from legends on Roshar." },
     { "word": [ "A", "Z", "I", "S", "H" ], "coppermindId": "2006", "blurb": "Azish is the demonym for the nation of Azir." },
-    { "word": [ "M", "E", "T", "H", "I" ], "coppermindId": "4083", "blurb": "Methi is a type of fruit native to Roshar." },
-    { "word": [ "A", "L", "A", "M", "I" ], "coppermindId": "3959", "blurb": "Lady Alami is an Alethi noblewoman on Roshar." },
-    { "word": [ "M", "I", "L", "E", "V" ], "coppermindId": "1206", "blurb": "Milev was a dark skinned skaa from Luthadel on Scadrial." },
-    { "word": [ "E", "X", "T", "E", "S" ], "coppermindId": "3834", "blurb": "Extes is a man from Vorin mythology on Roshar." },
-    { "word": [ "Y", "E", "D", "E", "N" ], "coppermindId": "110", "blurb": "Yeden is a skaa from the Final Empire on Scadrial." },
-    { "word": [ "L", "A", "L", "A", "I" ], "coppermindId": "4043", "blurb": "Brightness Lalai is a lighteyed woman on Roshar." },
+    { "word": [ "K", "R", "Y", "S", "T" ], "coppermindId": "18348", "blurb": "Kryst is a woman who is married to Jor on Roshar." },
     {
-        "word": [ "T", "A", "D", "E", "T" ],
-        "coppermindId": "4052",
-        "blurb": "Brother Tadet was an ardent with House Kholin on the Shattered Plains."
+        "word": [ "S", "T", "O", "F", "F" ],
+        "coppermindId": "21138",
+        "blurb": "Vice Admiral Stoff is an officer in the Defiant Defense Force."
     },
-    { "word": [ "A", "T", "I", "U", "M" ], "coppermindId": "76", "blurb": "Atium is a Ruin's God Metal." },
-    { "word": [ "L", "A", "Z", "B", "O" ], "coppermindId": "9423", "blurb": "Lazbo is a spicy powder." },
+    { "word": [ "H", "A", "W", "I", "N" ], "coppermindId": "18036", "blurb": "Hawin is a young woman in Urithiru on Roshar." },
     {
-        "word": [ "S", "H", "A", "O", "D" ],
-        "coppermindId": "401",
-        "blurb": "Shaod is a term describing the process of being converted into an Elantrian."
-    },
-    { "word": [ "B", "A", "L", "A", "T" ], "coppermindId": "5520", "blurb": "Balat Davar is a lighteyed Veden on Roshar." },
-    {
-        "word": [ "H", "A", "L", "A", "M" ],
-        "coppermindId": "9291",
-        "blurb": "Captain Halam Khal is a lighteyed officer and Shardbearer in the Kholin army on Roshar."
+        "word": [ "T", "A", "L", "A", "K" ],
+        "coppermindId": "4388",
+        "blurb": "Talak was a Veden man, who served Liss, the Weeper, an assassin on Roshar."
     },
     {
-        "word": [ "S", "P", "R", "E", "N" ],
-        "coppermindId": "331",
-        "blurb": "Spren are fragments of the powers of creation that have gained sentience."
+        "word": [ "E", "L", "R", "A", "O" ],
+        "coppermindId": "6848",
+        "blurb": "Elrao is a member of the Ire, a group of Elantrians from Sel."
+    },
+    { "word": [ "A", "P", "A", "R", "A" ], "coppermindId": "4900", "blurb": "Apara is a lighteyed woman on the Shattered Plains." },
+    { "word": [ "D", "R", "E", "H", "Y" ], "coppermindId": "2852", "blurb": "Drehy is a member of Bridge Four." },
+    { "word": [ "G", "R", "A", "N", "D" ], "coppermindId": "2457", "blurb": "The Grands are a race on Sel that rule the Rose Empire." },
+    { "word": [ "G", "A", "D", "O", "L" ], "coppermindId": "2855", "blurb": "Gadol is a member of Bridge Four." },
+    { "word": [ "H", "E", "S", "S", "I" ], "coppermindId": "9550", "blurb": "Hessi is a scholar and author on Roshar." },
+    {
+        "word": [ "I", "A", "L", "A", "I" ],
+        "coppermindId": "9250",
+        "blurb": "Brightlady Ialai Sadeas is a noble Alethi lighteyes on Roshar."
+    },
+    {
+        "word": [ "B", "E", "B", "I", "D" ],
+        "coppermindId": "2098",
+        "blurb": "Bebid is a priest, of unknown rank, to Brightvision on Nalthis."
+    },
+    { "word": [ "V", "E", "D", "E", "L" ], "coppermindId": "969", "blurb": "Vedel is one of the ten Heralds of Honor." },
+    {
+        "word": [ "V", "A", "T", "H", "E" ],
+        "coppermindId": "2892",
+        "blurb": "Vathe is a surgeon from Shorsebroon, who trained at the Great Concourse of Kharbranth."
+    },
+    {
+        "word": [ "T", "E", "L", "E", "B" ],
+        "coppermindId": "2906",
+        "blurb": "Teleb is a lighteyed officer and Shardbearer in Dalinar's warcamp on Roshar."
     },
     {
         "word": [ "E", "O", "N", "I", "C" ],
@@ -1737,49 +808,978 @@
         "blurb": "Eonic is a blacksmith who lives in New Elantris in Arelon on Sel."
     },
     {
-        "word": [ "T", "U", "R", "L", "M" ],
-        "coppermindId": "17742",
-        "blurb": "Turlm is a Thaylen sailor and a member of the crew of the Wandersail."
+        "word": [ "S", "Y", "C", "L", "A" ],
+        "coppermindId": "1961",
+        "blurb": "Sycla is one name for the continent on Sel that Elantris is found on."
+    },
+    { "word": [ "E", "L", "T", "O", "N" ], "coppermindId": "15052", "blurb": "Elton Flippenday is an alias used by Jason Write." },
+    { "word": [ "V", "A", "H", "N", "N" ], "coppermindId": "15051", "blurb": "Vahnn is a varvax ambassador sent to Evensong." },
+    { "word": [ "G", "R", "E", "M", "M" ], "coppermindId": "20887", "blurb": "Gremm is a tenasi pirate in the belt of the nowhere." },
+    { "word": [ "A", "L", "U", "K", "O" ], "coppermindId": "11349", "blurb": "Aluko is a member of the ground troup in Igneous Cavern." },
+    {
+        "word": [ "P", "A", "L", "A", "H" ],
+        "coppermindId": "4793",
+        "blurb": "Palah is an alias for Pailiah, one of the ten Heralds of Honor."
+    },
+    { "word": [ "T", "A", "L", "I", "K" ], "coppermindId": "5009", "blurb": "Talik is a Reshi trademaster who lives on Relu-na." },
+    {
+        "word": [ "F", "U", "S", "E", "D" ],
+        "coppermindId": "9422",
+        "blurb": "The Fused are the souls of ancient singers that are able to be reborn by possessing the bodies of living singers."
+    },
+    { "word": [ "C", "R", "E", "W", "S" ], "coppermindId": "4459", "blurb": "Crews Geffenry is a Mistborn on Scadrial." },
+    { "word": [ "R", "L", "A", "I", "N" ], "coppermindId": "4742", "blurb": "Rlain is a listener and member of Bridge Four." },
+    {
+        "word": [ "A", "I", "M", "I", "A" ],
+        "coppermindId": "942",
+        "blurb": "Aimia is a group of islands on Roshar as well as one of the Silver Kingdoms."
     },
     {
-        "word": [ "F", "O", "R", "G", "E" ],
-        "coppermindId": "2423",
-        "blurb": "Forgery is a manifestation of Investiture on Sel that is powered by the Dor."
+        "word": [ "M", "A", "R", "C", "O" ],
+        "coppermindId": "5876",
+        "blurb": "Marco is a resident of Babilar and a friend of Missouri Williams."
+    },
+    {
+        "word": [ "S", "H", "A", "O", "D" ],
+        "coppermindId": "401",
+        "blurb": "Shaod is a term describing the process of being converted into an Elantrian."
+    },
+    { "word": [ "K", "E", "H", "W", "O" ], "coppermindId": "5245", "blurb": "KeHwo is the honorific given to Keshu on Sel." },
+    {
+        "word": [ "T", "A", "F", "F", "A" ],
+        "coppermindId": "2899",
+        "blurb": "Taffa was a woman who lived on Roshar during the Eighth Heraldic Epoch."
+    },
+    { "word": [ "J", "U", "N", "M", "I" ], "coppermindId": "11440", "blurb": "Junmi is the author of The Conquest of Space." },
+    {
+        "word": [ "K", "M", "A", "K", "L" ],
+        "coppermindId": "9591",
+        "blurb": "Kmakl is Queen Fen's husband and the prince consort of Thaylenah on Roshar."
+    },
+    {
+        "word": [ "T", "H", "A", "U", "B" ],
+        "coppermindId": "15015",
+        "blurb": "The Thaub is a minor Epic who was killed in Ildithia during Prof's fight with Tavi."
+    },
+    {
+        "word": [ "K", "U", "R", "T", "H" ],
+        "coppermindId": "2262",
+        "blurb": "Kurth, also known as the City of Lightning, is an island city in Rira on Roshar."
+    },
+    { "word": [ "K", "R", "E", "N", "T" ], "coppermindId": "4506", "blurb": "Krent is House Ladrian's coachman in Elendel." },
+    {
+        "word": [ "F", "R", "A", "V", "A" ],
+        "coppermindId": "2444",
+        "blurb": "Frava is the seniormost arbiter and leader of the Heritage Faction of the Rose Empire on Sel."
+    },
+    { "word": [ "M", "A", "A", "R", "E" ], "coppermindId": "3480", "blurb": "Maare is an Elantrian on Sel." },
+    {
+        "word": [ "D", "U", "A", "N", "E" ],
+        "coppermindId": "15154",
+        "blurb": "Duane is a member of the DDF ground crew who works in the hangar bay of Platform Prime."
+    },
+    {
+        "word": [ "R", "E", "R", "A", "L" ],
+        "coppermindId": "4017",
+        "blurb": "Reral Makoram is a lighteyed member of the sixth battalion in Sadeas's army on the Shattered Plains of Roshar."
+    },
+    { "word": [ "J", "A", "B", "O", "M" ], "coppermindId": "17980", "blurb": "Jabom is a town in southern Marat on Roshar." },
+    { "word": [ "F", "I", "M", "K", "N" ], "coppermindId": "17746", "blurb": "Fimkn is a Thaylen sailor and medic on the Wandersail." },
+    { "word": [ "T", "R", "I", "A", "X" ], "coppermindId": "2004", "blurb": "Triax is a small nation in southern Roshar." },
+    { "word": [ "G", "L", "Y", "P", "H" ], "coppermindId": "3563", "blurb": "Glyphs are a writing system used on Roshar." },
+    { "word": [ "U", "R", "T", "A", "N" ], "coppermindId": "2820", "blurb": "Urtan was a place in Classical Scadrial." },
+    {
+        "word": [ "S", "W", "I", "N", "G" ],
+        "coppermindId": "11435",
+        "blurb": "Callsign Swing is a pilot who participated in the Battle of Alta."
+    },
+    { "word": [ "N", "O", "M", "O", "N" ], "coppermindId": "3039", "blurb": "Nomon is the middle, blue moon of Roshar." },
+    {
+        "word": [ "D", "O", "R", "I", "M" ],
+        "coppermindId": "8411",
+        "blurb": "Dorim vines are a type of flora native to the Dayside of Taldain."
+    },
+    {
+        "word": [ "E", "I", "L", "I", "Z" ],
+        "coppermindId": "2853",
+        "blurb": "Eiliz was a kingdom on Roshar during the Desolations of the Heraldic Epochs."
+    },
+    { "word": [ "K", "O", "O", "R", "M" ], "coppermindId": "3958", "blurb": "Koorm is a bridgeman at the Shattered Plains on Roshar." },
+    { "word": [ "M", "E", "A", "L", "A" ], "coppermindId": "3573", "blurb": "Meala is the head maid of Iadon's palace in Arelon on Sel." },
+    {
+        "word": [ "A", "V", "A", "D", "O" ],
+        "coppermindId": "948",
+        "blurb": "Avado is a non-Alethi merchant on Roshar during the Era of Solitude."
+    },
+    { "word": [ "V", "S", "T", "I", "M" ], "coppermindId": "1573", "blurb": "Vstim is a Thaylen merchant on Roshar." },
+    {
+        "word": [ "D", "E", "T", "O", "R" ],
+        "coppermindId": "4476",
+        "blurb": "Lord Detor is one of Ashweather Cett's generals during the Siege and Battle of Luthadel."
+    },
+    {
+        "word": [ "M", "A", "N", "N", "Y" ],
+        "coppermindId": "20435",
+        "blurb": "Manny is the name of an animated mannequin powered by a motivator."
+    },
+    {
+        "word": [ "W", "I", "D", "O", "R" ],
+        "coppermindId": "2643",
+        "blurb": "Widor is the capital city of Fjorden on Sel, and by extension, the entire Fjordell Empire."
+    },
+    { "word": [ "L", "E", "V", "E", "N" ], "coppermindId": "18133", "blurb": "Leven is a cobbler from Hearthstone on Roshar." },
+    { "word": [ "G", "Y", "O", "R", "N" ], "coppermindId": "1750", "blurb": "Gyorn is one of the ranks in the Shu-Dereth church." },
+    { "word": [ "M", "A", "K", "A", "M" ], "coppermindId": "4082", "blurb": "Makam are a type of tree native to Roshar." },
+    {
+        "word": [ "B", "R", "I", "G", "S" ],
+        "coppermindId": "20067",
+        "blurb": "Brigs Wennington is a business in Elendel that sells electric lights."
+    },
+    {
+        "word": [ "D", "A", "V", "A", "R" ],
+        "coppermindId": "5518",
+        "blurb": "House Davar is a small lighteyed Veden family living in the Valam princedom of Jah Keved."
+    },
+    {
+        "word": [ "N", "A", "T", "A", "N" ],
+        "coppermindId": "2726",
+        "blurb": "Natanatan was one of the Silver Kingdoms on Roshar during the Heraldic Epochs."
+    },
+    { "word": [ "K", "O", "O", "L", "F" ], "coppermindId": "2871", "blurb": "Koolf is a member of Bridge Four on Roshar." },
+    { "word": [ "R", "I", "I", "N", "A" ], "coppermindId": "6849", "blurb": "Riina is a member of the Ire." },
+    {
+        "word": [ "M", "A", "L", "A", "L" ],
+        "coppermindId": "18097",
+        "blurb": "Malal is a singer on Roshar who is one of Leshwi's soldiers."
+    },
+    { "word": [ "J", "E", "N", "I", "N" ], "coppermindId": "9571", "blurb": "Jenin is one of Dalinar's elites." },
+    {
+        "word": [ "D", "E", "H", "W", "O" ],
+        "coppermindId": "5244",
+        "blurb": "DeHwo is the JinDo name of Dereth, the founder of the Shu-Dereth religion on Sel."
+    },
+    { "word": [ "D", "A", "S", "H", "E" ], "coppermindId": "2973", "blurb": "Dashe is an Elantrian from Sel." },
+    { "word": [ "L", "U", "E", "S", "H" ], "coppermindId": "2876", "blurb": "Luesh is a steward of House Davar in Jah Keved on Roshar." },
+    { "word": [ "V", "A", "L", "L", "A" ], "coppermindId": "4103", "blurb": "The Valla were a religious sect from Classical Scadrial." },
+    {
+        "word": [ "I", "D", "R", "I", "N" ],
+        "coppermindId": "4945",
+        "blurb": "Idrin is the head of the King's Guard on the Shattered Plains prior to Kaladin assuming its command."
+    },
+    { "word": [ "G", "A", "R", "A", "M" ], "coppermindId": "4030", "blurb": "Garams are a food on Roshar." },
+    {
+        "word": [ "S", "P", "R", "A", "Y" ],
+        "coppermindId": "5394",
+        "blurb": "Spray is a mare in the Kholin warcamp on the Shattered Plains of Roshar during the War of Reckoning."
+    },
+    {
+        "word": [ "E", "T", "H", "I", "D" ],
+        "coppermindId": "4933",
+        "blurb": "Ethid is a scion in Azir on Roshar during the Era of Solitude."
+    },
+    {
+        "word": [ "D", "A", "V", "I", "D" ],
+        "coppermindId": "4270",
+        "blurb": "David Charleston, an orphaned teen living in Newcago, is a member of the Reckoners."
+    },
+    { "word": [ "B", "R", "A", "S", "S" ], "coppermindId": "63", "blurb": "Brass is one of the alloys used in the Metallic Arts." },
+    { "word": [ "H", "U", "I", "S", "I" ], "coppermindId": "8883", "blurb": "Huisi is an orphaned urchin on Roshar." },
+    {
+        "word": [ "T", "H", "I", "O", "R" ],
+        "coppermindId": "11385",
+        "blurb": "Dr. Thior is a doctor and the head of Defiant Defense Force."
+    },
+    {
+        "word": [ "C", "L", "O", "A", "K" ],
+        "coppermindId": "11439",
+        "blurb": "Callsign Cloak is a scout from Ranger flight in the Defiant Defence Force."
+    },
+    {
+        "word": [ "K", "W", "A", "A", "N" ],
+        "coppermindId": "129",
+        "blurb": "Kwaan was a Worldbringer of Terris prior to the Final Empire on Scadrial."
+    },
+    {
+        "word": [ "H", "A", "L", "A", "N" ],
+        "coppermindId": "3934",
+        "blurb": "Halan is an infant in Hallandren on Nalthis stricken with deathfever."
+    },
+    { "word": [ "R", "I", "I", "K", "A" ], "coppermindId": "5178", "blurb": "Riika is a young Elantrian child." },
+    { "word": [ "L", "A", "Z", "B", "O" ], "coppermindId": "9423", "blurb": "Lazbo is a spicy powder." },
+    {
+        "word": [ "P", "E", "R", "E", "T" ],
+        "coppermindId": "3821",
+        "blurb": "Peret the Black was a Pewterarm rapist in the Roughs of Scadrial."
+    },
+    {
+        "word": [ "A", "U", "D", "I", "L" ],
+        "coppermindId": "8435",
+        "blurb": "Audil Lekal was the second king of the kingdom formed by Jastes Lekal on Scadrial."
+    },
+    {
+        "word": [ "V", "E", "X", "I", "L" ],
+        "coppermindId": "9670",
+        "blurb": "Vexil the Wise is the Prime of  the Makabaki kingdom of Emul on Roshar during the Era of Solitude."
+    },
+    { "word": [ "B", "R", "U", "T", "E" ], "coppermindId": "15317", "blurb": "Pewter mistings are also called Brutes." },
+    {
+        "word": [ "B", "I", "L", "K", "O" ],
+        "coppermindId": "5884",
+        "blurb": "Bilko is an informant of some kind used by David Charleston before he became a member of the Reckoners."
+    },
+    {
+        "word": [ "T", "O", "M", "O", "R" ],
+        "coppermindId": "18306",
+        "blurb": "Tomor is an ardent who serves as a junior engineer/artifabrian on Roshar."
+    },
+    {
+        "word": [ "L", "A", "V", "I", "S" ],
+        "coppermindId": "5101",
+        "blurb": "Lavis is a species of plant from the rockbud family on Roshar."
+    },
+    { "word": [ "J", "E", "B", "E", "R" ], "coppermindId": "18045", "blurb": "Jeber is a resident of Hearthstone on Roshar." },
+    {
+        "word": [ "S", "E", "A", "L", "A" ],
+        "coppermindId": "3575",
+        "blurb": "Seala is a young Arelene woman from Sel and the former wife of Dilaf."
+    },
+    {
+        "word": [ "O", "R", "S", "O", "N" ],
+        "coppermindId": "3585",
+        "blurb": "Captain Orson Ansed is a member of the Evensong Police Department."
+    },
+    {
+        "word": [ "H", "A", "L", "L", "O" ],
+        "coppermindId": "10831",
+        "blurb": "The Hallo are a race of aliens who have reached Prime Intelligence."
+    },
+    { "word": [ "S", "T", "I", "N", "E" ], "coppermindId": "5004", "blurb": "Stine is a senior member of Meridas Amaram's staff." },
+    { "word": [ "W", "V", "L", "A", "N" ], "coppermindId": "17756", "blurb": "Wvlan is a Thaylen sailor on the Wandersail." },
+    { "word": [ "C", "L", "E", "M", "A" ], "coppermindId": "8851", "blurb": "Clema is a crop grown on Roshar." },
+    { "word": [ "F", "U", "E", "G", "O" ], "coppermindId": "13025", "blurb": "Fuego is an Epic in Prof's squad." },
+    { "word": [ "N", "O", "R", "I", "L" ], "coppermindId": "18091", "blurb": "Noril is an Alethi refugee on Roshar." },
+    {
+        "word": [ "K", "E", "R", "L", "A" ],
+        "coppermindId": "10594",
+        "blurb": "The Kerla is an area of desert at the center of the Dayside on Taldain."
+    },
+    { "word": [ "N", "I", "L", "T", "O" ], "coppermindId": "9017", "blurb": "Nilto is a man in Kezare also known as the \"Lord Beggar\"." },
+    { "word": [ "G", "A", "R", "H", "A" ], "coppermindId": "3281", "blurb": "Garha is a hot caffeinated drink created in Fjorden on Sel." },
+    {
+        "word": [ "R", "I", "I", "N", "O" ],
+        "coppermindId": "9453",
+        "blurb": "Riino is a formerly-Hoed Elantrian and a member of the Ire from Sel."
+    },
+    {
+        "word": [ "R", "A", "R", "I", "V" ],
+        "coppermindId": "3932",
+        "blurb": "Rariv is a servant at Mercystar's palace in Hallandren on Nalthis."
+    },
+    {
+        "word": [ "Q", "U", "I", "L", "I" ],
+        "coppermindId": "2270",
+        "blurb": "Quili is one of the Reshi Isles, west of Abri, but east of the kingdom of Rira."
+    },
+    { "word": [ "H", "U", "S", "A", "L" ], "coppermindId": "18037", "blurb": "Husal is a singer on Roshar." },
+    {
+        "word": [ "C", "U", "L", "E", "E" ],
+        "coppermindId": "4460",
+        "blurb": "Lord Culee is a noble military commander on Scadrial during the Final Empire."
+    },
+    {
+        "word": [ "P", "A", "T", "J", "I" ],
+        "coppermindId": "9956",
+        "blurb": "Patji is an avatar of Autonomy related to the planet First of the Sun in the Drominad system"
+    },
+    { "word": [ "H", "U", "R", "L", "I" ], "coppermindId": "3075", "blurb": "Hurli is a Striker guard in the Rose Palace." },
+    { "word": [ "T", "E", "R", "M", "S" ], "coppermindId": "15006", "blurb": "Terms is an Epic with time-manipulation powers." },
+    {
+        "word": [ "G", "R", "E", "N", "T" ],
+        "coppermindId": "4527",
+        "blurb": "Grent is a soldier and guard in the army of Straff Venture after the Collapse on Scadrial."
+    },
+    { "word": [ "B", "R", "A", "N", "D" ], "coppermindId": "9422", "blurb": "The Fused are subdivided into Brands." },
+    { "word": [ "D", "A", "I", "U", "S" ], "coppermindId": "4468", "blurb": "Daius is an attorney in Elendel on Scadrial" },
+    {
+        "word": [ "I", "S", "T", "O", "W" ],
+        "coppermindId": "4018",
+        "blurb": "Brightlady Istow is a lighteyed Alethi woman on the Shattered Plains of Roshar."
+    },
+    {
+        "word": [ "K", "W", "A", "T", "I" ],
+        "coppermindId": "9595",
+        "blurb": "Kwati is a corrupt government official who lives at the Purelake on Roshar."
+    },
+    {
+        "word": [ "A", "L", "F", "I", "R" ],
+        "coppermindId": "11348",
+        "blurb": "Alfir is a sanitation worker in Igneous Cavern who visits Spensa's school."
+    },
+    {
+        "word": [ "K", "A", "V", "E", "S" ],
+        "coppermindId": "9305",
+        "blurb": "Brightlord Kaves Kholin is a distant Kholin relative that lives in Kholinar during the Era of Solitude."
+    },
+    { "word": [ "S", "P", "O", "O", "K" ], "coppermindId": "105", "blurb": "Spook, or Lestibournes, is a skaa Misting on Scadrial." },
+    {
+        "word": [ "Y", "A", "Z", "A", "D" ],
+        "coppermindId": "3902",
+        "blurb": "Yazad was the forty-eighth Emperor of the Rose Empire on Sel."
+    },
+    {
+        "word": [ "L", "I", "M", "M", "I" ],
+        "coppermindId": "4508",
+        "blurb": "Limmi is the head of the ground-floor staff for House Ladrian on Scadrial."
+    },
+    { "word": [ "D", "O", "N", "N", "Y" ], "coppermindId": "20269", "blurb": "Donny is a koloss-blooded on Scadrial." },
+    { "word": [ "Q", "U", "I", "R", "K" ], "coppermindId": "11340", "blurb": "Quirk is Kimmalyn's callsign." },
+    { "word": [ "H", "A", "R", "E", "L" ], "coppermindId": "18034", "blurb": "Harel is a singer on Roshar." },
+    { "word": [ "L", "A", "H", "A", "R" ], "coppermindId": "18132", "blurb": "Lahar is an ardent on Roshar." },
+    {
+        "word": [ "N", "I", "K", "L", "I" ],
+        "coppermindId": "17779",
+        "blurb": "Nikliasorm, also known as Nikli, is a Dysian Aimian living on Roshar."
+    },
+    { "word": [ "A", "S", "H", "E", "R" ], "coppermindId": "20575", "blurb": "Asher Vidales is the real name of the High Epic Languish." },
+    { "word": [ "K", "E", "T", "O", "L" ], "coppermindId": "2169", "blurb": "Ketol is an Arelene court attendant on Sel." },
+    { "word": [ "S", "C", "R", "A", "K" ], "coppermindId": "788", "blurb": "Scrak is an axehound on Roshar owned by Balat Davar." },
+    { "word": [ "F", "R", "O", "S", "T" ], "coppermindId": "5959", "blurb": "Frost is a dragon from Yolen." },
+    {
+        "word": [ "H", "E", "S", "H", "O" ],
+        "coppermindId": "14789",
+        "blurb": "Hesho is a kitsen captain and the former king of an absolute monarchy of his species."
+    },
+    {
+        "word": [ "S", "I", "X", "T", "H" ],
+        "coppermindId": "5437",
+        "blurb": "Sixth of the Dusk is the protagonist of the eponymous novella."
+    },
+    { "word": [ "B", "E", "D", "E", "S" ], "coppermindId": "4466", "blurb": "Captain Bedes is an young noble in Luthadel." },
+    {
+        "word": [ "S", "I", "M", "O", "L" ],
+        "coppermindId": "5002",
+        "blurb": "Simol is a historical figure mentioned in Words of Radiance."
+    },
+    { "word": [ "N", "I", "A", "L", "I" ], "coppermindId": "3787", "blurb": "Niali the Just is a philosopher on Roshar." },
+    {
+        "word": [ "N", "O", "U", "R", "A" ],
+        "coppermindId": "8886",
+        "blurb": "Noura is a high-ranking vizier in Prime Aqasix Yanagawn the First's court in Azir on Roshar."
+    },
+    {
+        "word": [ "U", "L", "A", "T", "U" ],
+        "coppermindId": "14231",
+        "blurb": "An ulatu is a traditional men's garment worn in Jah Keved on Roshar."
+    },
+    { "word": [ "P", "E", "R", "E", "L" ], "coppermindId": "4986", "blurb": "Perel is a field commander on Roshar." },
+    {
+        "word": [ "D", "A", "V", "I", "M" ],
+        "coppermindId": "4919",
+        "blurb": "Davim is a member of the listener Council of Five in Narak during the War of Reckoning on Roshar."
+    },
+    {
+        "word": [ "A", "R", "C", "L", "O" ],
+        "coppermindId": "17734",
+        "blurb": "Arclomedarian, also known as Arclo, is a Dysian Aimian who resides in Tashikk on Roshar."
+    },
+    { "word": [ "L", "A", "K", "I", "N" ], "coppermindId": "18469", "blurb": "Lakin is man from Hearthstone on Roshar." },
+    { "word": [ "J", "A", "L", "L", "A" ], "coppermindId": "89", "blurb": "Jalla is a Svordish woman from Sel." },
+    {
+        "word": [ "N", "O", "R", "B", "Y" ],
+        "coppermindId": "3970",
+        "blurb": "Captainlord Norby is an officer in Amaram's army in Alethkar on Roshar."
+    },
+    { "word": [ "L", "O", "R", "E", "N" ], "coppermindId": "3479", "blurb": "Loren is an Elantrian on Sel." },
+    {
+        "word": [ "C", "O", "R", "E", "B" ],
+        "coppermindId": "2850",
+        "blurb": "Coreb is a darkeyed soldier in Kaladin's squad in Highmarshal Meridas Amaram's army on Roshar."
+    },
+    {
+        "word": [ "K", "Y", "R", "I", "L" ],
+        "coppermindId": "9596",
+        "blurb": "Kyril is a Fused who performs inspections in Celebrant in Shadesmar."
+    },
+    { "word": [ "S", "N", "I", "D", "E" ], "coppermindId": "20770", "blurb": "Snide is a taynix." },
+    {
+        "word": [ "S", "H", "A", "O", "R" ],
+        "coppermindId": "2917",
+        "blurb": "Shaor was a young girl who became an Elantrian before Raoden did."
+    },
+    { "word": [ "N", "O", "B", "L", "E" ], "coppermindId": "230", "blurb": "The nobles are a race of humans on pre-Catacendre Scadrial." },
+    { "word": [ "S", "O", "N", "I", "C" ], "coppermindId": "20426", "blurb": "Sonic Snare is an Epic." },
+    { "word": [ "U", "L", "I", "U", "S" ], "coppermindId": "18478", "blurb": "The ulius is a type of classic dueling sword on Roshar." },
+    { "word": [ "L", "I", "R", "I", "N" ], "coppermindId": "181", "blurb": "Lirin is a darkeyed Alethi surgeon and Kaladin's father." },
+    { "word": [ "K", "O", "R", "O", "N" ], "coppermindId": "13026", "blurb": "Koron is an Alethi accent." },
+    { "word": [ "T", "E", "G", "A", "S" ], "coppermindId": "3849", "blurb": "Lord Tegas was a noble in Luthadel on Scadrial." },
+    {
+        "word": [ "K", "A", "L", "K", "I" ],
+        "coppermindId": "20525",
+        "blurb": "Kalkis are rumored metal beings created by the Lord Ruler on Scadrial."
+    },
+    {
+        "word": [ "M", "I", "S", "T", "S" ],
+        "coppermindId": "4012",
+        "blurb": "Mist is a term used to refer to a phenomenon in the world of Scadrial."
+    },
+    {
+        "word": [ "D", "A", "L", "A", "R" ],
+        "coppermindId": "3979",
+        "blurb": "Dalar is a sergeant of the reserves in Highmarshal Meridas Amaram's army from Alethkar on Roshar."
+    },
+    { "word": [ "R", "A", "Z", "A", "L" ], "coppermindId": "6542", "blurb": "Razal is a Terrisman who lives in the Village in Elendel." },
+    { "word": [ "G", "E", "R", "E", "H" ], "coppermindId": "18017", "blurb": "Gereh is the house steward in Kholinar Palace on Roshar." },
+    { "word": [ "I", "N", "S", "A", "H" ], "coppermindId": "9561", "blurb": "Insah is an ardent on Roshar." },
+    { "word": [ "T", "R", "I", "S", "S" ], "coppermindId": "4541", "blurb": "Lady Triss is a noble in Luthadel on Scadrial." },
+    {
+        "word": [ "U", "L", "V", "L", "K" ],
+        "coppermindId": "18327",
+        "blurb": "Ulvlk is a young Thaylen artifabrian in the Vriztl Guild living in Urithiru on Roshar."
+    },
+    { "word": [ "D", "E", "L", "G", "O" ], "coppermindId": "17993", "blurb": "Delgo is a member of the Diagram on Roshar." },
+    {
+        "word": [ "D", "E", "N", "T", "H" ],
+        "coppermindId": "150",
+        "blurb": "Denth or VaraTreledees is one of the Five Scholars from Nalthis."
+    },
+    { "word": [ "D", "I", "R", "E", "N" ], "coppermindId": "3067", "blurb": "Diren was an Elantrian on Sel." },
+    {
+        "word": [ "A", "V", "I", "N", "G" ],
+        "coppermindId": "3637",
+        "blurb": "Lady Aving Cett is a member of House Cett in Elendel on Scadrial."
+    },
+    { "word": [ "D", "E", "V", "I", "N" ], "coppermindId": "18931", "blurb": "Devin is the leader of a Reckoners cell." },
+    { "word": [ "M", "A", "R", "R", "I" ], "coppermindId": "4966", "blurb": "Marri is a lady's maid serving Shallan Davar." },
+    { "word": [ "M", "A", "L", "O", "P" ], "coppermindId": "2844", "blurb": "Malop is a member of Bridge Four." },
+    { "word": [ "M", "O", "T", "I", "F" ], "coppermindId": "18333", "blurb": "Motif is a Cryptic on Roshar bonded to Ishnah." },
+    { "word": [ "V", "A", "M", "A", "H" ], "coppermindId": "9303", "blurb": "Loradar Vamah is a highprince of Alethkar on Roshar." },
+    { "word": [ "V", "O", "R", "I", "N" ], "coppermindId": "870", "blurb": "Vorinism is one of the primary religions of Roshar." },
+    {
+        "word": [ "P", "U", "N", "I", "O" ],
+        "coppermindId": "4988",
+        "blurb": "Punio is a Windrunner and one of Lopen's many cousins on Roshar."
+    },
+    {
+        "word": [ "Z", "E", "Z", "I", "N" ],
+        "coppermindId": "14801",
+        "blurb": "Zezin is a figment who serves Minister Cuna in the Superiority."
+    },
+    {
+        "word": [ "S", "A", "V", "R", "I" ],
+        "coppermindId": "18314",
+        "blurb": "Savrahalidem, also known as Savri to those close to her, is the queen of Kharbranth."
+    },
+    { "word": [ "F", "L", "E", "N", "D" ], "coppermindId": "17752", "blurb": "Flend is a Thaylen sailor on the Wandersail." },
+    {
+        "word": [ "F", "L", "A", "D", "M" ],
+        "coppermindId": "9535",
+        "blurb": "Fladm is a guard at the Thaylen Gemstone Reserve in Thaylen City on Roshar."
+    },
+    { "word": [ "L", "A", "R", "G", "O" ], "coppermindId": "12892", "blurb": "The Largo is a starfighter used by the DDF." },
+    {
+        "word": [ "T", "U", "M", "U", "L" ],
+        "coppermindId": "4005",
+        "blurb": "Brightlord Tumul is a noble on the Shattered Plains on Roshar."
+    },
+    { "word": [ "G", "R", "U", "N", "D" ], "coppermindId": "9543", "blurb": "Grund is an urchin in Kholinar." },
+    { "word": [ "E", "D", "D", "I", "E" ], "coppermindId": "5883", "blurb": "Eddie Macano is a gang leader in Newcago." },
+    { "word": [ "F", "E", "A", "S", "T" ], "coppermindId": "953", "blurb": "The Beggars' Feast is an Alethi tradition." },
+    {
+        "word": [ "K", "N", "O", "X", "X" ],
+        "coppermindId": "5875",
+        "blurb": "Knoxx is a thug turned Epic in Babilar, and a known member of Newton’s gang."
+    },
+    {
+        "word": [ "K", "M", "E", "E", "R" ],
+        "coppermindId": "4100",
+        "blurb": "Kmeer is the name sometimes used in Duladel for the syre light sword."
+    },
+    { "word": [ "R", "I", "E", "R", "A" ], "coppermindId": "18003", "blurb": "The Ganlos Riera is a female person on Roshar." },
+    {
+        "word": [ "J", "E", "N", "E", "T" ],
+        "coppermindId": "4953",
+        "blurb": "Jenet is the stablemaster of the Kholin warcamp's stables on the Shattered Plains."
+    },
+    { "word": [ "P", "A", "I", "G", "E" ], "coppermindId": "20285", "blurb": "Paige is a member of the Texas Reckoners cell." },
+    {
+        "word": [ "S", "A", "D", "I", "E" ],
+        "coppermindId": "14833",
+        "blurb": "Sadie (callsign: Sentry) is a member of the DDF and in Skyward Flight."
+    },
+    {
+        "word": [ "T", "A", "S", "H", "I" ],
+        "coppermindId": "8860",
+        "blurb": "Tashikk is a princedom on Roshar that is a major ally to Azir."
+    },
+    { "word": [ "T", "I", "Q", "Q", "A" ], "coppermindId": "8888", "blurb": "Tiqqa is an urchin girl in Yeddaw on Roshar." },
+    {
+        "word": [ "W", "M", "L", "A", "K" ],
+        "coppermindId": "9676",
+        "blurb": "Wmlak is Rysn's assistant and porter in the Thaylen Gemstone Reserve on Roshar."
+    },
+    {
+        "word": [ "N", "A", "H", "E", "L" ],
+        "coppermindId": "20099",
+        "blurb": "The Nahel bond is a connection between a spren and a being from the Physical Realm."
+    },
+    { "word": [ "A", "X", "I", "K", "K" ], "coppermindId": "4902", "blurb": "Axikk is a vizier in the Azish government on Roshar." },
+    { "word": [ "I", "D", "A", "N", "I" ], "coppermindId": "18038", "blurb": "Idani is an Alethi woman on Roshar." },
+    {
+        "word": [ "T", "A", "R", "M", "A" ],
+        "coppermindId": "3387",
+        "blurb": "Tarma was a kingdom on Roshar during the Desolations of the Heraldic Epochs."
+    },
+    { "word": [ "S", "K", "A", "Z", "E" ], "coppermindId": "787", "blurb": "The skaze are Splinters of Dominion that live on Sel." },
+    { "word": [ "F", "E", "R", "A", "L" ], "coppermindId": "20514", "blurb": "Feral is an Epic with mutation powers." },
+    { "word": [ "S", "T", "E", "V", "E" ], "coppermindId": "16357", "blurb": "Steve is a resident of Babilar who was killed by an Epic." },
+    { "word": [ "W", "R", "I", "T", "E" ], "coppermindId": "3529", "blurb": "Jason Write is the head operative of the Phone Company." },
+    { "word": [ "B", "I", "S", "I", "G" ], "coppermindId": "3952", "blurb": "Bisig is a member of Bridge Four." },
+    {
+        "word": [ "W", "I", "N", "D", "S" ],
+        "coppermindId": "5443",
+        "blurb": "Winds is an Eelakin working for Northern Interests Trading Company on First of the Sun."
+    },
+    {
+        "word": [ "J", "E", "D", "A", "L" ],
+        "coppermindId": "999",
+        "blurb": "Jedal is a skaa miner from the Eastern Dominance of the Final Empire on Scadrial."
+    },
+    { "word": [ "D", "A", "O", "R", "N" ], "coppermindId": "86", "blurb": "Daorn is an Arelene boy on Sel." },
+    { "word": [ "C", "H", "U", "B", "S" ], "coppermindId": "20631", "blurb": "Chubs is a very fat taynix." },
+    {
+        "word": [ "B", "E", "C", "C", "A" ],
+        "coppermindId": "11327",
+        "blurb": "Becca Nightshade, more commonly known as Gran-Gran, is Spensa's grandmother."
+    },
+    { "word": [ "N", "A", "R", "A", "K" ], "coppermindId": "4875", "blurb": "Narak is the home of the listeners on Roshar." },
+    {
+        "word": [ "H", "A", "L", "E", "X" ],
+        "coppermindId": "6581",
+        "blurb": "Mistress Halex is the proprietor of a soothing parlor on Decan street in Elendel."
+    },
+    { "word": [ "D", "R", "A", "P", "E" ], "coppermindId": "20651", "blurb": "Drape is a taynix found on Detritus." },
+    {
+        "word": [ "M", "A", "R", "S", "H" ],
+        "coppermindId": "98",
+        "blurb": "Marsh is a half-skaa Seeker from the Final Empire on Scadrial."
+    },
+    { "word": [ "C", "A", "M", "O", "N" ], "coppermindId": "101", "blurb": "Camon is a skaa from Luthadel on Scadrial." },
+    { "word": [ "T", "E", "N", "E", "T" ], "coppermindId": "14212", "blurb": "The Tenets are a lighteyed family in Alethkar on Roshar." },
+    {
+        "word": [ "A", "O", "N", "I", "C" ],
+        "coppermindId": "3337",
+        "blurb": "Aonic is the term used to refer to an ethnic group that exists on the planet Elantris."
+    },
+    {
+        "word": [ "W", "Z", "M", "A", "L" ],
+        "coppermindId": "9677",
+        "blurb": "Wzmal is a man mentioned in one of the records in the Urithiru gem archive."
+    },
+    {
+        "word": [ "K", "H", "E", "N", "I" ],
+        "coppermindId": "9589",
+        "blurb": "Kheni is a poor woman who lives in Kholinar after the coming of the True Desolation."
+    },
+    {
+        "word": [ "Y", "O", "L", "E", "N" ],
+        "coppermindId": "887",
+        "blurb": "Yolen is the planet in the cosmere where the Shattering of Adonalsium happened."
+    },
+    { "word": [ "M", "A", "R", "I", "N" ], "coppermindId": "15212", "blurb": "Eliza Marin was a child who lived on Scadrial." },
+    { "word": [ "I", "V", "I", "A", "D" ], "coppermindId": "4114", "blurb": "The Iviad is a literary work on Roshar." },
+    { "word": [ "M", "A", "L", "L", "I" ], "coppermindId": "9604", "blurb": "Malli is a scribe on Roshar." },
+    { "word": [ "M", "A", "Z", "Z", "U" ], "coppermindId": "18020", "blurb": "Mazzu is a town in northwestern Azir on Roshar" },
+    {
+        "word": [ "D", "O", "B", "S", "I" ],
+        "coppermindId": "14805",
+        "blurb": "Dobsi is a mechanic in the DDF on Platform Prime, and is part of the ground crews."
+    },
+    {
+        "word": [ "N", "I", "C", "K", "I" ],
+        "coppermindId": "9854",
+        "blurb": "Nicki is the nickname Allomancer Jak uses for Nicelle Sauvage."
+    },
+    {
+        "word": [ "W", "I", "P", "E", "R" ],
+        "coppermindId": "8549",
+        "blurb": "Wiper is an Epic that lives in Ildithia and works for Limelight."
+    },
+    { "word": [ "A", "T", "A", "R", "A" ], "coppermindId": "2121", "blurb": "Atara is Duke Telrii's wife from Arelon on Sel." },
+    {
+        "word": [ "T", "A", "U", "D", "R" ],
+        "coppermindId": "6498",
+        "blurb": "Taudr is a constable of the Elendel constabulary on Scadrial."
+    },
+    { "word": [ "H", "E", "K", "L", "O" ], "coppermindId": "14819", "blurb": "The heklo are a member species of the Superiority." },
+    {
+        "word": [ "T", "U", "A", "K", "A" ],
+        "coppermindId": "9631",
+        "blurb": "Tuaka'li'na'calmi'nor, shortened to Tuaka or simply Song, is Lunamor's wife."
+    },
+    { "word": [ "A", "L", "L", "I", "K" ], "coppermindId": "8375", "blurb": "Allik Neverfar is a Southern Scadrian." },
+    { "word": [ "V", "E", "D", "E", "N" ], "coppermindId": "1423", "blurb": "Veden is the demonym for the nation of Jah Keved." },
+    {
+        "word": [ "S", "L", "U", "S", "H" ],
+        "coppermindId": "20547",
+        "blurb": "Doc Slush is a Reckoner doctor who lives in Layfayette, Louisiana as part of the Louisiana cell."
+    },
+    {
+        "word": [ "V", "L", "X", "I", "M" ],
+        "coppermindId": "17745",
+        "blurb": "Vlxim is a Thaylen sailor and a helmsman of the Wandersail on Roshar."
+    },
+    {
+        "word": [ "M", "E", "G", "A", "N" ],
+        "coppermindId": "4163",
+        "blurb": "Megan Tarash, also known as the Epic Firefight, is a member of Steelheart's inner circle."
+    },
+    {
+        "word": [ "S", "T", "E", "E", "N" ],
+        "coppermindId": "2002",
+        "blurb": "Steen is a kingdom at the tip of a peninsula in southwestern Roshar."
+    },
+    {
+        "word": [ "S", "A", "K", "I", "N" ],
+        "coppermindId": "9510",
+        "blurb": "Sakin is a resident of a small port on the eastern edge of Roshar."
+    },
+    { "word": [ "R", "A", "L", "E", "N" ], "coppermindId": "10770", "blurb": "Ralen is a planet in the Selish system." },
+    { "word": [ "A", "Z", "U", "R", "E" ], "coppermindId": "9217", "blurb": "Azure is an alias used by Vivenna on Roshar." },
+    {
+        "word": [ "D", "A", "R", "L", "A" ],
+        "coppermindId": "11403",
+        "blurb": "Darla Mee-Bim was an applicant for the Defiant Defence Force Flight School."
+    },
+    {
+        "word": [ "R", "E", "D", "I", "N" ],
+        "coppermindId": "4991",
+        "blurb": "Redin is an illegitimate son of Highprince Valam of Jah Keved on Roshar."
+    },
+    { "word": [ "B", "I", "L", "M", "Y" ], "coppermindId": "8907", "blurb": "Bilmy is a resident of New Seran on Scadrial." },
+    {
+        "word": [ "L", "A", "I", "R", "D" ],
+        "coppermindId": "1204",
+        "blurb": "Prelan Laird was an obligator of the Canton of Finance on Scadrial during the times of the Final Empire."
     },
     {
         "word": [ "J", "A", "Y", "L", "A" ],
         "coppermindId": "4952",
         "blurb": "Brightlady Jayla Ruthar is an Alethi noblewoman on Roshar during the Era of Solitude."
     },
-    { "word": [ "U", "L", "I", "N", "A" ], "coppermindId": "18307", "blurb": "Ulina is a member of the Sons of Honor on Roshar." },
+    { "word": [ "W", "A", "B", "E", "R" ], "coppermindId": "3990", "blurb": "Waber is the gardener at Hearthstone's manor on Roshar." },
+    { "word": [ "G", "A", "L", "I", "D" ], "coppermindId": "9540", "blurb": "Galid was a classical scholar on Roshar." },
     {
-        "word": [ "R", "U", "L", "E", "S" ],
-        "coppermindId": "3732",
-        "blurb": "The Simple Rules are a set of rules that a person must follow in the Forests of Hell on Threnody to avoid attracting the attention of shades."
+        "word": [ "K", "L", "A", "D", "E" ],
+        "coppermindId": "1407",
+        "blurb": "Klade is a listener and former member of the Council of Five in Narak on Roshar."
+    },
+    { "word": [ "M", "I", "S", "E", "L" ], "coppermindId": "3813", "blurb": "Misel was a young Hallandren on Nalthis." },
+    {
+        "word": [ "M", "A", "L", "A", "D" ],
+        "coppermindId": "9597",
+        "blurb": "Malad-son-Zent was a Shin soldier during the Last Desolation who fought at Aharietiam."
     },
     {
-        "word": [ "C", "H", "I", "V", "I" ],
-        "coppermindId": "4910",
-        "blurb": "Chivi is a member of the listener Council of Five in Narak during the War of Reckoning on Roshar."
+        "word": [ "M", "A", "G", "N", "A" ],
+        "coppermindId": "11339",
+        "blurb": "Magna (Callsign: Morningtide) is a Vician cadet in Skyward Flight."
     },
     {
-        "word": [ "M", "A", "L", "A", "L" ],
-        "coppermindId": "18097",
-        "blurb": "Malal is a singer on Roshar who is one of Leshwi's soldiers."
+        "word": [ "N", "E", "T", "E", "B" ],
+        "coppermindId": "4051",
+        "blurb": "Brightlord Neteb is a noble on the Shattered Plains on Roshar."
     },
-    { "word": [ "G", "A", "R", "H", "A" ], "coppermindId": "3281", "blurb": "Garha is a hot caffeinated drink created in Fjorden on Sel." },
-    { "word": [ "T", "U", "K", "K", "S" ], "coppermindId": "1191", "blurb": "Tukks is an Alethi sergeant on Roshar." },
     {
-        "word": [ "P", "A", "L", "A", "H" ],
-        "coppermindId": "4793",
-        "blurb": "Palah is an alias for Pailiah, one of the ten Heralds of Honor."
+        "word": [ "H", "A", "L", "A", "M" ],
+        "coppermindId": "9291",
+        "blurb": "Captain Halam Khal is a lighteyed officer and Shardbearer in the Kholin army on Roshar."
     },
-    { "word": [ "T", "E", "G", "A", "S" ], "coppermindId": "3849", "blurb": "Lord Tegas was a noble in Luthadel on Scadrial." },
-    { "word": [ "Y", "A", "M", "M", "A" ], "coppermindId": "5027", "blurb": "Cussweed or yamma root is a plant native to Roshar." },
-    { "word": [ "T", "E", "R", "M", "S" ], "coppermindId": "15006", "blurb": "Terms is an Epic with time-manipulation powers." },
+    { "word": [ "I", "X", "S", "I", "X" ], "coppermindId": "3783", "blurb": "Ixsix is the author of \"Emperor\" on Roshar." },
+    { "word": [ "M", "A", "C", "O", "B" ], "coppermindId": "4963", "blurb": "Macob is the head of a caravan of merchants on Roshar." },
+    { "word": [ "Y", "A", "R", "D", "A" ], "coppermindId": "3056", "blurb": "Yarda is the general of the Idrian armies." },
+    { "word": [ "L", "U", "T", "E", "N" ], "coppermindId": "3996", "blurb": "Luten is a resident of Hearthstone on Roshar." },
     {
-        "word": [ "I", "A", "L", "A", "I" ],
-        "coppermindId": "9250",
-        "blurb": "Brightlady Ialai Sadeas is a noble Alethi lighteyes on Roshar."
-    }
+        "word": [ "K", "U", "R", "D", "I" ],
+        "coppermindId": "13865",
+        "blurb": "Kurdi mushrooms are an edible fungus which grows in the subterranean cave systems of Detritus."
+    },
+    {
+        "word": [ "U", "V", "A", "R", "A" ],
+        "coppermindId": "2913",
+        "blurb": "The Uvara, also known as the People of the Great Abyss, are a possibly mythical society that lived on uncharted islands in the oceans of Roshar."
+    },
+    { "word": [ "H", "A", "V", "A", "H" ], "coppermindId": "5146", "blurb": "A havah is a traditional Vorin dress on Roshar." },
+    { "word": [ "S", "Z", "E", "T", "H" ], "coppermindId": "160", "blurb": "Szeth is a Shin man from Roshar." },
+    {
+        "word": [ "G", "W", "A", "R", "D" ],
+        "coppermindId": "20896",
+        "blurb": "Gward is the leader of a faction of pirates in the belt of the nowhere."
+    },
+    { "word": [ "D", "R", "I", "L", "E" ], "coppermindId": "8444", "blurb": "Drile is a sand master on the Dayside of Taldain." },
+    { "word": [ "L", "A", "M", "I", "O" ], "coppermindId": "2832", "blurb": "Lamio is an ancient nation on Sel." },
+    { "word": [ "L", "E", "M", "E", "X" ], "coppermindId": "2174", "blurb": "Lemex is an Idrian merchant living in T'Telir on Nalthis." },
+    {
+        "word": [ "P", "H", "A", "R", "L" ],
+        "coppermindId": "14523",
+        "blurb": "Rennold Pharl, also known as The Tonk, is a criminal working for Sharezan on Taldain."
+    },
+    {
+        "word": [ "B", "L", "O", "M", "E" ],
+        "coppermindId": "6525",
+        "blurb": "Blome is a Seeker and a bartender for Lord Winsting Innate at his mansion in Elendel on Scadrial."
+    },
+    { "word": [ "J", "O", "R", "N", "A" ], "coppermindId": "3975", "blurb": "Jorna was a youth of Hearthstone in Alethkar on Roshar." },
+    {
+        "word": [ "K", "A", "L", "A", "D" ],
+        "coppermindId": "989",
+        "blurb": "Kalad is a historical figure on Nalthis who started the Manywar."
+    },
+    {
+        "word": [ "V", "I", "V", "I", "M" ],
+        "coppermindId": "9409",
+        "blurb": "Vivim trees are a plant on Roshar with intertwining spindly branches. They are present in Alethkar."
+    },
+    { "word": [ "C", "O", "L", "M", "S" ], "coppermindId": "1638", "blurb": "Colms is Marasi's last name." },
+    { "word": [ "C", "O", "R", "G", "I" ], "coppermindId": "20769", "blurb": "Corgi is a taynix." },
+    { "word": [ "N", "A", "L", "M", "A" ], "coppermindId": "2887", "blurb": "Nalma is a slave on Roshar." },
+    {
+        "word": [ "K", "E", "L", "I", "N" ],
+        "coppermindId": "21146",
+        "blurb": "Kelin is a guard assigned to the commander of the Defiant Defense Force."
+    },
+    {
+        "word": [ "B", "E", "A", "R", "D" ],
+        "coppermindId": "9517",
+        "blurb": "Beard is an eccentric member of the Kholinar Wall Guard in Alethkar on Roshar."
+    },
+    {
+        "word": [ "F", "E", "D", "R", "E" ],
+        "coppermindId": "451",
+        "blurb": "Lord Fedre was a canal architect from Scadrial who lived in the eighth century of the Final Empire."
+    },
+    {
+        "word": [ "V", "E", "H", "A", "H" ],
+        "coppermindId": "9353",
+        "blurb": "Vehah is a traditional wrestling style in Alethkar on Roshar."
+    },
+    { "word": [ "I", "D", "R", "E", "N" ], "coppermindId": "4495", "blurb": "Lord Idren Seeris is a noble on Scadrial." },
+    { "word": [ "L", "A", "N", "N", "A" ], "coppermindId": "3530", "blurb": "Lanna Write is an operative of the Phone Company." },
+    {
+        "word": [ "N", "A", "L", "E", "M" ],
+        "coppermindId": "4016",
+        "blurb": "Nalem is one of Gare's sergeants in Amaram's army on Roshar."
+    },
+    {
+        "word": [ "F", "E", "B", "I", "N" ],
+        "coppermindId": "9489",
+        "blurb": "Febin is an Dalinar Kholin's elites on Roshar during the Era of Solitude."
+    },
+    {
+        "word": [ "E", "U", "S", "T", "O" ],
+        "coppermindId": "5444",
+        "blurb": "Captain Eusto is an Eelakin working for Northern Interests Trading Company on First of the Sun."
+    },
+    { "word": [ "B", "R", "E", "K", "V" ], "coppermindId": "17744", "blurb": "Brekv is a Thaylen sailor who works with Yalb." },
+    { "word": [ "L", "I", "E", "S", "E" ], "coppermindId": "4513", "blurb": "Melend Liese was a noble in the Final Empire." },
+    {
+        "word": [ "F", "E", "D", "I", "K" ],
+        "coppermindId": "3860",
+        "blurb": "Fedik was a member of the party that travelled with Alendi to the Well of Ascension."
+    },
+    { "word": [ "B", "E", "N", "R", "U" ], "coppermindId": "18022", "blurb": "Benru is a town on Roshar." },
+    { "word": [ "L", "A", "R", "A", "L" ], "coppermindId": "2604", "blurb": "Laral Roshone is the citylady of Hearthstone on Roshar." },
+    { "word": [ "G", "A", "V", "A", "M" ], "coppermindId": "18004", "blurb": "Gavam is a woman on Roshar." },
+    {
+        "word": [ "T", "H", "U", "D", "E" ],
+        "coppermindId": "5012",
+        "blurb": "Thude is a Parshendi warrior in Narak during the War of Reckoning."
+    },
+    { "word": [ "M", "E", "H", "E", "N" ], "coppermindId": "5999", "blurb": "Mehen is a philosopher on Sel." },
+    {
+        "word": [ "S", "T", "A", "S", "E" ],
+        "coppermindId": "4535",
+        "blurb": "Lady Stase Blanches is a noble in Luthadel on Scadrial during the Final Empire."
+    },
+    { "word": [ "M", "A", "B", "E", "N" ], "coppermindId": "4962", "blurb": "Maben is a chambermaid on King Taravangian's staff." },
+    { "word": [ "U", "S", "C", "R", "I" ], "coppermindId": "9660", "blurb": "Uscri is a character from a tragic Rosharan poem." },
+    { "word": [ "S", "W", "E", "E", "N" ], "coppermindId": "18024", "blurb": "Sween is a town in southeastern Babatharnam on Roshar" },
+    { "word": [ "J", "A", "V", "I", "E" ], "coppermindId": "8903", "blurb": "Professor Javie is an engineer and member of the Set." },
+    { "word": [ "P", "A", "W", "N", "S" ], "coppermindId": "9435", "blurb": "Pawns is a game played on Roshar." },
+    {
+        "word": [ "A", "A", "R", "I", "K" ],
+        "coppermindId": "8674",
+        "blurb": "Aarik is a young merchant from Lossand and childhood friend of Kenton."
+    },
+    {
+        "word": [ "V", "E", "L", "A", "T" ],
+        "coppermindId": "5019",
+        "blurb": "Brightness Velat is an Alethi lighteyes and scholar on Roshar specializing in cartography."
+    },
+    {
+        "word": [ "G", "I", "L", "A", "F" ],
+        "coppermindId": "20749",
+        "blurb": "Gilaf is an ReDawn. He is the brother of Alanik, and a member of the Independence faction."
+    },
+    { "word": [ "S", "T", "I", "C", "K" ], "coppermindId": "4757", "blurb": "Stick is an ordinary stick." },
+    {
+        "word": [ "D", "R", "A", "M", "A" ],
+        "coppermindId": "14024",
+        "blurb": "Drama is a cadet in either Inkwell Flight or Firestorm Flight in the DDF."
+    },
+    { "word": [ "R", "A", "S", "A", "N" ], "coppermindId": "17970", "blurb": "Rasan is another name for Rayse." },
+    { "word": [ "T", "A", "R", "A", "N" ], "coppermindId": "2905", "blurb": "Taran is a serving boy in Tvlakv's slave caravan on Roshar." },
+    { "word": [ "E", "L", "E", "N", "D" ], "coppermindId": "391", "blurb": "Elend Venture is a Mistborn. He is married to Vin." },
+    { "word": [ "R", "I", "E", "L", "Y" ], "coppermindId": "15041", "blurb": "Riely is an operative in the Phone Company." },
+    {
+        "word": [ "Y", "I", "X", "L", "I" ],
+        "coppermindId": "9679",
+        "blurb": "Yixli is the Voidspren that leads Khen, Sah, and Kaladin to Revolar."
+    },
+    { "word": [ "Z", "E", "T", "A", "H" ], "coppermindId": "9253", "blurb": "Zetah the Voiced is a Rosharan scholar." },
+    {
+        "word": [ "V", "A", "R", "A", "S" ],
+        "coppermindId": "2893",
+        "blurb": "Varas is the assistant chief of collections in the Palanaeum."
+    },
+    {
+        "word": [ "C", "H", "A", "N", "A" ],
+        "coppermindId": "11019",
+        "blurb": "Chanarach, also known as Chana, is one of the ten Heralds of Honor."
+    },
+    { "word": [ "D", "O", "R", "A", "N" ], "coppermindId": "15042", "blurb": "Doran is an operative in the Phone Company." },
+    {
+        "word": [ "S", "E", "N", "S", "E" ],
+        "coppermindId": "4164",
+        "blurb": "Edmund Sense, also known as the Epic Conflux, is commonly believed to be a member of Steelheart's inner circle."
+    },
+    {
+        "word": [ "P", "R", "I", "M", "E" ],
+        "coppermindId": "16535",
+        "blurb": "The Prime Aqasix is the title of the elected ruler of Azir."
+    },
+    {
+        "word": [ "F", "O", "R", "C", "H" ],
+        "coppermindId": "6695",
+        "blurb": "Forch is a Terris youth living in The Village in Elendel on Scadrial during Waxillium Ladrian's youth."
+    },
+    { "word": [ "L", "A", "N", "K", "A" ], "coppermindId": "9426", "blurb": "The lanka is a species of crustacean on Roshar." },
+    { "word": [ "J", "A", "G", "E", "R" ], "coppermindId": "11433", "blurb": "Callsign Jager is a member of Nightmare Flight." },
+    {
+        "word": [ "L", "O", "L", "A", "N" ],
+        "coppermindId": "3936",
+        "blurb": "Lolan is a servant at Mercystar's palace in Hallandren on Nalthis."
+    },
+    {
+        "word": [ "B", "O", "R", "E", "A" ],
+        "coppermindId": "9487",
+        "blurb": "Borea is an honorspren who serves as the first mate of the ship Honor's Path."
+    },
+    {
+        "word": [ "P", "H", "O", "N", "E" ],
+        "coppermindId": "3541",
+        "blurb": "The Phone Company, commonly referred to as the PC, was a corporate entity responsible for developing human cytonics."
+    },
+    { "word": [ "H", "A", "I", "K", "O" ], "coppermindId": "2640", "blurb": "HaiKo is a city in JinDo on Sel." },
+    { "word": [ "I", "N", "V", "I", "A" ], "coppermindId": "4947", "blurb": "Invia is a scholar on Roshar." },
+    {
+        "word": [ "C", "O", "V", "A", "D" ],
+        "coppermindId": "9415",
+        "blurb": "The Covad Fragment is an old untranslated manuscript thought to be written in Dawnchant."
+    },
+    { "word": [ "Z", "E", "H", "E", "B" ], "coppermindId": "9254", "blurb": "Zeheb is an ardent from Hearthstone." },
+    { "word": [ "T", "O", "P", "A", "Z" ], "coppermindId": "6463", "blurb": "Topaz is an alias for Hoid." },
+    { "word": [ "F", "I", "N", "I", "S" ], "coppermindId": "20787", "blurb": "Finis is an UrDail from ReDawn." },
+    {
+        "word": [ "R", "E", "S", "H", "I" ],
+        "coppermindId": "2268",
+        "blurb": "The Reshi Isles are a collection of islands on the northern edge of Roshar in the Reshi Sea."
+    },
+    { "word": [ "M", "I", "S", "R", "A" ], "coppermindId": "6539", "blurb": "Misra is a Scadrian woman in Elendel." },
+    { "word": [ "L", "O", "P", "E", "N" ], "coppermindId": "1194", "blurb": "Lopen is a member of Bridge Four." },
+    { "word": [ "B", "E", "R", "Y", "L" ], "coppermindId": "18301", "blurb": "Beryl is a Lightweaver on Roshar bonded to Ornament." },
+    {
+        "word": [ "S", "I", "D", "I", "N" ],
+        "coppermindId": "9646",
+        "blurb": "Sidin is a captain of the Palace Guard in Kholinar on Roshar."
+    },
+    {
+        "word": [ "S", "P", "R", "E", "N" ],
+        "coppermindId": "331",
+        "blurb": "Spren are fragments of the powers of creation that have gained sentience."
+    },
+    {
+        "word": [ "G", "A", "V", "R", "I" ],
+        "coppermindId": "18094",
+        "blurb": "Gavri is a military officer in the coalition of monarchs on Roshar."
+    },
+    { "word": [ "L", "U", "K", "E", "L" ], "coppermindId": "88", "blurb": "Lukel is an Arelene merchant from Sel." },
+    {
+        "word": [ "A", "V", "I", "A", "R" ],
+        "coppermindId": "5433",
+        "blurb": "Aviar are birds that have gained magical powers, or \"talents\", on the island of Patji on First of the Sud."
+    },
+    {
+        "word": [ "K", "E", "S", "E", "G" ],
+        "coppermindId": "1843",
+        "blurb": "Keshu, called Keseg by the Fjordell, was an elderly philosopher from JinDo on Sel."
+    },
+    { "word": [ "F", "T", "O", "R", "I" ], "coppermindId": "1572", "blurb": "Rysn Ftori is a young woman from Thaylenah on Roshar." },
+    { "word": [ "K", "E", "L", "E", "K" ], "coppermindId": "4039", "blurb": "Kelek is the Vorin name for the Herald Kalak." },
+    { "word": [ "D", "O", "R", "G", "O" ], "coppermindId": "11384", "blurb": "Dorgo is a member of the groundcrew at Alta Base." },
+    { "word": [ "P", "A", "R", "S", "H" ], "coppermindId": "9285", "blurb": "Humans on Roshar call the singers parsh or parshmen." },
+    {
+        "word": [ "J", "E", "D", "A", "N" ],
+        "coppermindId": "9033",
+        "blurb": "Jedan is a trackt on the Dayside of Taldain who works under the command of Ais."
+    },
+    {
+        "word": [ "D", "U", "K", "A", "R" ],
+        "coppermindId": "9529",
+        "blurb": "Dukar is a stormwarden and a member of the Diagram on Roshar."
+    },
+    {
+        "word": [ "I", "R", "I", "C", "H" ],
+        "coppermindId": "6871",
+        "blurb": "Professor Irich is a scientist and a member of the Set on Scadrial."
+    },
+    {
+        "word": [ "D", "E", "L", "T", "A" ],
+        "coppermindId": "20624",
+        "blurb": "Delta Squadron is an elite special ops squad led by Hershel Black."
+    },
+    { "word": [ "G", "V", "O", "R", "I" ], "coppermindId": "9541", "blurb": "Gvori is Taravangian's eldest granddaughter." },
+    {
+        "word": [ "M", "I", "L", "I", "V" ],
+        "coppermindId": "3417",
+        "blurb": "Miliv was Citylord Wistiow's head steward in Hearthstone on .Roshar"
+    },
+    {
+        "word": [ "A", "N", "E", "S", "A" ],
+        "coppermindId": "17942",
+        "blurb": "Anesa is a lighteyed attendant of Navani Kholin's in Urithiru on Roshar."
+    },
+    {
+        "word": [ "L", "E", "R", "A", "S" ],
+        "coppermindId": "587",
+        "blurb": "Leras is the first Vessel of the Shard Preservation, originally from Yolen."
+    },
+    { "word": [ "S", "K", "R", "I", "P" ], "coppermindId": "9438", "blurb": "A skrip is a species of cremling on Roshar." },
+    { "word": [ "S", "O", "O", "M", "I" ], "coppermindId": "5877", "blurb": "Soomi is a resident of Babilar." },
+    { "word": [ "K", "A", "L", "O", "O" ], "coppermindId": "15825", "blurb": "Kaloo is an alias used by Raoden." },
+    {
+        "word": [ "K", "L", "I", "S", "S" ],
+        "coppermindId": "115",
+        "blurb": "Lady Kliss is a noblewoman on Scadrial during the Final Empire."
+    },
+    { "word": [ "E", "M", "U", "L", "I" ], "coppermindId": "1415", "blurb": "Emuli is the demonym for the nation of Emul." },
+    { "word": [ "G", "R", "I", "P", "S" ], "coppermindId": "9542", "blurb": "The Grips are a gang of thugs in Kholinar on Roshar." },
+    { "word": [ "T", "Y", "V", "N", "K" ], "coppermindId": "16424", "blurb": "Tyvnk is Rysn's 'pet' Shin grass on Roshar." },
+    { "word": [ "L", "O", "A", "T", "S" ], "coppermindId": "3988", "blurb": "Loats was a resident of Hearthstone on Roshar." },
+    { "word": [ "R", "U", "S", "K", "O" ], "coppermindId": "6592", "blurb": "Rusko operates The Weeping Bull in the Roughs." },
+    {
+        "word": [ "A", "M", "A", "L", "A" ],
+        "coppermindId": "5864",
+        "blurb": "Amala was an Epic and an acquaintance of Jonathan Phaedrus and Tia."
+    },
+    { "word": [ "D", "E", "N", "K", "A" ], "coppermindId": "8623", "blurb": "Denka is a nation on the Dayside of Taldain." }
 ]
