@@ -49,6 +49,7 @@ function Game ({ onDone }: GameProps) {
       const existingGuesses = getGuesses(date)
       setGuesses(existingGuesses)
       setLetterResults(existingGuesses.reduce<Record<string, string>>((acc, guess) => updateLetterStats(acc, guess.results), {}))
+      setCurrentGuess([])
     },
     [date]
   )
