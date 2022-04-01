@@ -95,10 +95,10 @@ function Statistics ({ visible = false, gameResult, close }: StatisticsProps) {
                   gameResult.success
                     ? [
                       'You did this without access to Fortune, or the Spiritual Realm?',
-                      '2 Guesses Quote',
-                      '3 Guesses Quote',
-                      '4 Guesses Quote',
-                      '5 Guesses Quote',
+                      'What I have seen in the last hour makes me question whether ‘average’ can be applied to you today.',
+                      'The Dula was surprisingly good, but he was no master.',
+                      'Among kandra, my own skill is average. Some are worse, others are better.',
+                      'Not very high, yes, but I couldn’t reasonably give myself the lowest mark possible.',
                       'A surgeon must be timely and precise.'
                     ][gameResult.guesses - 1]
                     : (<>He was always saying words like those.<br />Trying to confuse her, starvin’ Voidbringer.</>)
@@ -114,7 +114,7 @@ function Statistics ({ visible = false, gameResult, close }: StatisticsProps) {
             }
             {
               showBlurb &&
-              <p>{answer.blurb}</p>
+              <p className={styles.blurb}>{answer.blurb}</p>
             }
             <Button tag="a" href={`https://coppermind.net/w/index.php?curid=${answer.coppermindId}`} large target="_blank">
               View on the Coppermind
