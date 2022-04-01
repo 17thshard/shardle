@@ -26,7 +26,7 @@ export function parseDate (date: string): Date | null {
 }
 
 export function localizeDate (utcDate: Date): Date {
-  return new Date(utcDate.setFullYear(utcDate.getUTCFullYear(), utcDate.getUTCMonth(), utcDate.getUTCDate()))
+  return new Date(new Date().setFullYear(utcDate.getUTCFullYear(), utcDate.getUTCMonth(), utcDate.getUTCDate()))
 }
 
 export function getCurrentDate (): Date {
