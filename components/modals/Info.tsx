@@ -82,7 +82,7 @@ function Info ({ visible = false, close }: InfoProps) {
           fast
         />
         <p>
-          The letter &apos;E&apos; is not contained in the answer in any position anymore.
+          The letter &apos;E&apos; is not contained in the answer in any position.
         </p>
 
         <Word
