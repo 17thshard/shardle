@@ -11,6 +11,10 @@
   }
 }
 
+.calendarContainer {
+  position: relative;
+}
+
 .picker {
   :global {
     @import "react-datepicker/src/stylesheets/datepicker";

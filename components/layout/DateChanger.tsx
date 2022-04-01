@@ -29,7 +29,7 @@ export default function DateChanger ({ className }: DateChangerProps) {
       return
     }
 
-    router.push(formatDate(date))
+    router.push(formatDate(new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()))))
   }
 
   const [highlightedDates, setHighlightedDates] = useState<Record<string, Date[]>[]>([])
@@ -60,7 +60,7 @@ export default function DateChanger ({ className }: DateChangerProps) {
         Play old Shardles
         <small>These will <em>not</em> contribute to your statistics.</small>
       </div>
-      <div>
+      <div className={styles.calendarContainer}>
         {children}
       </div>
     </div>

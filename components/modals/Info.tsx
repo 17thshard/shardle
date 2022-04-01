@@ -1,6 +1,6 @@
 import styles from 'styles/modals/Info.module.scss'
 import Modal from 'react-modal'
-import { FiAlertTriangle, FiXCircle } from 'react-icons/fi'
+import { FiXCircle } from 'react-icons/fi'
 import { useContext } from 'react'
 import Word from 'components/Word'
 import Dark17SLogo from 'assets/17s-dark.svg'
