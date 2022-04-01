@@ -5,6 +5,8 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 const withPWA = require('next-pwa')
 const runtimeCaching = require('next-pwa/cache')
 
+console.log(process.env)
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
