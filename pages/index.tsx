@@ -35,7 +35,7 @@ const Home: NextPage = () => {
         if (date.isToday && date.getTime() !== getCurrentDate().getTime()) {
           setActiveModal('date-changed')
         } else {
-          setTimeout(checkDate, 1000)
+          dateCheckerTimeout.current = setTimeout(checkDate, 1000)
         }
       }
 
