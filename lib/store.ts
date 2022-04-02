@@ -105,7 +105,9 @@ export function getStats (): Stats {
 
 export function addResult (date: Date, result: GameResult) {
   const formattedDate = formatDate(date)
-  const previousDate = formatDate(new Date(date.setDate(date.getDate() - 1)))
+  const previousDate = new Date(date.getTime())
+  previousDate.setDate(previousDate.getDate() - 1)
+  const previousKey = formatDate(previousDate)
 
   const oldRaw = getAllResults()
   window.localStorage.setItem('results', JSON.stringify({ ...oldRaw, [formattedDate]: result }))
@@ -120,7 +122,7 @@ export function addResult (date: Date, result: GameResult) {
     currentStreak: result.success ? { lastDate: formattedDate, length: 1 } : oldAccumulated.currentStreak
   }
 
-  if (result.success && oldAccumulated.currentStreak !== null && oldAccumulated.currentStreak.lastDate === previousDate) {
+  if (result.success && oldAccumulated.currentStreak !== null && oldAccumulated.currentStreak.lastDate === previousKey) {
     newAccumulated.currentStreak!.length = oldAccumulated.currentStreak.length + 1
   }
 
