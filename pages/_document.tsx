@@ -28,7 +28,7 @@ class MyDocument extends Document {
           <meta property="og:image" content={`${process.env.NEXT_PUBLIC_URL}/opengraph.png`} />
           <meta
             property="og:image:alt"
-            content="Logo showing stylized Cosmere starhart in the background with the title 'Shardle' overlayed"
+            content="Logo showing stylized Cosmere starchart in the background with the title 'Shardle' overlayed"
           />
           <meta property="og:locale" content="en_US" />
           <meta property="twitter:card" content="summary_large_image" />
@@ -41,7 +41,7 @@ class MyDocument extends Document {
           <meta property="twitter:image" content={`${process.env.NEXT_PUBLIC_URL}/opengraph.webp`} />
           <meta
             property="twitter:image:alt"
-            content="Logo showing stylized Cosmere starhart in the background with the title 'Shardle' overlayed"
+            content="Logo showing stylized Cosmere starchart in the background with the title 'Shardle' overlayed"
           />
 
           <link
