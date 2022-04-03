@@ -61,6 +61,7 @@
         &--selected, &--keyboard-selected {
           color: var(--theme-datepicker-selected-text-color);
           background: var(--theme-datepicker-selected-bg-color) !important;
+          box-shadow: none !important;
 
           &:hover, &:active, &:focus {
             background: var(--theme-datepicker-selected-hover-bg-color) !important;
@@ -95,10 +96,11 @@
 }
 
 .dateIncomplete {
-  background: #ce9318;
+  box-shadow: inset 4px 0 0 #ce9318, inset -4px 0 0 #ce9318, inset 0 4px 0 #ce9318, inset 0 -4px 0 #ce9318;
+  background: #ffc92f;
 
   &:hover, &:active, &:focus {
-    background: #b37a00;
+    background: #ce9318 !important;
   }
 }
 

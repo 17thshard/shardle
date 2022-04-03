@@ -70,8 +70,9 @@
     }
 
     &--contained {
-      --background: #ce9318;
-      --hover-background: #b37a00;
+      box-shadow: inset 4px 0 0 #ce9318, inset -4px 0 0 #ce9318, inset 0 4px 0 #ce9318, inset 0 -4px 0 #ce9318;
+      --background: #ffc92f;
+      --hover-background: #ce9318;
     }
 
     &--correct {
