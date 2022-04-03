@@ -88,12 +88,12 @@
     }
 
     &--contained {
-      background: #ffc92f;
-      border: 4px solid #ce9318;
+      background: var(--theme-contained);
+      border: 4px solid var(--theme-contained-hover);
     }
 
     &--correct {
-      background: #15b644;
+      background: var(--theme-correct);
       border: none;
     }
   }

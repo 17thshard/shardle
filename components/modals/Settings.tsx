@@ -83,6 +83,19 @@ function Settings ({ visible = false, close }: SettingsProps) {
             />
           </div>
         </div>
+        <div className={styles.row}>
+          <label className={styles.label} htmlFor="high-contrast">
+            High Contrast
+          </label>
+          <small className={styles.hint}>Use high contrast colors to help with vision deficiencies</small>
+          <div className={styles.switch}>
+            <Switch
+              id="high-contrast"
+              value={settings.highContrast}
+              onChange={(value) => updateSetting('highContrast', value)}
+            />
+          </div>
+        </div>
       </LazyMotion>
     </Modal>
   )

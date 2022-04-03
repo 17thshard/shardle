@@ -92,11 +92,11 @@
     }
 
     &--warning {
-      --flash-color: #ce9318;
+      --flash-color: var(--theme-contained);
     }
 
     &--error {
-      --flash-color: #c44325;
+      --flash-color: var(--theme-flash-error);
     }
 
     @keyframes flash {

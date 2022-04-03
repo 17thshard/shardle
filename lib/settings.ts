@@ -7,8 +7,9 @@ export interface Settings {
   allowCommonEnglish: boolean
   showBlurb: boolean
   darkMode: boolean
+  highContrast: boolean
 }
 
 export const Context = React.createContext<SettingsContainer>(
-  [{ hardMode: false, allowCommonEnglish: true, showBlurb: true, darkMode: false }, () => {}]
+  [{ hardMode: false, allowCommonEnglish: true, showBlurb: true, darkMode: false, highContrast: false }, () => {}]
 )

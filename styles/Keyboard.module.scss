@@ -70,14 +70,14 @@
     }
 
     &--contained {
-      box-shadow: inset 4px 0 0 #ce9318, inset -4px 0 0 #ce9318, inset 0 4px 0 #ce9318, inset 0 -4px 0 #ce9318;
-      --background: #ffc92f;
-      --hover-background: #ce9318;
+      box-shadow: inset 4px 0 0 var(--theme-contained-hover), inset -4px 0 0 var(--theme-contained-hover), inset 0 4px 0 var(--theme-contained-hover), inset 0 -4px 0 var(--theme-contained-hover);
+      --background: var(--theme-contained);
+      --hover-background: var(--theme-contained-hover);
     }
 
     &--correct {
-      --background: #15b644;
-      --hover-background: #00992e;
+      --background: var(--theme-correct);
+      --hover-background: var(--theme-correct-hover);
     }
   }
 }

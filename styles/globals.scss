@@ -4,6 +4,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--theme-bg-color);
+
+  --theme-correct: #15b644;
+  --theme-correct-hover: #00992e;
+
+  --theme-contained: #ffc92f;
+  --theme-contained-hover: #ce9318;
+
+  --theme-flash-error: #c44325;
 }
 
 .light-theme {
@@ -54,6 +62,16 @@ body {
   --theme-datepicker-selected-bg-color: var(--theme-key-bg);
   --theme-datepicker-selected-hover-bg-color: var(--theme-key-bg-hover);
   --theme-datepicker-disabled-text-color: #626b80;
+}
+
+.high-contrast {
+  --theme-correct: #b74618;
+  --theme-correct-hover: #dc5922;
+
+  --theme-contained: #4698CB;
+  --theme-contained-hover: #105a85;
+
+  --theme-flash-error: #da00ff;
 }
 
 #__next, .app, html, body {

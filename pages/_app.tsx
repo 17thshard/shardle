@@ -64,6 +64,7 @@ function MyApp ({ Component, pageProps: { ...pageProps } }: CustomAppProps) {
     allowCommonEnglish: true,
     showBlurb: true,
     darkMode: browserDarkMode,
+    highContrast: false,
     ...activeSettings
   }
 
@@ -78,6 +79,19 @@ function MyApp ({ Component, pageProps: { ...pageProps } }: CustomAppProps) {
       }
     },
     [settings.darkMode, browserDarkMode]
+  )
+
+  useEffect(
+    () => {
+      if (settings.highContrast) {
+        document.body.classList.add('high-contrast')
+      }
+
+      return () => {
+        document.body.classList.remove('high-contrast')
+      }
+    },
+    [settings.highContrast]
   )
 
   function updateSetting<S extends keyof Settings> (setting: S, value: Settings[S]) {

@@ -88,19 +88,19 @@
 }
 
 .dateCorrect {
-  background: #15b644;
+  background: var(--theme-correct);
 
   &:hover, &:active, &:focus {
-    background: #00992e;
+    background: var(--theme-correct-hover);
   }
 }
 
 .dateIncomplete {
-  box-shadow: inset 4px 0 0 #ce9318, inset -4px 0 0 #ce9318, inset 0 4px 0 #ce9318, inset 0 -4px 0 #ce9318;
-  background: #ffc92f;
+  box-shadow: inset 4px 0 0 var(--theme-contained-hover), inset -4px 0 0 var(--theme-contained-hover), inset 0 4px 0 var(--theme-contained-hover), inset 0 -4px 0 var(--theme-contained-hover);
+  background: var(--theme-contained);
 
   &:hover, &:active, &:focus {
-    background: #ce9318 !important;
+    background: var(--theme-contained-hover) !important;
   }
 }
 
