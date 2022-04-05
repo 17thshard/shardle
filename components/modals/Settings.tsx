@@ -54,7 +54,7 @@ function Settings ({ visible = false, close }: SettingsProps) {
             <Switch
               id="hard-mode"
               value={settings.hardMode}
-              onChange={(value) => updateProtectedSetting('hardMode', value, false)}
+              onChange={(value) => updateProtectedSetting('hardMode', value, true)}
             />
           </div>
         </div>
