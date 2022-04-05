@@ -73,12 +73,16 @@ function Game ({ onDone }: GameProps) {
 
     const letterResultEntries = Object.entries(letterResults)
     const containedLetterNotUsed = letterResultEntries.some(([letter, result]) => result === 'contained' && !currentGuess.includes(letter))
+    const containedLetterInReusedPosition = guesses.some(guess => guess.results.some((value, index) => value.result === 'contained' && currentGuess[index] === value.letter))
     const correctLettersNotUsed = guesses.some(guess => guess.results.some((value, index) => value.result === 'correct' && currentGuess[index] !== value.letter))
     const incorrectLetterUsed = letterResultEntries.some(([letter, result]) => result === 'not-contained' && currentGuess.includes(letter))
 
     const hardModeErrors = []
     if (containedLetterNotUsed) {
       hardModeErrors.push('Your guess must use all letters you\'ve already revealed!')
+    }
+    if (containedLetterInReusedPosition) {
+      hardModeErrors.push('Your guess must not use revealed letters in positions that are known to be wrong!')
     }
     if (correctLettersNotUsed) {
       hardModeErrors.push('Your guess must use already correct letters in their correct position!')
