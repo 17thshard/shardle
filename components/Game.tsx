@@ -26,6 +26,8 @@ export interface GameResult {
   success: boolean
   guesses: number
   count: boolean
+  hardMode: boolean
+  commonEnglishAllowed: boolean
 }
 
 interface GameProps {
@@ -119,7 +121,9 @@ function Game ({ onDone }: GameProps) {
       onDone({
         success,
         guesses: newGuesses.length,
-        count: date.isToday
+        count: date.isToday,
+        hardMode,
+        commonEnglishAllowed: allowCommonEnglish
       })
     }
   }

@@ -10,7 +10,7 @@ import { GameResult } from 'components/Game'
 import Word from 'components/Word'
 import { useNotifications } from 'components/layout/notifications'
 import { DateContext, formatDate, getCurrentDate } from 'lib/dates'
-import { Context as SettingsContext, Settings } from 'lib/settings'
+import { Context as SettingsContext } from 'lib/settings'
 import { getAnswer } from 'lib/words'
 
 interface StatisticsProps {
@@ -32,8 +32,8 @@ const SHARE_EMOJI: Record<'light' | 'dark', Record<string, string>> = {
   }
 }
 
-function generateShare (day: number, success: boolean, guesses: Guess[], hardMode: boolean, allowCommonEnglish: boolean): string {
-  const header = `Shardle ${day} ${success ? guesses.length : 'X'}/6${hardMode ? '*' : ''}${!allowCommonEnglish ? '†' : ''}`
+function generateShare (day: number, success: boolean, guesses: Guess[], hardMode: boolean, commonEnglishAllowed: boolean): string {
+  const header = `Shardle ${day} ${success ? guesses.length : 'X'}/6${hardMode ? '*' : ''}${!commonEnglishAllowed ? '†' : ''}`
 
   const emoji = guesses.map(guess => guess.results.map(letter => SHARE_EMOJI.dark[letter.result]).join('')).join('\n')
 
@@ -58,7 +58,7 @@ async function copyText (text: string) {
 
 function Statistics ({ visible = false, gameResult, close }: StatisticsProps) {
   const date = useContext(DateContext)
-  const [{ showBlurb, hardMode, allowCommonEnglish }] = useContext(SettingsContext)
+  const [{ showBlurb }] = useContext(SettingsContext)
   const answer = getAnswer(date)
   const [stats, setStats] = useState<Stats>({
     currentStreak: null,
@@ -74,13 +74,19 @@ function Statistics ({ visible = false, gameResult, close }: StatisticsProps) {
   const pushNotification = useNotifications()
 
   async function shareNatively () {
-    const shareData = { text: generateShare(date.shardleDay, gameResult!.success, getGuesses(date), hardMode, allowCommonEnglish) }
+    // noinspection PointlessBooleanExpressionJS
+    const shareData = {
+      text: generateShare(date.shardleDay, gameResult!.success, getGuesses(date), gameResult!.hardMode, gameResult!.commonEnglishAllowed === true)
+    }
 
     await navigator.share(shareData)
   }
 
   async function copyToClipboard () {
-    await copyText(generateShare(date.shardleDay, gameResult!.success, getGuesses(date), hardMode, allowCommonEnglish))
+    // noinspection PointlessBooleanExpressionJS
+    await copyText(
+      generateShare(date.shardleDay, gameResult!.success, getGuesses(date), gameResult!.hardMode, gameResult!.commonEnglishAllowed === true)
+    )
     pushNotification('success', 'Successfully copied your result to the clipboard!')
   }
 

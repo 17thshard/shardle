@@ -3,8 +3,11 @@ import Modal from 'react-modal'
 import { FiXCircle } from 'react-icons/fi'
 import Switch from 'components/ui/Switch'
 import { useContext } from 'react'
-import { Context } from 'lib/settings'
+import { Context, Settings } from 'lib/settings'
 import { domMax, LazyMotion } from 'framer-motion'
+import { getGuesses, getResult } from 'lib/store'
+import { getCurrentDate } from 'lib/dates'
+import { useNotifications } from 'components/layout/notifications'
 
 interface SettingsProps {
   visible?: boolean
@@ -13,6 +16,17 @@ interface SettingsProps {
 
 function Settings ({ visible = false, close }: SettingsProps) {
   const [settings, updateSetting] = useContext(Context)
+  const pushNotification = useNotifications()
+
+  function updateProtectedSetting<S extends keyof Settings>(setting: keyof Settings, value: Settings[S], disallowedValue: Settings[S]) {
+    const today = getCurrentDate()
+    if (getResult(today) === null && getGuesses(today).length > 0 && value === disallowedValue) {
+      pushNotification('error', 'You cannot change this setting after you have started guessing!')
+      return
+    }
+
+    updateSetting(setting, value)
+  }
 
   return (
     <Modal
@@ -40,7 +54,7 @@ function Settings ({ visible = false, close }: SettingsProps) {
             <Switch
               id="hard-mode"
               value={settings.hardMode}
-              onChange={(value) => updateSetting('hardMode', value)}
+              onChange={(value) => updateProtectedSetting('hardMode', value, false)}
             />
           </div>
         </div>
@@ -53,7 +67,7 @@ function Settings ({ visible = false, close }: SettingsProps) {
             <Switch
               id="allow-common-english"
               value={settings.allowCommonEnglish}
-              onChange={(value) => updateSetting('allowCommonEnglish', value)}
+              onChange={(value) => updateProtectedSetting('allowCommonEnglish', value, false)}
             />
           </div>
         </div>
