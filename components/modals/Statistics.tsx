@@ -9,7 +9,7 @@ import Button from 'components/ui/Button'
 import { GameResult } from 'components/Game'
 import Word from 'components/Word'
 import { useNotifications } from 'components/layout/notifications'
-import { DateContext } from 'lib/dates'
+import { DateContext, formatDate, getCurrentDate } from 'lib/dates'
 import { Context as SettingsContext } from 'lib/settings'
 import { getAnswer } from 'lib/words'
 
@@ -67,6 +67,12 @@ function Statistics ({ visible = false, gameResult, close }: StatisticsProps) {
     await navigator.clipboard.writeText(generateShare(date.shardleDay, gameResult!.success, getGuesses(date)))
     pushNotification('success', 'Successfully copied your result to the clipboard!')
   }
+
+  const calculationDate = getCurrentDate()
+  const currentDate = formatDate(calculationDate)
+  calculationDate.setDate(calculationDate.getDate() - 1)
+  const lastDate = formatDate(calculationDate)
+  const currentStreakApplicable = stats.currentStreak !== null && (stats.currentStreak.lastDate === currentDate || stats.currentStreak.lastDate === lastDate)
 
   return (
     <Modal
@@ -137,7 +143,7 @@ function Statistics ({ visible = false, gameResult, close }: StatisticsProps) {
           Won Games
         </div>
         <div className={styles.overviewItem}>
-          {stats.currentStreak !== null ? stats.currentStreak.length : 0}
+          {stats.currentStreak !== null && currentStreakApplicable ? stats.currentStreak.length : 0}
         </div>
         <div className={styles.overviewLabel}>
           Current Streak

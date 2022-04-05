@@ -119,11 +119,15 @@ export function addResult (date: Date, result: GameResult) {
   const oldAccumulated = getAccumulatedStats()
   const newAccumulated = {
     longestStreak: oldAccumulated.longestStreak,
-    currentStreak: result.success ? { lastDate: formattedDate, length: 1 } : oldAccumulated.currentStreak
+    currentStreak: result.success ? { lastDate: formattedDate, length: 1 } : null
   }
 
   if (result.success && oldAccumulated.currentStreak !== null && oldAccumulated.currentStreak.lastDate === previousKey) {
     newAccumulated.currentStreak!.length = oldAccumulated.currentStreak.length + 1
+  }
+
+  if (oldAccumulated.longestStreak === undefined || oldAccumulated.longestStreak === null) {
+    newAccumulated.longestStreak = newAccumulated.currentStreak
   }
 
   if (result.success && oldAccumulated.longestStreak !== null && newAccumulated.currentStreak!.length > oldAccumulated.longestStreak.length) {
