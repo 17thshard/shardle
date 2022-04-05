@@ -74,18 +74,16 @@ function Statistics ({ visible = false, gameResult, close }: StatisticsProps) {
   const pushNotification = useNotifications()
 
   async function shareNatively () {
-    // noinspection PointlessBooleanExpressionJS
     const shareData = {
-      text: generateShare(date.shardleDay, gameResult!.success, getGuesses(date), gameResult!.hardMode, gameResult!.commonEnglishAllowed === true)
+      text: generateShare(date.shardleDay, gameResult!.success, getGuesses(date), gameResult?.hardMode ?? false, gameResult?.commonEnglishAllowed ?? true)
     }
 
     await navigator.share(shareData)
   }
 
   async function copyToClipboard () {
-    // noinspection PointlessBooleanExpressionJS
     await copyText(
-      generateShare(date.shardleDay, gameResult!.success, getGuesses(date), gameResult!.hardMode, gameResult!.commonEnglishAllowed === true)
+      generateShare(date.shardleDay, gameResult!.success, getGuesses(date), gameResult?.hardMode ?? false, gameResult?.commonEnglishAllowed ?? true)
     )
     pushNotification('success', 'Successfully copied your result to the clipboard!')
   }
