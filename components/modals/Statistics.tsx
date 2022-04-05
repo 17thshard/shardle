@@ -40,6 +40,22 @@ function generateShare (day: number, success: boolean, guesses: Guess[]): string
   return `${header}\n\n${emoji}`
 }
 
+async function copyText (text: string) {
+  if (!document.queryCommandSupported('copy')) {
+    await navigator.clipboard.writeText(text)
+    return
+  }
+
+  const el = document.createElement('textarea')
+  el.value = text
+  document.body.appendChild(el)
+  el.select()
+
+  document.execCommand('copy')
+
+  document.body.removeChild(el)
+}
+
 function Statistics ({ visible = false, gameResult, close }: StatisticsProps) {
   const date = useContext(DateContext)
   const [{ showBlurb }] = useContext(SettingsContext)
@@ -64,7 +80,7 @@ function Statistics ({ visible = false, gameResult, close }: StatisticsProps) {
   }
 
   async function copyToClipboard () {
-    await navigator.clipboard.writeText(generateShare(date.shardleDay, gameResult!.success, getGuesses(date)))
+    await copyText(generateShare(date.shardleDay, gameResult!.success, getGuesses(date)))
     pushNotification('success', 'Successfully copied your result to the clipboard!')
   }
 
