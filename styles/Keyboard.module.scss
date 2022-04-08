@@ -67,6 +67,7 @@
     &--not-contained {
       --background: var(--theme-not-contained);
       --hover-background: var(--theme-not-contained-hover);
+      color: var(--theme-not-contained-text-color);
     }
 
     &--contained {
