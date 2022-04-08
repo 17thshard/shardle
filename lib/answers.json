@@ -1607,6 +1607,11 @@
     { "word": [ "J", "A", "V", "I", "E" ], "coppermindId": "8903", "blurb": "Professor Javie is an engineer and member of the Set." },
     { "word": [ "P", "A", "W", "N", "S" ], "coppermindId": "9435", "blurb": "Pawns is a game played on Roshar." },
     {
+        "word": [ "D", "I", "E", "N", "O" ],
+        "coppermindId": "12940",
+        "blurb": "Dieno enne Calah, often known as the Mink, is a general in command of a group of soldiers and refugees at the Alethi-Herdazian border after the initial singer occupation of Alethkar."
+    },
+    {
         "word": [ "A", "A", "R", "I", "K" ],
         "coppermindId": "8674",
         "blurb": "Aarik is a young merchant from Lossand and childhood friend of Kenton."
