@@ -32,9 +32,17 @@ const nextConfig = {
   },
   pwa: {
     dest: 'public',
-    runtimeCaching
+    runtimeCaching,
+    cacheOnFrontEndNav: true,
+    navigateFallback: '/',
+    additionalManifestEntries: [
+      {
+        url: '/',
+        revision: String(Math.random())
+      }
+    ]
   },
-  async rewrites() {
+  async rewrites () {
     return [
       {
         source: '/:date(\\d+-(?:1[012]|0[1-9])-(?:3[01]|[12][0-9]|0[1-9]))',
