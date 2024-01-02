@@ -1786,5 +1786,28 @@
         "coppermindId": "5864",
         "blurb": "Amala was an Epic and an acquaintance of Jonathan Phaedrus and Tia."
     },
-    { "word": [ "D", "E", "N", "K", "A" ], "coppermindId": "8623", "blurb": "Denka is a nation on the Dayside of Taldain." }
+    { "word": [ "D", "E", "N", "K", "A" ], "coppermindId": "8623", "blurb": "Denka is a nation on the Dayside of Taldain." },
+    {
+        "word": [ "D", "A", "V", "A", "R" ],
+        "coppermindId": "5518",
+        "blurb": "House Davar is a small lighteyed Veden family living in the Valam princedom of Jah Keved."
+    },
+    {
+        "word": [ "K", "M", "A", "K", "L" ],
+        "coppermindId": "9591",
+        "blurb": "Kmakl is Queen Fen's husband and the prince consort of Thaylenah on Roshar."
+    },
+    {
+        "word": [ "G", "R", "E", "N", "T" ],
+        "coppermindId": "4527",
+        "blurb": "Grent is a soldier and guard in the army of Straff Venture after the Collapse on Scadrial."
+    },
+    {
+        "word": [ "S", "H", "A", "O", "D" ],
+        "coppermindId": "401",
+        "blurb": "Shaod is a term describing the process of being converted into an Elantrian."
+    },
+    { "word": [ "J", "A", "S", "O", "N" ], "coppermindId": "3529", "blurb": "Jason Write is the head operative of the Phone Company." },
+    { "word": [ "Y", "O", "M", "E", "N" ], "coppermindId": "137", "blurb": "Yomen is a family name on Scadrial." },
+    { "word": [ "F", "U", "E", "G", "O" ], "coppermindId": "13025", "blurb": "Fuego is an Epic in Prof's squad." }
 ]
