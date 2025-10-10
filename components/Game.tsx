@@ -58,7 +58,7 @@ function Game ({ onDone }: GameProps) {
 
   const pushNotification = useNotifications()
 
-  function submitGuess () {
+  async function submitGuess () {
     if (guesses.length >= 6) {
       pushNotification('error', 'You can only guess 6 times!')
       setGuessError(Math.random())
@@ -107,7 +107,7 @@ function Game ({ onDone }: GameProps) {
 
     let results
     try {
-      results = verify(date, currentGuess)
+      results = await verify(date, currentGuess)
     } catch (error: any) {
       pushNotification('error', error.message)
       setGuessError(Math.random())

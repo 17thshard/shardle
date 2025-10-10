@@ -11,7 +11,7 @@ import Word from 'components/Word'
 import { useNotifications } from 'components/layout/notifications'
 import { DateContext, formatDate, getCurrentDate } from 'lib/dates'
 import { Context as SettingsContext } from 'lib/settings'
-import { getAnswer } from 'lib/words'
+import { Answer, getAnswer } from 'lib/words'
 
 interface StatisticsProps {
   visible?: boolean
@@ -59,7 +59,7 @@ async function copyText (text: string) {
 function Statistics ({ visible = false, gameResult, close }: StatisticsProps) {
   const date = useContext(DateContext)
   const [{ showBlurb }] = useContext(SettingsContext)
-  const answer = getAnswer(date)
+  const [answer, setAnswer] = useState<Answer | null>(null)
   const [stats, setStats] = useState<Stats>({
     currentStreak: null,
     longestStreak: null,
@@ -69,7 +69,12 @@ function Statistics ({ visible = false, gameResult, close }: StatisticsProps) {
   })
   const maxGuesses = Object.keys(stats.distribution).length > 0 ? Math.max(...Object.values(stats.distribution)) : 0
 
-  useEffect(() => setStats(getStats), [visible])
+  useEffect(() => {
+    (async () => {
+      setAnswer(await getAnswer(date))
+      setStats(getStats)
+    })()
+  }, [visible, date])
 
   const pushNotification = useNotifications()
 
@@ -135,14 +140,14 @@ function Statistics ({ visible = false, gameResult, close }: StatisticsProps) {
               !gameResult.success &&
               <>
                 <p className={styles.correctWordLabel}>The word was</p>
-                <Word className={styles.correctWord} value={answer.word.map(letter => ({ letter, result: 'correct' }))} revealed fast />
+                <Word className={styles.correctWord} value={answer?.word?.map(letter => ({ letter, result: 'correct' })) ?? []} revealed fast />
               </>
             }
             {
               showBlurb &&
-              <p className={styles.blurb}>{answer.blurb}</p>
+              <p className={styles.blurb}>{answer?.blurb}</p>
             }
-            <Button tag="a" href={`https://coppermind.net/w/index.php?curid=${answer.coppermindId}`} large target="_blank">
+            <Button tag="a" href={`https://coppermind.net/w/index.php?curid=${answer?.coppermindId}`} large target="_blank">
               View on the Coppermind
             </Button>
           </section>

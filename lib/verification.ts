@@ -1,8 +1,9 @@
 import { LetterResult } from 'lib/store'
 import { getAnswer, isValid } from 'lib/words'
 import { ShardleDate, getCurrentDate, getDay } from 'lib/dates'
+import ANSWERS from 'lib/answers.json'
 
-export default function verify(date: ShardleDate, guess: string[]): LetterResult[] {
+export default async function verify(date: ShardleDate, guess: string[]): Promise<LetterResult[]> {
   if (date.shardleDay < 1) {
     throw new Error('There is no Shardle for this date!')
   }
@@ -15,7 +16,7 @@ export default function verify(date: ShardleDate, guess: string[]): LetterResult
     throw new Error('That is not an accepted word!')
   }
 
-  const answer = getAnswer(date)
+  const answer = await getAnswer(date)
   const stats = answer.word.map(letter => ({ letter, guessed: false }))
 
   const alreadyCorrect = guess.map(
